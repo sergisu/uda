@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Arquitectura conceptual de los sistemas construidos con uda
 #labels Phase-Design
 
 = Introduction =
@@ -12,3 +12,17 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+
+
+
+En la definición de la arquitectura conceptual para los sistemas generados con <b>uda</b> se han seguido los estándares marcados por el modelo “IEEE Recommended Practice for Architectural Description of Software Intensive Systems”.
+
+Los requisitos fundamentales que deben ser respetados por la arquitectura (y el conjunto de entregables del proyecto) se describen en el documento de requisitos.
+
+Principios fundamentales
+
+El objetivo que se persigue con el sistema que se describe en este documento es construir una arquitectura, que facilite un proceso de desarrollo de aplicaciones web lo más productivo posible. Tratamos además de reutilizar, mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
+
+Dejando claro que la productividad es nuestro primer objetivo hay otros aspectos que se han tenido en cuenta a la hora de elaborar esta solución. Es importante recalcar que se prima la selección de herramientas existentes frente al desarrollo propietario. De entre éstas prevalecen aquellas que se apoyan en estándares. Si además éstas son Open Source mejor. Este concepto es igualmente válido a la hora de componer nuestra arquitectura conceptual ya que está basada en arquitecturas de referencia actuales. Así pues, optamos por un diseño por capas que maximice la separación de responsabilidades y por tanto haga más fácil conseguir los requerimientos técnicos que se presuponen a una arquitectura de este tipo, los denominados “ilities” (exensibility, flexibility, testability, reliability…).
+Dicha arquitectura debe dar solución tanto a entornos Intranet como a entornos Internet para lo cual el aspecto de accesibilidad se ha debatido y tenido en cuenta especialmente. De la misma forma se han tenido en cuenta aspectos que tanto afectan al rendimiento en estos entornos como minimizar el tráfico a través de la red. Para ello una vez más utilizaremos estándares en forma de patrones de diseño (facade, value object…). 
+La arquitectura también cubre la relación entre aplicaciones, es decir la forma en la que unas aplicaciones exponen servicios para que otras las consuman, incluyendo la integración con frameworks anteriores de EJIE (Geremua 2).
