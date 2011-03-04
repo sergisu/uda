@@ -1,10 +1,9 @@
-#summary Arquitectura conceptual de los sistemas construidos con uda
+#summary Arquitectura conceptual
 #labels Phase-Design
 
 = Introduction =
 
-Add your content here.
-
+Para poder decidir que deben generar los asistentes de <b>uda</b>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final, así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <b>uda</b> siguen siempre una arquitectura ya establecida.
 
 = Details =
 
