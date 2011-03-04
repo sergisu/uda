@@ -3,23 +3,22 @@
 
 Para poder decidir que deben generar los asistentes de <b>uda</b>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <b>uda</b> siguen siempre una arquitectura predefinida.
 
-= Details =
+<h2>Arquitectura conceptual</h2>
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Entendemos como arquitectura conceptual al proceso de definición de la arquitectura software, intentando aislar en la medida de lo posible las tecnologías de implementación finales. Es decir, se trata de la definición de la estructura y comportamiento de los componentes del sistema, utilizando en primer lugar las ideas base o patrones de diseño que mejor se adapten a nuestras necesidades, posteriormente, concretando  las tecnologías que las soportan (qué tecnologías), y finalmente definiendo el modelo de programación (cómo utilizamos las tecnologías).
 
+El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la sustitución de las tecnologías seleccionadas en primera instancia. Además simplifica el desarrollo de aplicaciones al trabajar sobre conceptos funcionales y no sobre tecnologías concretas. Por ejemplo, dentro de la definición de la arquitectura conceptual podemos hablar de que queremos una arquitectura local o que es necesario aislar cada módulo mediante interfaces (sin depender de la implementación) evitando en lo posible la forma o el lenguaje en el que se implementará posteriormente.
 
+Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <b>uda</b> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más prácticas.
 
-En la definición de la arquitectura conceptual para los sistemas generados con <b>uda</b> se han seguido los estándares marcados por el modelo “IEEE Recommended Practice for Architectural Description of Software Intensive Systems”.
+<h2>Principios fundamentales</h2>
 
-Los requisitos fundamentales que deben ser respetados por la arquitectura (y el conjunto de entregables del proyecto) se describen en el documento de requisitos.
+La arquitectura conceptual definida debe facilitar el proceso de desarrollo de aplicaciones web, aumentando al máximo la productividad de los desarrolladores. Tratamos además de reutilizar, de mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
 
-Principios fundamentales
+Dejando claro que la productividad es nuestro primer objetivo hay otros aspectos que se han tenido en cuenta a la hora de elaborar esta solución. Se prima la selección de herramientas existentes frente al desarrollo propietario. De entre éstas prevalecen aquellas que se apoyan en estándares. Si además éstas son Open Source mejor. Este concepto es igualmente válido a la hora de componer nuestra arquitectura conceptual ya que está basada en arquitecturas de referencia actuales. Así pues, optamos por un diseño por capas que maximice la separación de responsabilidades y por tanto haga más fácil conseguir los requerimientos técnicos que se presuponen a una arquitectura de este tipo, los denominados “ilities” (exensibility, flexibility, testability, reliability…).
 
-El objetivo que se persigue con el sistema que se describe en este documento es construir una arquitectura, que facilite un proceso de desarrollo de aplicaciones web lo más productivo posible. Tratamos además de reutilizar, mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
+La arquitectura debe dar solución tanto a entornos Intranet como a entornos Internet para lo cual el aspecto de accesibilidad se ha debatido y tenido en cuenta especialmente. De la misma forma se han tenido en cuenta aspectos que tanto afectan al rendimiento en estos entornos como minimizar el tráfico a través de la red. Para ello una vez más utilizaremos estándares en forma de patrones de diseño (facade, value object, etc.) 
 
-Dejando claro que la productividad es nuestro primer objetivo hay otros aspectos que se han tenido en cuenta a la hora de elaborar esta solución. Es importante recalcar que se prima la selección de herramientas existentes frente al desarrollo propietario. De entre éstas prevalecen aquellas que se apoyan en estándares. Si además éstas son Open Source mejor. Este concepto es igualmente válido a la hora de componer nuestra arquitectura conceptual ya que está basada en arquitecturas de referencia actuales. Así pues, optamos por un diseño por capas que maximice la separación de responsabilidades y por tanto haga más fácil conseguir los requerimientos técnicos que se presuponen a una arquitectura de este tipo, los denominados “ilities” (exensibility, flexibility, testability, reliability…).
-Dicha arquitectura debe dar solución tanto a entornos Intranet como a entornos Internet para lo cual el aspecto de accesibilidad se ha debatido y tenido en cuenta especialmente. De la misma forma se han tenido en cuenta aspectos que tanto afectan al rendimiento en estos entornos como minimizar el tráfico a través de la red. Para ello una vez más utilizaremos estándares en forma de patrones de diseño (facade, value object…). 
-La arquitectura también cubre la relación entre aplicaciones, es decir la forma en la que unas aplicaciones exponen servicios para que otras las consuman, incluyendo la integración con frameworks anteriores de EJIE (Geremua 2).
+La arquitectura también cubre la relación entre aplicaciones, es decir,  la forma en la que unas aplicaciones exponen servicios para que otras las consuman.
+
+Como punto de partida de la definición de la arquitectura conceptual es necesario cumplir con los requerimientos o características más habituales: fomentar la Productividad del desarrollador, reutilización de código, rendimiento, escalabilidad, fiabilidad, disponibilidad, extensibilidad, mantenibilidad, fácil manejo, y seguridad.
