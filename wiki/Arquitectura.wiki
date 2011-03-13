@@ -28,6 +28,7 @@ Como punto de partida de la definición de la arquitectura conceptual es necesar
 Dentro del desarrollo de aplicaciones software, en este caso dirigido fundamentalmente al desarrollo de aplicaciones web, existen tareas de muy diferente índole, por ejemplo: la creación del interface gráfico, la persistencia y consulta de datos, etc.
 
 Con el objeto de dividir la complejidad de la arquitectura en módulos más manejables se han establecido las siguientes capas lógicas:
+
 <ul>
 <li><b>Capa de presentación:</b> Es la responsable de ofrecer a los usuarios la posibilidad de interactuar con la aplicación de forma sencilla e intuitiva, proporcionando una experiencia de usuario Web satisfactoria. A grandes rasgos se podría decir que la capa de presentación se compone de:
 <ol>
@@ -50,6 +51,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 
 <li><b>Capa de modelo de datos:</b> Uno de los elementos fundamentales del diseño de una aplicación es la definición de los objetos que conforman el modelo de datos de la aplicación. En un modelo de capas cada una de ellas tiene acceso únicamente a las funciones expuestas por la capa siguiente con la excepción del modelo. El modelo es una capa vertical  utilizada por todas las capas horizontales, es por ello que el modelo no utiliza las funciones de ninguna de las capas horizontales. Cuando se dice que el modelo es utilizado por todas las capas horizontales se hace referencia a que habitualmente forma parte de los parámetros de entrada y salida que definen sus interfaces. El modelo de datos es una abstracción del modelo relacional de base de datos representado en clases Java.
 </li>
+</ul>
 
 <h2>Documentación</h2>
 <ul>
