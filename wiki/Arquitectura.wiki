@@ -11,7 +11,7 @@ El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la
 
 Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <b>uda</b> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
 
-<h2>Principios fundamentales</h2>
+<h3>Principios fundamentales</h3>
 
 La arquitectura conceptual definida debe facilitar el proceso de desarrollo de aplicaciones web, aumentando al máximo la productividad de los desarrolladores. Tratamos además de reutilizar, de mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
 
@@ -23,7 +23,7 @@ La arquitectura también cubre la relación entre aplicaciones, es decir,  la fo
 
 Como punto de partida de la definición de la arquitectura conceptual es necesario cumplir con los requerimientos o características más habituales: fomentar la Productividad del desarrollador, reutilización de código, rendimiento, escalabilidad, fiabilidad, disponibilidad, extensibilidad, mantenibilidad, fácil manejo, y seguridad.
 
-<h2>Capas</h2>
+<h3>Capas</h3>
 
 Dentro del desarrollo de aplicaciones software, en este caso dirigido fundamentalmente al desarrollo de aplicaciones web, existen tareas de muy diferente índole, por ejemplo: la creación del interface gráfico, la persistencia y consulta de datos, etc.
 
