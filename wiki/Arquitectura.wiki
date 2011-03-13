@@ -63,7 +63,6 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 ||JSTL||1.2||Vista||Presentación||
 ||Spring Framework||3.0.4||Servicio||Servicio||
 ||Spring JDBC||3.0.4||Persistencia JDBC||Persistencia||
-||EclipseLink||2.1.1||Persistencia JPA 2.0||Persistencia||
 ||Spring Framework||3.0.4||Contenedor IoC||Core||
 ||Spring AOP||3.0.4||Aspectos||Core||
 ||Weblogic||10.3.1||Servidor de aplicaciones||Core||
