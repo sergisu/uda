@@ -40,7 +40,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 </ol>
 
 <li><b>Capa de servicios de negocio:</b> En  esta capa  es donde  se deben  implementar  todas  aquellas  reglas obtenidas a partir  del  análisis  funcional  del  proyecto. Un servicio se compone de funciones sin estado, auto-contenidas, que aceptan una(s) llamada(s) y devuelven una(s) respuesta(s) mediante una interfaz bien definida. Los servicios no dependen del estado de otras funciones o procesos. Los servicios pueden también enmarcarse en unidades discretas de trabajo, como son las transacciones, que coordinan el uso de la capa de acceso a datos.
-<li>
+</li>
 
 <li><b>Capa de acceso a datos:</b> La capa de acceso a datos es la responsable de la gestión de la persistencia de la información manejada en  las capas superiores. En un modelo académicamente purista, la  interfaz  de  esta  capa  estaría  compuesta  por  vistas  de  las  entidades  a  persistir  (una vista  de  “factura”,  otra  de  “cliente”),  pero  a  efectos  prácticos,  y  con  objeto  de aprovechar  la  habitual potencia  de  los  gestores de  bases de datos,  la  interfaz muestra una  serie de  métodos que pueden  agrupar operaciones  en  lo que  se puede denominar “lógica de persistencia”, como  insertar cliente o  inserción factura, en  la que podrían darse de alta al mismo tiempo una factura y todos las entidades que dependan de dicha factura (porque no, el mismo cliente).
 </li>
