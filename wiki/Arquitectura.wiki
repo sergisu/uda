@@ -74,6 +74,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 ||Log4J||1.2.16||Trazas||Componentes||
 ||Hibernate Validator||4||Validación||Componentes||
 ||Eclipse||OEPE 11.1.1.6||IDE||Plataforma||
+||Subversion||1.6.12||Versionado||Plataforma||
 ||Maven||2.2.1||Gestión de dependencias||Plataforma||
 ||Ant||1.8.1||Tareas||Plataforma||
 ||Freemaker||2.3.16||Plantillas||Asistentes||
