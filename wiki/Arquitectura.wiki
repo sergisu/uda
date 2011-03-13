@@ -29,9 +29,7 @@ Dentro del desarrollo de aplicaciones software, en este caso dirigido fundamenta
 
 Con el objeto de dividir la complejidad de la arquitectura en módulos más manejables se han establecido las siguientes capas lógicas:
 <ul>
-<li><b>Capa de presentación:</b> Es la responsable de ofrecer a los usuarios la posibilidad de interactuar con la aplicación de forma sencilla e intuitiva, proporcionando una experiencia de usuario Web satisfactoria.
-
-A grandes rasgos se podría decir que la capa de presentación se compone de:
+<li><b>Capa de presentación:</b> Es la responsable de ofrecer a los usuarios la posibilidad de interactuar con la aplicación de forma sencilla e intuitiva, proporcionando una experiencia de usuario Web satisfactoria. A grandes rasgos se podría decir que la capa de presentación se compone de:
 <ol>
 <li>La interfaz de usuario: ofrece a los usuarios información, sugerencias, acciones y captura los datos de entrada a través del teclado y el ratón.
 </li>
@@ -40,7 +38,6 @@ A grandes rasgos se podría decir que la capa de presentación se compone de:
 <li>La lógica de control de peticiones: reside en el servidor y se encarga de interactuar con lógica de presentación, encargándose principalmente de transformar el modelo de datos para la recepción/envío, gestionar las reglas de navegación y enlazar con la capa de servicios de negocio.
 </li>
 </ol>
-</li>
 
 <li><b>Capa de servicios de negocio:</b> En  esta capa  es donde  se deben  implementar  todas  aquellas  reglas obtenidas a partir  del  análisis  funcional  del  proyecto. Un servicio se compone de funciones sin estado, auto-contenidas, que aceptan una(s) llamada(s) y devuelven una(s) respuesta(s) mediante una interfaz bien definida. Los servicios no dependen del estado de otras funciones o procesos. Los servicios pueden también enmarcarse en unidades discretas de trabajo, como son las transacciones, que coordinan el uso de la capa de acceso a datos.
 <li>
