@@ -52,7 +52,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 </li>
 
 </ul>
-<img src="http://uda.googlecode.com/files/Arquitectura-conceptual-capas.png" align="middle"/>
+<img src="http://uda.googlecode.com/files/Arquitectura-conceptual-capas.png" align="center"/>
 
 <h2>Documentación</h2>
 <ul>
