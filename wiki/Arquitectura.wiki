@@ -11,7 +11,7 @@ El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la
 
 Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <b>uda</b> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
 
-<h3>Principios fundamentales</h3>
+<h2>Principios fundamentales</h2>
 
 La arquitectura conceptual definida debe facilitar el proceso de desarrollo de aplicaciones web, aumentando al máximo la productividad de los desarrolladores. Tratamos además de reutilizar, de mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
 
@@ -23,19 +23,25 @@ La arquitectura también cubre la relación entre aplicaciones, es decir,  la fo
 
 Como punto de partida de la definición de la arquitectura conceptual es necesario cumplir con los requerimientos o características más habituales: fomentar la Productividad del desarrollador, reutilización de código, rendimiento, escalabilidad, fiabilidad, disponibilidad, extensibilidad, mantenibilidad, fácil manejo, y seguridad.
 
-<h3>Capas</h3>
+<h2>Capas</h2>
 
 Dentro del desarrollo de aplicaciones software, en este caso dirigido fundamentalmente al desarrollo de aplicaciones web, existen tareas de muy diferente índole, por ejemplo: la creación del interface gráfico, la persistencia y consulta de datos, etc.
 
 Con el objeto de dividir la complejidad de la arquitectura en módulos más manejables se han establecido las siguientes capas lógicas:
 <ul>
-<li> Capa de presentación: Es la responsable de ofrecer a los usuarios la posibilidad de interactuar con la aplicación de forma sencilla e intuitiva, proporcionando una experiencia de usuario Web satisfactoria.
+<li>Capa de presentación: Es la responsable de ofrecer a los usuarios la posibilidad de interactuar con la aplicación de forma sencilla e intuitiva, proporcionando una experiencia de usuario Web satisfactoria.
 
 A grandes rasgos se podría decir que la capa de presentación se compone de:
-1.	La interfaz de usuario: ofrece a los usuarios información, sugerencias, acciones y captura los datos de entrada a través del teclado y el ratón.
-2.	La lógica de presentación: se ejecuta en cliente y hace referencia a todo el procesamiento requerido para mostrar datos y transformar los datos de entrada en acciones que podemos ejecutar contra el servidor.
-3.	La lógica de control de peticiones: reside en el servidor y se encarga de interactuar con lógica de presentación, encargándose principalmente de transformar el modelo de datos para la recepción/envío, gestionar las reglas de navegación y enlazar con la capa de servicios de negocio.
+<ol>
+<li>La interfaz de usuario: ofrece a los usuarios información, sugerencias, acciones y captura los datos de entrada a través del teclado y el ratón.
 </li>
+<li>La lógica de presentación: se ejecuta en cliente y hace referencia a todo el procesamiento requerido para mostrar datos y transformar los datos de entrada en acciones que podemos ejecutar contra el servidor.
+</li>
+<li>La lógica de control de peticiones: reside en el servidor y se encarga de interactuar con lógica de presentación, encargándose principalmente de transformar el modelo de datos para la recepción/envío, gestionar las reglas de navegación y enlazar con la capa de servicios de negocio.
+</li>
+</ol>
+</li>
+
 <li>Capa de servicios de negocio: En  esta capa  es donde  se deben  implementar  todas  aquellas  reglas obtenidas a partir  del  análisis  funcional  del  proyecto. Un servicio se compone de funciones sin estado, auto-contenidas, que aceptan una(s) llamada(s) y devuelven una(s) respuesta(s) mediante una interfaz bien definida. Los servicios no dependen del estado de otras funciones o procesos. Los servicios pueden también enmarcarse en unidades discretas de trabajo, como son las transacciones, que coordinan el uso de la capa de acceso a datos.
 <li>
 <li>Capa de acceso a datos: La capa de acceso a datos es la responsable de la gestión de la persistencia de la información manejada en  las capas superiores. En un modelo académicamente purista, la  interfaz  de  esta  capa  estaría  compuesta  por  vistas  de  las  entidades  a  persistir  (una vista  de  “factura”,  otra  de  “cliente”),  pero  a  efectos  prácticos,  y  con  objeto  de aprovechar  la  habitual potencia  de  los  gestores de  bases de datos,  la  interfaz muestra una  serie de  métodos que pueden  agrupar operaciones  en  lo que  se puede denominar “lógica de persistencia”, como  insertar cliente o  inserción factura, en  la que podrían darse de alta al mismo tiempo una factura y todos las entidades que dependan de dicha factura (porque no, el mismo cliente).
