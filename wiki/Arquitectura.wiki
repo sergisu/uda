@@ -58,27 +58,27 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 
 || *Tecnología* || *Versión* || *Función* || *Capa* ||
 ||Tiles||2.2.2||Plantillado||Presentación||
-||jQuery||1.4.2||Vista y Ajax||Presentación||
+||jQuery||1.4.4||Vista y Ajax||Presentación||
 ||Spring MVC||3.0.5||Control||Presentación||
 ||JSTL||1.2||Vista||Presentación||
-||Spring Framework||3.0.4||Servicio||Servicio||
-||Spring JDBC||3.0.4||Persistencia JDBC||Persistencia||
+||Spring Framework||3.0.5||Servicio||Servicio||
+||Spring JDBC||3.0.5||Persistencia JDBC||Persistencia||
 ||EclipseLink ||2.1.1||Persistencia JPA2.0||Persistencia||
-||Spring Framework||3.0.4||Contenedor IoC||Core||
-||Spring AOP||3.0.4||Aspectos||Core||
+||Spring Framework||3.0.5||Contenedor IoC||Core||
+||Spring AOP||3.0.5||Aspectos||Core||
 ||Weblogic||10.3.1||Servidor de aplicaciones||Core||
 ||Java Development Kit||6||Maquina Virtual Java||Core||
 ||Enterprise Java Beans||3.0||Remoting||Remoting||
 ||JTA||1.1||Transaccionalidad||Componentes||
-||Spring Security||3.0.4||Seguridad||Componentes||
+||Spring Security||3.0.5||Seguridad||Componentes||
 ||Log4J||1.2.16||Trazas||Componentes||
-||Hibernate Validator||4||Validación||Componentes||
+||Hibernate Validator||4.1||Validación||Componentes||
 ||Eclipse||OEPE 11.1.1.6||IDE||Plataforma||
 ||Subversion||1.6.12||Versionado||Plataforma||
 ||Maven||2.2.1||Gestión de dependencias||Plataforma||
-||Ant||1.8.1||Tareas||Plataforma||
+||Ant||1.7.1||Tareas||Plataforma||
 ||Freemaker||2.3.16||Plantillas||Asistentes||
-||Hibernate Tools||3.2||Plugin||Asistentes||
+||Hibernate Tools||3.4||Plugin||Asistentes||
 
 <h2>Documentación</h2>
 <ul>
