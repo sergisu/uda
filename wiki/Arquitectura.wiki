@@ -59,7 +59,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 || *Tecnología* || *Versión* || *Función* || *Capa* ||
 ||Tiles||2.2.2||Plantillado||Presentación||
 ||jQuery||1.4.2||Vista y Ajax||Presentación||
-||Spring MVC||3.0.4||Control||Presentación||
+||Spring MVC||3.0.5||Control||Presentación||
 ||JSTL||1.2||Vista||Presentación||
 ||Spring Framework||3.0.4||Servicio||Servicio||
 ||Spring JDBC||3.0.4||Persistencia JDBC||Persistencia||
