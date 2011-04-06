@@ -3,27 +3,29 @@
 
 <h1>Patrones de interacción</h1>
 
-En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad [http://www.w3.org/WAI/intro/aria.php WCAG 2.0] (Content Accessibility Guidelines) y [http://www.w3.org/WAI/intro/aria.php WAI-ARIA] (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
+En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad [http://www.w3.org/TR/WCAG20/ WCAG 2.0] (Content Accessibility Guidelines) y [http://www.w3.org/WAI/intro/aria.php WAI-ARIA] (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
 
 A diferencia de la Norma UNE y las WCAG 1.0, las WCAG 2.0 asumen que cualquier agente de usuario y tecnología asistiva actual o futura soporta Javascript por lo que no exigen la creación de alternativas sino que los controles RIA estén programados de forma accesible.
 
 En concreto, las WCAG 2.0 que exigen la accesibilidad mediante teclado e independiente del dispositivo de entrada:
-
-•	WCAG 2.0 - Pauta 2.1
+<ul>
+<li>WCAG 2.0 - Pauta 2.1</li>
 Accesible a través del teclado: Haga que toda funcionalidad esté disponible a través del teclado.
+</ul>
 
 Además, las WCAG 2.0 añaden nuevas pautas que influyen en la interacción con los controles RIA:
-
-•	WCAG 2.0 - Pauta 2.2
+<ul>
+<li>WCAG 2.0 - Pauta 2.2</li>
 Tiempo suficiente: Proporcione a los usuarios el tiempo suficiente para leer y usar un contenido.
 
-•	WCAG 2.0 - Pauta 2.4
+<li>WCAG 2.0 - Pauta 2.4</li>
 Navegable: Proporcione medios que sirvan de ayuda a los usuarios a la hora de navegar, localizar contenido y determinar dónde se encuentran.
 
-•	WCAG 2.0 - Pauta 3.2
+<li>WCAG 2.0 - Pauta 3.2</li>
 Predecible: Cree páginas web cuya apariencia y operabilidad sean predecibles.
 
-•	WCAG 2.0 - Pauta 3.3
+<li>WCAG 2.0 - Pauta 3.3</li>
 Ayuda a la entrada de datos: Ayude a los usuarios a evitar y corregir errores.
+</ul>
 
-De esta forma, cumpliendo a nivel de interacción tanto con los estándares de accesibilidad actuales como con los futuros, los patrones cumplen la normativa actual a la vez que se preparan para la mayor extensión y aceptación pública de los estándares futuros.
+En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
