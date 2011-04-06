@@ -1,53 +1,9 @@
 #summary Patrones de interacción.
 #labels Featured,Phase-Design
 
-= Introduction =
+<h1>Patrones de interacción</h1>
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-
-
-En el planteamiento y desarrollo de los patrones de interacción analizados en el presente documento se han considerado las guías y normativas de accesibilidad válidas actualmente, como son las WCAG 1.0 desarrolladas por el W3C y la Norma UNE 139803:2004, “Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la Web”, desarrollada por AENOR y en la que se basa la legislación española actual en materia de accesibilidad.
-
-En concreto, la norma UNE y las WCAG 1.0 hablan de la necesidad de crear alternativas accesibles para los controles RIA siempre que sea posible, y que su manejo sea independiente de dispositivo.
-
-Los puntos de comprobación más importantes de la norma UNE que hablan de crear alternativas para los controles RIA son los siguientes:
-
-•	UNE 4.6.1 (WCAG 6.3)
-Las páginas deben poder utilizarse aunque los scripts y objetos de programación estén desconectados o no sean soportados.
-
-•	UNE 4.6.2 (WCAG 8.1)
-Los scripts que ofrecen una funcionalidad importante que, además, no se ofrece a través de otro medio accesible, deben ser directamente accesibles o compatibles con las ayudas técnicas.
-
-NOTA - Si no es posible que los contenidos dinámicos sean directamente accesibles para las aplicaciones de usuario, incluidas las ayudas técnicas, se debe proporcionar una página o presentación alternativa y accesible.
-
-•	UNE 4.4.1 (WCAG 6.2)
-Los equivalentes para el contenido dinámico deben actualizarse siempre que cambie ese contenido dinámico.
-
-En resumen, la norma UNE nos dice:
-
-•	 Siempre que sea posible, los controles RIA tienen que ser accesibles.
-
-•	 Para los usuarios que no dispongan de las tecnologías o capacidades necesarias para usar  el control RIA, se debe proporcionar una presentación alternativa.
-
-•	 Esta presentación alternativa tiene que estar igual de actualizada que la original.
-
-El punto de comprobación más importante de la norma UNE respecto a la independencia de dispositivo de los controles RIA es el siguiente:
-
-•	UNE 4.6.6 (WCAG 6.4)
-La ejecución de los scripts debe ser independiente del tipo de dispositivo de entrada utilizado por el usuario.
-
-NOTA – Aunque no es un requerimiento obligatorio de la norma UNE, se pueden asignar teclas de acceso rápido a las funciones más utilizadas de los controles RIA para así mejorar la interacción de los usuarios que utilizan el teclado.
-
-De la misma forma, los patrones se han desarrollado pensando en las WCAG 2.0 y WAI-ARIA, los estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
+En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las recomendaciones de accesibilidad WCAG 2.0 y WAI-ARIA, estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
 
 A diferencia de la Norma UNE y las WCAG 1.0, las WCAG 2.0 asumen que cualquier agente de usuario y tecnología asistiva actual o futura soporta Javascript por lo que no exigen la creación de alternativas sino que los controles RIA estén programados de forma accesible.
 
