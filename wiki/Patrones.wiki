@@ -3,7 +3,7 @@
 
 <h1>Patrones de interacción</h1>
 
-En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad WCAG 2.0 (Content Accessibility Guidelines) y WAI-ARIA (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
+En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad [http://www.w3.org/WAI/intro/aria.php WCAG 2.0] (Content Accessibility Guidelines) y [http://www.w3.org/WAI/intro/aria.php WAI-ARIA] (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
 
 A diferencia de la Norma UNE y las WCAG 1.0, las WCAG 2.0 asumen que cualquier agente de usuario y tecnología asistiva actual o futura soporta Javascript por lo que no exigen la creación de alternativas sino que los controles RIA estén programados de forma accesible.
 
