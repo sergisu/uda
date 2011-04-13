@@ -5,7 +5,7 @@
 
 En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad [http://www.w3.org/TR/WCAG20/ WCAG 2.0] (Content Accessibility Guidelines) y [http://www.w3.org/WAI/intro/aria.php WAI-ARIA] (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
 
-A diferencia de las WCAG 1.0 desarrolladas por el W3C y la Norma UNE 139803:2004, “Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la Web”, desarrollada por AENOR y en la que se basa la legislación española actual en materia de accesibilidad, las WCAG 2.0 asumen que cualquier agente de usuario y tecnología asistiva actual o futura soporta Javascript por lo que no exigen la creación de alternativas sino que los controles RIA estén programados de forma accesible.
+A diferencia de las WCAG 1.0 desarrolladas por el W3C y la Norma UNE 139803:2004, <i>“Aplicaciones informáticas para personas con discapacidad. Requisitos de accesibilidad para contenidos en la Web”</i>, desarrollada por AENOR y en la que se basa la legislación española actual en materia de accesibilidad, las WCAG 2.0 asumen que cualquier agente de usuario y tecnología asistiva actual o futura soporta Javascript por lo que no exigen la creación de alternativas sino que los controles RIA estén programados de forma accesible.
 
 En concreto, las WCAG 2.0 que exigen la accesibilidad mediante teclado e independiente del dispositivo de entrada:
 <ul>
@@ -16,16 +16,16 @@ Accesible a través del teclado: Haga que toda funcionalidad esté disponible a 
 Además, las WCAG 2.0 añaden nuevas pautas que influyen en la interacción con los controles RIA:
 <ul>
 <li>WCAG 2.0 - Pauta 2.2</li>
-Tiempo suficiente: Proporcione a los usuarios el tiempo suficiente para leer y usar un contenido.
+Tiempo suficiente: <i>Proporcione a los usuarios el tiempo suficiente para leer y usar un contenido.</i>
 
 <li>WCAG 2.0 - Pauta 2.4</li>
-Navegable: Proporcione medios que sirvan de ayuda a los usuarios a la hora de navegar, localizar contenido y determinar dónde se encuentran.
+Navegable: <i>Proporcione medios que sirvan de ayuda a los usuarios a la hora de navegar, localizar contenido y determinar dónde se encuentran.</i>
 
 <li>WCAG 2.0 - Pauta 3.2</li>
-Predecible: Cree páginas web cuya apariencia y operabilidad sean predecibles.
+Predecible: <i>Cree páginas web cuya apariencia y operabilidad sean predecibles.</i>
 
 <li>WCAG 2.0 - Pauta 3.3</li>
-Ayuda a la entrada de datos: Ayude a los usuarios a evitar y corregir errores.
+Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores.</i>
 </ul>
 
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
