@@ -31,7 +31,7 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
 
 <h2>Tecnología de desarrollo</h2>
-Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/> todos los patrones de interacción propuestos han sido desarrollados con el framework de javascript jQuery.
+Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de javascript [http://jquery.com/ jQuery].
 
 <h2>RUP</h2>
 Los patrones generados se han agrupado bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
