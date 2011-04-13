@@ -29,3 +29,6 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 </ul>
 
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
+
+<h2>Tecnología de desarrollo<h1>
+Todos los patrones de propuestos por <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/> han sido desarrollados con el framework de javascript jQuery.  
