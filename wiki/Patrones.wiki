@@ -31,7 +31,9 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
 
 <h2>Tecnología de desarrollo</h2>
-Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de JavaScript [http://jquery.com/ jQuery]. En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
+Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de JavaScript [http://jquery.com/ jQuery].
+
+En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
 
 Los recursos disponibles para conocer y trabjar con jQuery son muy numerosos. Un amplia comunidad de desarrolladores muy activos completan continuamente su biblioteca de posibilidades (plugins). La disponibilidad de numerosos libros, articulos, foros, etc. hace que el uso de esta librería se convierta en un ventaja.
 
