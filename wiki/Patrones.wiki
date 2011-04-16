@@ -42,7 +42,9 @@ Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy nu
 Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
 <h2>RUP</h2>
-Los patrones generados se han agrupado bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
+Los patrones generados han sido agrupado bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
 
 <h3>Autocomplete</h3>
+
+
    
