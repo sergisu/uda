@@ -44,7 +44,7 @@ Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de
 <h2>RUP</h2>
 Los patrones desarrollados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
 
-<h3>Autocomplete</h3>
+<h3>Autocomplete (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
 
@@ -58,7 +58,34 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 </ul>
 
 <h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>Controles dependientes</h3>
+Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
+
+<h4>Usar cuando</h4>Cuando tengamos que mostrar muchos elementos categorizados en un espacio reducido de la interfaz.
+
+También puede ser útil como componente para crear accesos rápidos a partes de la aplicación que nos interese destacar.
+
+<h4>Por qué</h4>
+<ul>
+<li>Una vez se conoce su funcionamiento es muy rápido y fácil de usar.</li>
+<li>Optimiza espacio en la interfaz ya que podemos incluirlo en espacios reducidos.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
 
 
+<h3></h3>
 
-   
+<h4>Usar cuando</h4>
+
+<h4>Por qué</h4>
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo   
