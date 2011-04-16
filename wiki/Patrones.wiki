@@ -35,7 +35,7 @@ Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="
 
 En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
 
-La gestión de ciertas partes visuales de los componentes que implementan los patrones  identificados, se han realizado mediante el plugin [http://jqueryui.com/home jQueryUI], el cual nos permite construir aplicaciones web altamente interactivas, proporcionando abstracciones de bajo nivel de interacción y animación, efectos avanzados de alto nivel y  componentes personalizables (estilos).
+La gestión de ciertas partes visuales de los componentes que implementan los patrones  identificados se han realizado mediante el plugin [http://jqueryui.com/home jQueryUI], el cual nos permite construir aplicaciones web altamente interactivas, proporcionando abstracciones de bajo nivel de interacción y animación, efectos avanzados de alto nivel y  componentes personalizables (estilos).
 
 Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy numerosos. Un amplia comunidad de desarrolladores muy activos completan continuamente su biblioteca de posibilidades (plugins). La disponibilidad de numerosos libros, articulos, foros, etc. hace que el uso de esta librería se convierta en un ventaja.
 
