@@ -31,17 +31,15 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
 
 <h2>Tecnología de desarrollo</h2>
-Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de JavaScript [http://jquery.com/ jQuery],aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
-
-La gestión de ciertas partes visuales de los componentes que implementan los patrones  identificados, se han realizado medieante el plugin [http://jqueryui.com/home jQuery UI], el cual nos permite construir aplicaciones web altamente interactivas, proporcionando abstracciones de bajo nivel de interacción y animación, efectos avanzados de alto nivel, componentes personalizables (estilos).
+Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de JavaScript [http://jquery.com/ jQuery], aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
 
 En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
 
-Los recursos disponibles para conocer y trabjar con jQuery son muy numerosos. Un amplia comunidad de desarrolladores muy activos completan continuamente su biblioteca de posibilidades (plugins). La disponibilidad de numerosos libros, articulos, foros, etc. hace que el uso de esta librería se convierta en un ventaja.
+La gestión de ciertas partes visuales de los componentes que implementan los patrones  identificados, se han realizado mediante el plugin [http://jqueryui.com/home jQueryUI], el cual nos permite construir aplicaciones web altamente interactivas, proporcionando abstracciones de bajo nivel de interacción y animación, efectos avanzados de alto nivel y  componentes personalizables (estilos).
 
-Además Accesibilidad
+Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy numerosos. Un amplia comunidad de desarrolladores muy activos completan continuamente su biblioteca de posibilidades (plugins). La disponibilidad de numerosos libros, articulos, foros, etc. hace que el uso de esta librería se convierta en un ventaja.
 
-
+Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
 <h2>RUP</h2>
 Los patrones generados se han agrupado bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
