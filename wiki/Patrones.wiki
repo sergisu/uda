@@ -198,7 +198,25 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>10. Botonera de opciones</h3>
+<h3>10. Ayuda (Tooltip)</h3>
+
+Proporciona distintos tipos y niveles de ayuda adaptados a las distintas necesidades de los usuarios y que facilitan el aprendizaje progresivo de la aplicación.
+
+<h4>Usar cuando</h4>Todas las aplicaciones deben tener un sistema de ayuda, aunque algunas necesiten uno más completo y preciso que otras. El objetivo del sistema de ayuda debe ser, por un lado ayudar al impaciente y/o al usuario ocasional tan extensamente como sea posible y, por otro, ayudar a los usuarios expertos.
+
+<h4>Por qué</h4>
+<ul>
+<li>El sistema basado en diferentes tipos y niveles de ayudas (ayudas contextuales y sección de ayuda) que hagan aprender a los usuarios de forma progresiva dándoles al mismo tiempo una sección de ayuda completa que les sirva de referencia cubre las necesidades de todos los usuarios: los ocasionales y/o impacientes y los más expertos.</li>
+<li>Las ayudas contextuales son una forma poco intrusiva de ofrecer ayuda a los usuarios según la necesitan sin que tengan que dejar la página en la que están e ir a una página de ayuda.
+
+Este tipo de ayuda es muy útil para todos los usuarios pero especialmente para los novatos o los que necesitan un sistema de ayuda completo pero no tengan tiempo para utilizarlo.</li>
+<li>La sección de ayuda ofrece una solución potente para resolver dudas enfocada a los usuarios más expertos o interesados en la aplicación.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>11. Botonera de opciones</h3>
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
 
@@ -214,7 +232,7 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>11. Presentación de datos en tabla (Grid)</h3>
+<h3>12. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -232,7 +250,7 @@ TODO. Pegar Ejemplo
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
-<h3>11.1. Paginación</h3>
+<h3>12.1. Paginación</h3>
 
 Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
 
@@ -247,7 +265,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>11.2. Ordenación de filas</h3>
+<h3>12.2. Ordenación de filas</h3>
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
 
@@ -263,7 +281,7 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>11.3. Ordenación de columnas</h3>
+<h3>12.3. Ordenación de columnas</h3>
 
 Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
 
@@ -280,7 +298,7 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>11.4. Selección e interacción con elementos</h3>
+<h3>12.4. Selección e interacción con elementos</h3>
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
 
@@ -297,7 +315,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>11.5. Filtrado/Búsqueda</h3>
+<h3>12.5. Filtrado/Búsqueda</h3>
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -316,7 +334,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>12. Mantenimiento con formulario</h3>
+<h3>13. Mantenimiento con formulario</h3>
 
 Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
 
@@ -328,7 +346,7 @@ Eliminar (Delete): El usuario puede eliminar registros de una tabla de manera in
 
 Las acciones de añadir, visualizar y editar se realizarán sobre un formulario de datos.
 
-Este patrón se compone a su vez de otros patrones de interacción ya  identificados anteriormente.
+Este patrón se compone a su vez de otros patrones de interacción.
 
 <h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear, visualizar, editar, o eliminar registros de una tabla, siempre que el número de campos que se ve en la vista de la tabla sea menor que el número total de campos que forman los registros.
 
@@ -343,11 +361,11 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>13. Mantenimiento con creación y edición en celda</h3>
+<h3>14. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
 
-También como el patrón anterior, este patrón se compone a su vez de otros patrones de interacción ya identificados anteriormente.
+También como el patrón anterior, este patrón se compone a su vez de otros patrones de interacción.
  
 <h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear o editar rápidamente los registros de una tabla, siempre que todos los registros de la tabla sean visibles en la misma.
 
@@ -363,7 +381,7 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>14. Mantenimiento maestro-detalle</h3>
+<h3>15. Mantenimiento maestro-detalle</h3>
 
 Permite al usuario realizar el mantenimiento de dos entidades de datos relacionadas en una sola ventana. Al seleccionar una fila de la tabla maestra se recargan las filas de la tabla detalle dependientes de la primera. 
 
@@ -383,7 +401,7 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>15. Diálogos</h3>
+<h3>16. Diálogos</h3>
 
 Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
@@ -415,7 +433,7 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>16. Feedback</h3>
+<h3>17. Feedback</h3>
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
