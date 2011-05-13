@@ -44,6 +44,20 @@ Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de
 <h2>RUP</h2>
 Los patrones desarrollados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
 
+<h3>Pestañas de contenido</h3>
+
+Permiten dar acceso de forma compacta a grupos de contenidos mutuamente excluyentes pudiendo ser integradas en zonas muy reducidas de la interfaz.
+
+<h4>Usar cuando</h4>Cuando tengamos un elemento formado por mucha información y podamos dividir ésta en grupos diferenciados dando así a los usuarios acceso a la información de forma rápida y en un espacio compacto.
+
+También es útil cuando tenemos que mostrar mucha información dividida en grupos diferenciados y disponemos de poco espacio para hacerlo.
+
+<h4>Por qué</h4>
+<ul>
+<li>Cuando la información está correctamente separada y dividida en pestañas se facilita mucho la comprensión de la interfaz por parte del usuario ya que todo parece lógico, puesto en su sitio y correctamente separado.</li>
+<li>Dan acceso a información amplia y variada sin agobiar al usuario: él elige qué pestaña mirar</li>
+<li>Optimizan el espacio en la interfaz. En ciertas situaciones en las que estamos obligados a incluir una gran cantidad de información en un espacio reducido pueden ser una buena solución.</li>
+
 <h3>Autocomplete (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
