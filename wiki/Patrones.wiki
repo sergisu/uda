@@ -44,7 +44,7 @@ Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de
 <h2>RUP</h2>
 Los patrones desarrollados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
 
-<h3>Pestañas de contenido</h3>
+<h3>1. Pestañas de contenido</h3>
 
 Permiten dar acceso de forma compacta a grupos de contenidos mutuamente excluyentes pudiendo ser integradas en zonas muy reducidas de la interfaz.
 
@@ -62,7 +62,7 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>Menús de navegación</h3>
+<h3>2. Menús de navegación</h3>
 
 Menú de la aplicación mantenido a lo largo de todas las páginas de forma consistente, que muestra entradas directas a secciones clave de la aplicación.
 
@@ -78,7 +78,7 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>Pestañas de navegación</h3>
+<h3>3. Pestañas de navegación</h3>
 
 Menú de navegación de la aplicación que divide ésta en secciones claramente excluyentes entre sí y da acceso a ellas.
 
@@ -93,7 +93,7 @@ Menú de navegación de la aplicación que divide ésta en secciones claramente 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Migas de pan</h3>
+<h3>4. Migas de pan</h3>
 
 Se muestra a los usuarios la ruta de navegación que ha seguido por la aplicación permitiéndoles volver hacia niveles superiores hasta la página de inicio.
 
@@ -113,22 +113,7 @@ Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Paginación</h3>
-
-Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
-
-<h4>Usar cuando</h4>Cuando las listas de datos o tablas que se les presentan a los usuarios sean muy grandes y se haga necesario algún mecanismo de navegación para moverse entre tantos resultados y situarse en la serie.
-
-<h4>Por qué</h4>
-<ul>
-<li>Es un sistema conocido por todos los usuarios, sencillo e intuitivo.</li>
-<li>Es fácil de comprender y utilizar.</li>
-</ul>
-
-<h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
-
-<h3>Botonera de opciones</h3>
+<h3>5. Botonera de opciones</h3>
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
 
@@ -144,7 +129,7 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Fechas</h3>
+<h3>6. Fechas</h3>
 
 El usuario puede introducir manualmente una fecha o seleccionarla de un calendario moviéndose por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
 
@@ -160,7 +145,7 @@ El usuario puede introducir manualmente una fecha o seleccionarla de un calendar
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Intervalos de fechas</h3>
+<h3>7. Intervalos de fechas</h3>
 
 El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo de un calendario por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
 
@@ -176,7 +161,7 @@ El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo d
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Controles dependientes (Combos)</h3>
+<h3>8. Controles dependientes (Combos)</h3>
 
 Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
 
@@ -193,7 +178,7 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>Tablas (Grid)</h3>
+<h3>9. Presentación de datos (Tablas/Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -209,14 +194,32 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3></h3>
+<h3>9.1. Paginación</h3>
 
-<h4>Usar cuando</h4>
+Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
+
+<h4>Usar cuando</h4>Cuando las listas de datos o tablas que se les presentan a los usuarios sean muy grandes y se haga necesario algún mecanismo de navegación para moverse entre tantos resultados y situarse en la serie.
 
 <h4>Por qué</h4>
 <ul>
-<li></li>
-<li></li>
+<li>Es un sistema conocido por todos los usuarios, sencillo e intuitivo.</li>
+<li>Es fácil de comprender y utilizar.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>9.2. Ordenación de filas</h3>
+
+Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
+
+<h4>Usar cuando</h4>Cuando queramos dar al usuario la posibilidad de ordenar las filas de datos en función de sus necesidades para que pueda encontrar la información que busca más cómodamente.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es muy conocido por los usuarios y el método más estándar en Internet para ordenar filas de datos.</li>
+<li>Es un sistema de ordenación sencillo, intuitivo y rápido de utilizar.</li>
+<li>Permite encontrar fácilmente la información.</li>
 </ul>
 
 <h4>Ejemplo</h4>
