@@ -44,7 +44,7 @@ Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de
 
 <h2>RUP</h2>
 
-Los componentes que implementan los patrones (plugins jQuery) han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
+Los componentes (plugins jQuery) que implementan los patrones de interacción identificados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
 
 Estos componentes RUP son totalmente configurables, es decir, que es posible modificar su comportamiento según interese en cada caso. Por ejemplo, el mismo componente de mantenimiento cubre los patrones de "mantenimiento con formulario" y el de "mantenimiento con creación y edición en celda", de modo que a través de variables de configuración el mismo componente se podrá comportar de la manera deseada.  
 
