@@ -31,7 +31,7 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
 
 <h2>Tecnología de desarrollo</h2>
-Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework de JavaScript [http://jquery.com/ jQuery], aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
+Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework JavaScript [http://jquery.com/ jQuery], aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
 
 En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
 
@@ -61,6 +61,205 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
+
+<h3>Menús de navegación</h3>
+
+Menú de la aplicación mantenido a lo largo de todas las páginas de forma consistente, que muestra entradas directas a secciones clave de la aplicación.
+
+<h4>Usar cuando</h4>Cuando tengamos un sitio web estructurado jerárquicamente y relativamente amplio y queramos facilitar y agilizar la navegación y dar contexto al usuario.
+
+<h4>Por qué</h4>
+<ul>
+<li>Los menús de navegación son la forma estándar de estructurar grupos jerárquicos de contenidos y dar acceso a ellos.</li>
+<li>Facilitan la comprensión de la estructura de la página y la navegación.</li>
+<li>Apoyados de migas de pan y buenos títulos y subtítulos dan buen contexto al usuario.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>Pestañas de navegación</h3>
+
+Menú de navegación de la aplicación que divide ésta en secciones claramente excluyentes entre sí y da acceso a ellas.
+
+<h4>Usar cuando</h4>Cuando tengamos una aplicación web cuyos contenidos se puedan dividir en secciones claramente excluyentes entre sí y queramos proporcionar a los usuarios un menú de navegación para navegar por ellas.
+
+<h4>Por qué</h4>
+<ul>
+<li>Cuando la información está bien organizada y dividida se facilita mucho la comprensión de la navegación ya que se reduce su ambigüedad.</li>
+<li>La metáfora de las pestañas es conocida por los usuarios. Es una metáfora traída del mundo real basada en los clasificadores de papeles.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Migas de pan</h3>
+
+Se muestra a los usuarios la ruta de navegación que ha seguido por la aplicación permitiéndoles volver hacia niveles superiores hasta la página de inicio.
+
+<h4>Usar cuando</h4>Cuando queramos mostrar al usuario la ruta de navegación que ha seguido, en qué página está y permitirle volver fácilmente a niveles superiores.
+
+Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía ya que es en este tipo de aplicaciones donde son realmente útiles.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es una solución conocida por los usuarios y fácil de comprender.</li>
+<li>Aporta flexibilidad a la navegación al permitir volver a niveles superiores.</li>
+<li>Ocupa poco espacio en la interfaz.</li>
+<li>Refuerza el contexto y la navegación ya que muestra a los usuarios dónde están y cómo está estructurada la información.</li>
+<li>Ayuda a los usuarios a comprender la estructura de la aplicación.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Paginación</h3>
+
+Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
+
+<h4>Usar cuando</h4>Cuando las listas de datos o tablas que se les presentan a los usuarios sean muy grandes y se haga necesario algún mecanismo de navegación para moverse entre tantos resultados y situarse en la serie.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema conocido por todos los usuarios, sencillo e intuitivo.</li>
+<li>Es fácil de comprender y utilizar.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Botonera de opciones</h3>
+
+Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
+
+<h4>Usar cuando</h4>La botonera general se deberá utilizar para mostrar un menú genérico de opciones que afecten a toda la aplicación mientras que la botonera local deberá utilizarse para mostrar un menú propio de una página o contenido de la aplicación.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema de menús muy conocido por todos los usuarios.</li>
+<li>Es muy facil de usar.</li>
+<li>Es una solución válida tanto para crear menús generales de la aplicación como menús que ejecuten acciones sobre elementos en pantalla.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Fechas</h3>
+
+El usuario puede introducir manualmente una fecha o seleccionarla de un calendario moviéndose por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
+
+<h4>Usar cuando</h4>Cuando el usuario tenga que introducir una fecha y queramos darle flexibilidad para escribirla manualmente o seleccionándola de un calendario.
+
+<h4>Por qué</h4>
+<ul>
+<li>Vale tanto a usuarios avanzados (eficiencia) como a novatos (sencillez).</li>
+<li>La forma de introducir la fecha es flexible: unos usuarios preferirán escribirla a mano y otros seleccionarla del calendario.</li>
+<li>Manejo independiente de dispositivo: se puede usar tanto el ratón como el teclado.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Intervalos de fechas</h3>
+
+El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo de un calendario por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
+
+<h4>Usar cuando</h4>Cuando el usuario tenga que introducir un intervalo de fechas y queramos darle flexibilidad para escribirlo manualmente o seleccionándolo de un calendario.
+
+<h4>Por qué</h4>
+<ul>
+<li>El sistema de introducción de fechas de este patrón tiene las ventajas del patrón anterior. Selección e introducción de fechas.</li>
+<li>Es eficiente y rápido introducir intervalos.</li>
+<li>Ocupa poco espacio en la interfaz en comparación con otras soluciones.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Controles dependientes (Combos)</h3>
+
+Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
+
+<h4>Usar cuando</h4>Cuando tengamos que mostrar muchos elementos categorizados en un espacio reducido de la interfaz.
+
+También puede ser útil como componente para crear accesos rápidos a partes de la aplicación que nos interese destacar.
+
+<h4>Por qué</h4>
+<ul>
+<li>Una vez se conoce su funcionamiento es muy rápido y fácil de usar.</li>
+<li>Optimiza espacio en la interfaz ya que podemos incluirlo en espacios reducidos.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>Tablas (Grid)</h3>
+
+Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
+
+<h4>Usar cuando</h4>Cuando tengamos que presentar a los usuarios filas de datos y queramos que les resulte fácil encontrar la información que buscan.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es la forma más estándar de mostrar filas de datos.</li>
+<li>Permite el ojeado rápido y encontrar fácilmente la información.</li>
+<li>Los usuarios pueden hacer rollover o click sobre una fila para ver así más claramente su información.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3></h3>
+
+<h4>Usar cuando</h4>
+
+<h4>Por qué</h4>
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3></h3>
+
+<h4>Usar cuando</h4>
+
+<h4>Por qué</h4>
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+
+<h3></h3>
+
+<h4>Usar cuando</h4>
+
+<h4>Por qué</h4>
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h3>Autocomplete (Suggest)</h3>
 
