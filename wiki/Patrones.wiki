@@ -427,6 +427,7 @@ Hay que distinguir los errores graves de las acciones o situaciones que requiere
 <li>Mensajes previos / previsualización: También es importante informar al usuario de las consecuencias que tendrá el llevar a cabo una acción antes de realizarla. Por ejemplo, si está asignando una persona de contacto a un curso y no se puede cambiar posteriormente esa información sin contactar con un mando superior se debe avisar de ello al usuario.
 
 Si las posibles consecuencias son muy graves o no hay posibilidad de corregirlas (como en el ejemplo del envío del newsletter a la base de datos de los clientes) se debe lanzar el aviso en una ventana modal para asegurarnos de que es consciente de las consecuencias de la acción antes de realizarla.</li>
+</ul>
 
 También puede ser útil mostrar previsualizaciones antes de realizar ciertas acciones como guardar una foto en un perfil, imprimir un documento, etc.
 
