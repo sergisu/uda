@@ -182,6 +182,38 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
+<h3>9. Autocomplete (Suggest)</h3>
+
+Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
+
+<h4>Usar cuando</h4>Cuando queramos mejorar la búsqueda ofreciendo sugerencias a los usuarios.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es una funcionalidad muy fácil y cómoda de utilizar.</li>
+<li>Mejora mucho la experiencia de uso de la búsqueda sencilla.</li>
+<li>Bien pensada e implementada permite a un usuario descubrir nuevas áreas de conocimiento antes desconocidas para él. Por ejemplo, un estudiante que sólo conozca el método lógico deductivo de investigación y busque información sobre él, puede recibir la sugerencia "método lógico inductivo" descubriendo un método de investigación que antes no conocía.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>10. Controles dependientes</h3>
+Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
+
+<h4>Usar cuando</h4>Cuando tengamos que mostrar muchos elementos categorizados en un espacio reducido de la interfaz.
+
+También puede ser útil como componente para crear accesos rápidos a partes de la aplicación que nos interese destacar.
+
+<h4>Por qué</h4>
+<ul>
+<li>Una vez se conoce su funcionamiento es muy rápido y fácil de usar.</li>
+<li>Optimiza espacio en la interfaz ya que podemos incluirlo en espacios reducidos.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
 <h3>9. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
@@ -276,7 +308,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Por qué</h4>
 <ul>
 <li>Es un sistema intuitivo y fácil de usar tanto para usuarios novatos como avanzados.</li>
-<li><Es una de las formas más estándares y conocidas de implementar el filtrado en tablas de datos./li>
+<li>Es una de las formas más estándares y conocidas de implementar el filtrado en tablas de datos.</li>
 <li>Es ágil y rápido, lo que beneficia a los usuarios que tienen que trabajar continuamente con gran cantidad de filas de datos.</li>
 <li>Proporciona una gran flexibilidad y potencia ya que permite combinar los filtros o filtrar por un sólo criterio. Por ejemplo, se puede filtrar sólo por fecha o por fecha y título a la vez.</li>
 </ul>
@@ -362,70 +394,34 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
+<h3>Feedback</h3>
 
+Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3>Autocomplete (Suggest)</h3>
-
-Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
-
-<h4>Usar cuando</h4>Cuando queramos mejorar la búsqueda ofreciendo sugerencias a los usuarios.
+<h4>Usar cuando</h4>
 
 <h4>Por qué</h4>
 <ul>
-<li>Es una funcionalidad muy fácil y cómoda de utilizar.</li>
-<li>Mejora mucho la experiencia de uso de la búsqueda sencilla.</li>
-<li>Bien pensada e implementada permite a un usuario descubrir nuevas áreas de conocimiento antes desconocidas para él. Por ejemplo, un estudiante que sólo conozca el método lógico deductivo de investigación y busque información sobre él, puede recibir la sugerencia "método lógico inductivo" descubriendo un método de investigación que antes no conocía.</li>
+<li></li>
+<li></li>
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+TODO. Pegar Ejemplo   
 
-<h3>Controles dependientes</h3>
-Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
 
-<h4>Usar cuando</h4>Cuando tengamos que mostrar muchos elementos categorizados en un espacio reducido de la interfaz.
 
-También puede ser útil como componente para crear accesos rápidos a partes de la aplicación que nos interese destacar.
 
-<h4>Por qué</h4>
-<ul>
-<li>Una vez se conoce su funcionamiento es muy rápido y fácil de usar.</li>
-<li>Optimiza espacio en la interfaz ya que podemos incluirlo en espacios reducidos.</li>
-</ul>
 
-<h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+
+
+
+
+
+
+
+
 
 
 <h3></h3>
