@@ -59,6 +59,9 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 <li>Optimizan el espacio en la interfaz. En ciertas situaciones en las que estamos obligados a incluir una gran cantidad de información en un espacio reducido pueden ser una buena solución.</li>
 </ul>
 
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
 <h3>Autocomplete (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
