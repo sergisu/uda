@@ -41,8 +41,12 @@ Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy nu
 
 Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
+
 <h2>RUP</h2>
-Los patrones desarrollados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns) y son los siguientes:
+
+Los componentes que implementan los patrones (plugins jQuery) han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
+
+Estos componentes RUP son totalmente configurables, es decir, que es posible modificar su comportamiento según interese en cada caso. Por ejemplo, el mismo componente de mantenimiento cubre los patrones de "mantenimiento con formulario" y el de "mantenimiento con creación y edición en celda", de modo que a través de variables de configuración el mismo componente se podrá comportar de la manera deseada.  
 
 <h3>1. Pestañas de contenido</h3>
 
@@ -178,7 +182,7 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9. Presentación de datos (Tablas/Grid)</h3>
+<h3>9. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -193,6 +197,8 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
+
+Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
 <h3>9.1. Paginación</h3>
 
@@ -225,6 +231,105 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
+<h3>9.3. Ordenación de columnas</h3>
+
+Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
+
+<h4>Usar cuando</h4>Este patrón está destinado a los usuarios avanzados y es especialmente útil cuando les queramos dar el mayor grado de control posible sobre la visualización de las filas de datos.
+
+<h4>Por qué</h4>
+<ul>
+<li>Permite a los usuarios organizar las columnas a su gusto para ver los datos como prefieran.</li>
+<li>Es la forma estándar y más conocida de reorganizar las columnas de datos ya que se basa en el drag&drop, un sistema de interacción conocido por los usuarios avanzados.</li>
+<li>Ofrece una gran flexibilidad en la presentación de las filas de datos.</li>
+<li>Una vez aprendido es fácil de usar así que puede beneficiar tanto a usuarios avanzados como a novatos.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>9.4. Selección e interacción con elementos</h3>
+
+Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
+
+<h4>Usar cuando</h4>Cuando tengamos una tabla de datos y queramos que los usuarios puedan interactuar con ellos.
+
+<h4>Por qué</h4>
+<ul>
+<li><Es fácil de usar e intuitivo./li>
+<li>Es potente y flexible ya que permite interactuar con las filas seleccionando un elemento y/o utilizando la botonera.</li>
+<li>Es escalable ya que se pueden implementar muchas opciones de interacción en los menús.</li>
+<li>Ofrece feedback en todo momento.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>9.5. Filtrado</h3>
+
+Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
+
+<h4>Usar cuando</h4>Cuando tengamos un gran número de filas de datos y queramos dar a los usuarios la posibilidad de filtrarlos para encontrar la información que buscan con mayor facilidad.
+
+Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de datos.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema intuitivo y fácil de usar tanto para usuarios novatos como avanzados.</li>
+<li><Es una de las formas más estándares y conocidas de implementar el filtrado en tablas de datos./li>
+<li>Es ágil y rápido, lo que beneficia a los usuarios que tienen que trabajar continuamente con gran cantidad de filas de datos.</li>
+<li>Proporciona una gran flexibilidad y potencia ya que permite combinar los filtros o filtrar por un sólo criterio. Por ejemplo, se puede filtrar sólo por fecha o por fecha y título a la vez.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>10. Mantenimiento con formulario</h3>
+
+Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
+
+Visualizar (Read): El usuario puede visualizar datos de forma que sean fácilmente escaneables y que faciliten encontrar la información que se busca.
+
+Editar (Update): El usuario puede editar registros de una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla.
+
+Eliminar (Delete): El usuario puede eliminar registros de una tabla de manera individual o aquellos que ha seleccionado previamente.
+
+Las acciones de añadir, visualizar y editar se realizarán sobre un formulario de datos.
+
+Este patrón se compone a su vez de otros patrones de interacción  identificados anteriormente.
+
+<h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear, visualizar, editar, o eliminar registros de una tabla, siempre que el número de campos que se ve en la vista de la tabla sea menor que el número total de campos que forman los registros.
+
+En caso de que se muestren todos los campos de los registros se recomienda utilizar el patrón de "mantenimiento con creación y edición en celda".
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema de creación sencillo.</li>
+<li>Permite crear, editar o eliminar uno o varios registros en una misma pantalla sin tener que moverse continuamente entre la tabla y la pantalla de creación.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>11. Mantenimiento con creación y edición en celda</h3>
+
+Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
+ 
+<h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear o editar rápidamente los registros de una tabla, siempre que todos los registros de la tabla sean visibles en la misma.
+
+Si la tabla contiene más filas de las que se visualizan se recomienda utilizar el patrón de "mantenimiento con formulario".
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema sencillo y rápido para editar y crear registros.</li>
+<li>Agiliza mucho la interacción.</li>
+<li>La interacción se produce en contexto.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+
 <h3></h3>
 
 <h4>Usar cuando</h4>
@@ -236,21 +341,28 @@ TODO. Pegar Ejemplo
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+TODO. Pegar Ejemplo
 
 
-<h3></h3>
 
-<h4>Usar cuando</h4>
 
-<h4>Por qué</h4>
-<ul>
-<li></li>
-<li></li>
-</ul>
 
-<h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
