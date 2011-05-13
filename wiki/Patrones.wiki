@@ -57,6 +57,7 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 <li>Cuando la información está correctamente separada y dividida en pestañas se facilita mucho la comprensión de la interfaz por parte del usuario ya que todo parece lógico, puesto en su sitio y correctamente separado.</li>
 <li>Dan acceso a información amplia y variada sin agobiar al usuario: él elige qué pestaña mirar</li>
 <li>Optimizan el espacio en la interfaz. En ciertas situaciones en las que estamos obligados a incluir una gran cantidad de información en un espacio reducido pueden ser una buena solución.</li>
+</ul>
 
 <h3>Autocomplete (Suggest)</h3>
 
