@@ -256,7 +256,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 
 <h4>Por qué</h4>
 <ul>
-<li><Es fácil de usar e intuitivo./li>
+<li>Es fácil de usar e intuitivo.</li>
 <li>Es potente y flexible ya que permite interactuar con las filas seleccionando un elemento y/o utilizando la botonera.</li>
 <li>Es escalable ya que se pueden implementar muchas opciones de interacción en los menús.</li>
 <li>Ofrece feedback en todo momento.</li>
@@ -296,7 +296,7 @@ Eliminar (Delete): El usuario puede eliminar registros de una tabla de manera in
 
 Las acciones de añadir, visualizar y editar se realizarán sobre un formulario de datos.
 
-Este patrón se compone a su vez de otros patrones de interacción  identificados anteriormente.
+Este patrón se compone a su vez de otros patrones de interacción ya  identificados anteriormente.
 
 <h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear, visualizar, editar, o eliminar registros de una tabla, siempre que el número de campos que se ve en la vista de la tabla sea menor que el número total de campos que forman los registros.
 
@@ -314,6 +314,8 @@ TODO. Pegar Ejemplo
 <h3>11. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
+
+También como el patrón anterior, este patrón se compone a su vez de otros patrones de interacción ya identificados anteriormente.
  
 <h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear o editar rápidamente los registros de una tabla, siempre que todos los registros de la tabla sean visibles en la misma.
 
@@ -329,15 +331,32 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
+<h3>12. Diálogos</h3>
 
-<h3></h3>
+Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
-<h4>Usar cuando</h4>
+<h4>Usar cuando</h4>Cuando el diálogo a mostrar contiene una información que el usuario no puede ignorar o cuando contiene una interacción clave para el usuario. 
+
+También es útil cuando queremos que el usuario pueda rellenar o acceder a un contenido amplio sin tener que salirse del proceso actual.
+
+En general, no se debe abusar de los diálogos modales. Se deben utilizar en casos concretos:
+
+<ul>
+<li>Mensajes de sistema muy importantes: Cuando sea imperativo que el usuario vea un mensaje importante del sistema. Si el mensaje no es crítico se le debe presentar como mensaje de sistema integrado en pantalla (ver patrón "Feedback").</li>
+<li>Descarga de archivos:Cuando se le ofrezca al usuario la posibilidad de descargar un archivo. En la ventana modal se le pueden presentar opciones para descargar el archivo en diferentes formatos, mostrándole información sobre el tamaño del archivo, etc.</li>
+<li>Mensajes de confirmación:Cuando el usuario realice una acción muy importante o que no se pueda deshacer. No se debe pedir confirmación para cada acción que realice el usuario porque se entorpecería mucho la interacción con la aplicación, sólo para las que se consideren especialmente delicadas.</li>
+<li>Eliminar elementos: Cuando el usuario vaya a eliminar un elemento importante. En este caso, es recomendable pedir confirmación siempre que el usuario vaya a eliminar un elemento aunque también se podrían implementar soluciones diferentes, como por ejemplo no pedir ninguna confirmación e implementar un sistema que permita deshacer acciones realizadas, o no pedir ninguna confirmación y crear una carpeta "Papelera" similar a la de Windows donde se guarden todos los elementos que hemos borrado y desde la que se puedan eliminar definitivamente.</li>
+<li>Subproceso dentro de un proceso principal: Cuando estemos editando un elemento con mucho contenido en un proceso principal (como podría ser la creación de un expediente de un alumno cuyo contenido estaría dividido en pestañas cada una de ellas con muchos campos) y queramos lanzar subprocesos dando la opción de añadir contenidos extra, podemos lanzarlos en ventanas modales.
+
+Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantalla principal pero para añadir una imagen o un elemento multimedia se lanza una ventana modal. Así, no sacamos al usuario del proceso principal, le hacemos ver que está trabajando en un subproceso y le ofrecemos opciones de contenido bajo demanda sin saturar la interfaz de opciones y campos.</li>
+
+<li>Ampliación de imágenes: Cuando el usuario quiera ver una imagen o una galería ampliadas, en vez de mostrárselas en páginas o ventanas nuevas podemos hacerlo en una ventana modal en la que se pueda navegar entre las imágenes si es una galería.</li>
 
 <h4>Por qué</h4>
 <ul>
-<li></li>
-<li></li>
+<li>Está integrado en el proceso que se está llevando a cabo.</li>
+<li>No tiene la mala imagen de los pop-ups y no es bloqueado por los programas anti pop-ups. Además no es un sistema intrusivo.</li>
+<li>Cuando se utiliza para lanzar subprocesos funciona enfocando al usuario a lo importante: se le ofrecen unas opciones iniciales en el proceso principal y según pide nuevos contenidos se le lanzan en ventanas modales permitiéndole que se centre en ellos pudiendo realizar así la tarea de forma más progresiva.</li>
 </ul>
 
 <h4>Ejemplo</h4>
