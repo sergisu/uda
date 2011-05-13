@@ -117,17 +117,17 @@ Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>5. Botonera de opciones</h3>
+<h3>5. Selección de idioma</h3>
 
-Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
+El usuario puede elegir de forma sencilla el idioma en el que se le presenta la aplicación.
 
-<h4>Usar cuando</h4>La botonera general se deberá utilizar para mostrar un menú genérico de opciones que afecten a toda la aplicación mientras que la botonera local deberá utilizarse para mostrar un menú propio de una página o contenido de la aplicación.
+<h4>Usar cuando</h4>Cuando tengamos varios idiomas disponibles en el sitio web y queramos que los usuarios puedan elegir fácilmente el que prefieran.
 
 <h4>Por qué</h4>
 <ul>
-<li>Es un sistema de menús muy conocido por todos los usuarios.</li>
-<li>Es muy facil de usar.</li>
-<li>Es una solución válida tanto para crear menús generales de la aplicación como menús que ejecuten acciones sobre elementos en pantalla.</li>
+<li>Ocupa poco espacio en la interfaz.</li>
+<li>Es fácil de comprender y utilizar.</li>
+<li>Es escalable: podemos incluir varios idiomas en el combo desplegable sin afectar al resto de la interfaz.</li>
 </ul>
 
 <h4>Ejemplo</h4>
@@ -182,7 +182,7 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9. Autocomplete (Suggest)</h3>
+<h3>9. Autocompletar (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
 
@@ -214,7 +214,23 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>9. Presentación de datos en tabla (Grid)</h3>
+<h3>11. Botonera de opciones</h3>
+
+Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
+
+<h4>Usar cuando</h4>La botonera general se deberá utilizar para mostrar un menú genérico de opciones que afecten a toda la aplicación mientras que la botonera local deberá utilizarse para mostrar un menú propio de una página o contenido de la aplicación.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema de menús muy conocido por todos los usuarios.</li>
+<li>Es muy facil de usar.</li>
+<li>Es una solución válida tanto para crear menús generales de la aplicación como menús que ejecuten acciones sobre elementos en pantalla.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>12. Presentación de datos en tabla</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -232,7 +248,7 @@ TODO. Pegar Ejemplo
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
-<h3>9.1. Paginación</h3>
+<h3>12.1. Paginación</h3>
 
 Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
 
@@ -247,7 +263,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9.2. Ordenación de filas</h3>
+<h3>12.2. Ordenación de filas</h3>
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
 
@@ -263,7 +279,7 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9.3. Ordenación de columnas</h3>
+<h3>12.3. Ordenación de columnas</h3>
 
 Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
 
@@ -280,7 +296,7 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9.4. Selección e interacción con elementos</h3>
+<h3>12.4. Selección e interacción con elementos</h3>
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
 
@@ -297,7 +313,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9.5. Filtrado</h3>
+<h3>12.5. Filtrado/Búsqueda</h3>
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -316,7 +332,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>10. Mantenimiento con formulario</h3>
+<h3>13. Mantenimiento con formulario</h3>
 
 Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
 
@@ -343,7 +359,7 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>11. Mantenimiento con creación y edición en celda</h3>
+<h3>14. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
 
@@ -363,7 +379,7 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>12. Diálogos</h3>
+<h3>15. Diálogos</h3>
 
 Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
@@ -395,7 +411,7 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>Feedback</h3>
+<h3>16. Feedback</h3>
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
@@ -439,32 +455,4 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h3></h3>
-
-<h4>Usar cuando</h4>
-
-<h4>Por qué</h4>
-<ul>
-<li></li>
-<li></li>
-</ul>
-
-<h4>Ejemplo</h4>
-TODO. Pegar Ejemplo   
+TODO. Pegar Ejemplo
