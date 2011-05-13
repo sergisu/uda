@@ -198,23 +198,7 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>10. Controles dependientes</h3>
-Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
-
-<h4>Usar cuando</h4>Cuando tengamos que mostrar muchos elementos categorizados en un espacio reducido de la interfaz.
-
-También puede ser útil como componente para crear accesos rápidos a partes de la aplicación que nos interese destacar.
-
-<h4>Por qué</h4>
-<ul>
-<li>Una vez se conoce su funcionamiento es muy rápido y fácil de usar.</li>
-<li>Optimiza espacio en la interfaz ya que podemos incluirlo en espacios reducidos.</li>
-</ul>
-
-<h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
-
-<h3>11. Botonera de opciones</h3>
+<h3>10. Botonera de opciones</h3>
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
 
@@ -230,7 +214,7 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12. Presentación de datos en tabla</h3>
+<h3>11. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -248,7 +232,7 @@ TODO. Pegar Ejemplo
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
-<h3>12.1. Paginación</h3>
+<h3>11.1. Paginación</h3>
 
 Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
 
@@ -263,7 +247,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.2. Ordenación de filas</h3>
+<h3>11.2. Ordenación de filas</h3>
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
 
@@ -279,7 +263,7 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.3. Ordenación de columnas</h3>
+<h3>11.3. Ordenación de columnas</h3>
 
 Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
 
@@ -296,7 +280,7 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.4. Selección e interacción con elementos</h3>
+<h3>11.4. Selección e interacción con elementos</h3>
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
 
@@ -313,7 +297,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.5. Filtrado/Búsqueda</h3>
+<h3>11.5. Filtrado/Búsqueda</h3>
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -332,7 +316,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>13. Mantenimiento con formulario</h3>
+<h3>12. Mantenimiento con formulario</h3>
 
 Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
 
@@ -359,7 +343,7 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>14. Mantenimiento con creación y edición en celda</h3>
+<h3>13. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
 
@@ -375,6 +359,26 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 <li>Agiliza mucho la interacción.</li>
 <li>La interacción se produce en contexto.</li>
 </ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo
+
+<h3>14. Mantenimiento maestro-detalle</h3>
+
+Permite al usuario realizar el mantenimiento de dos entidades de datos relacionadas en una sola ventana. Al seleccionar una fila de la tabla maestra se recargan las filas de la tabla detalle dependientes de la primera. 
+
+Este patrón se compone a su vez de la configuración de dos patrones de "mantenimiento con formulario" o de "mantenimiento con creación y edición en celda" o de una combinación de los dos.
+ 
+<h4>Usar cuando</h4>Cuando queramos ofrecer a los usuarios la posibilidad de crear, visualizar, editar o eliminar rápidamente los registros de dos tablas relacionadas bajo la misma entidad de datos.
+
+Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedido, y las líneas de detalle de los productos incluidos en el  pedido.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema sencillo y rápido para editar y crear registros.</li>
+<li>Agiliza mucho la interacción.</li>
+<li>La interacción se produce en contexto.</li>
+<li>Permite crear, visualizar, editar o eliminar uno o varios registros en una misma pantalla sin tener que moverse continuamente entre la tabla y la pantalla de creación.</li></ul>
 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
