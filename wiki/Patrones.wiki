@@ -383,6 +383,7 @@ En general, no se debe abusar de los diálogos modales. Se deben utilizar en cas
 Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantalla principal pero para añadir una imagen o un elemento multimedia se lanza una ventana modal. Así, no sacamos al usuario del proceso principal, le hacemos ver que está trabajando en un subproceso y le ofrecemos opciones de contenido bajo demanda sin saturar la interfaz de opciones y campos.</li>
 
 <li>Ampliación de imágenes: Cuando el usuario quiera ver una imagen o una galería ampliadas, en vez de mostrárselas en páginas o ventanas nuevas podemos hacerlo en una ventana modal en la que se pueda navegar entre las imágenes si es una galería.</li>
+</ul>
 
 <h4>Por qué</h4>
 <ul>
@@ -398,12 +399,42 @@ TODO. Pegar Ejemplo
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
-<h4>Usar cuando</h4>
+Algunas funcionalidades definidas en este patrón se implementan con el mismo componente que se ha creado para el patrón de "diálogos".
+
+<h4>Usar cuando</h4>Cuando el usuario tenga una necesidad de información ya sea por cambios en el sistema, ejecución de procesos, realización de tareas o confirmación de acciones.
+
+En concreto, los principales tipos de feedback que tenemos que considerar son los siguientes:
+
+<ul>
+<li>Mensajes de sistema o informativos: Se debe mostrar un mensaje en una zona visible cuando se produzca un cambio, noticia o actualización en el sistema que sea suficientemente interesante para los usuarios. No se debe mostrar mensajes para cada cambio en el sistema, sólo para los cambios que tengan importancia.</li>
+
+Si es crítico que los usuarios vean el mensaje es mejor lanzarlo en un diálogo modal para asegurarnos de que lo ve (ver patrón 2.6. Diálogos)
+
+<li>Mensajes de confirmación:Cuando un usuario realice una acción correctamente o un proceso se lleve a cabo sin incidencias hay que informar al usuario mediante un mensaje en pantalla.
+
+Si la confirmación es sobre una acción importante que está realizando un usuario y lo que queremos es informarle de sus consecuencias antes de que la realice debemos lanzarle una ventana modal para asegurarnos de que ve el aviso. Por ejemplo, en una aplicación que envía un newsletter a toda la base de datos de clientes cuando el usuario pulse en "Enviar Newsletter" deberemos lanzarle una ventana modal para que confirme la acción ya que es una acción que no se puede deshacer.
+
+Tras realizar la acción en la ventana modal se deberá mostrar un mensaje de feedback de confirmación o error en la parte superior del área de contenido de la pantalla principal.</li>
+
+<li>Mensajes de error y aviso: También tenemos que informarle cuando realice acciones de forma incorrecta o se produzca algún error en la aplicación.
+
+Hay que distinguir los errores graves de las acciones o situaciones que requieren avisar al usuario. En general, los errores estarán mas relacionados con errores del sistema como fallos del servidor al enviar un formulario, y los avisos con acciones incorrectas del usuario como al rellenar un formulario.</li>
+
+<li>Feedback de formularios y edición: Cuando el usuario rellene un formulario se le debe ofrecer un feedback continuo para agilizar la interacción y reducir las posibilidades de que cometa errores. Además, se le debe ofrecer feedback de estado cuando lo envíe y de confirmación o error cuando le sea devuelto.</li>
+
+<li>Estado de un proceso: Cuando se está procesando una acción (subiéndose un archivo, cargándose una página, etc.) debemos informar al usuario de su estado.</li>
+
+<li>Mensajes previos / previsualización: También es importante informar al usuario de las consecuencias que tendrá el llevar a cabo una acción antes de realizarla. Por ejemplo, si está asignando una persona de contacto a un curso y no se puede cambiar posteriormente esa información sin contactar con un mando superior se debe avisar de ello al usuario.
+
+Si las posibles consecuencias son muy graves o no hay posibilidad de corregirlas (como en el ejemplo del envío del newsletter a la base de datos de los clientes) se debe lanzar el aviso en una ventana modal para asegurarnos de que es consciente de las consecuencias de la acción antes de realizarla.</li>
+
+También puede ser útil mostrar previsualizaciones antes de realizar ciertas acciones como guardar una foto en un perfil, imprimir un documento, etc.
 
 <h4>Por qué</h4>
 <ul>
-<li></li>
-<li></li>
+<li>Todas las aplicaciones necesitan informar a los usuarios del estado del sistema y del resultado de sus acciones.</li>
+<li>El feedback siempre se proporciona integrado con el elemento al que afecta o directamente tras realizar una acción por lo que la relación entre acción y efecto queda siempre clara.</li>
+<li>Mejora la experiencia de uso y reduce al mínimo la frustración al usar la aplicación ya que los mensajes se ofrecen en un lenguaje inteligible para los usuarios y les proporcionan posibles vías de solución a los problemas. Además, se trata de evitar la aparición de problemas antes de que estos se produzcan.</li>
 </ul>
 
 <h4>Ejemplo</h4>
