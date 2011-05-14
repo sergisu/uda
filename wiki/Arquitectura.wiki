@@ -52,7 +52,8 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 </li>
 
 </ul>
-<img src="http://uda.googlecode.com/svn/wiki/images/Arquitectura-conceptual-capas.png"/>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/Arquitectura-conceptual-capas2.png"/>
 
 <h1>Tecnologías asociadas</h1>
 
