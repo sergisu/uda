@@ -64,7 +64,10 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
+
+TODO. Documento
 
 <h3>2. Menús de navegación</h3>
 
@@ -80,7 +83,11 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menús.png"/>
+
+TODO. Documento
+
 
 <h3>3. Pestañas de navegación</h3>
 
@@ -95,7 +102,10 @@ Menú de navegación de la aplicación que divide ésta en secciones claramente 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
+
+TODO. Documento
 
 <h3>4. Migas de pan</h3>
 
@@ -115,7 +125,10 @@ Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/migas.png"/>
+
+TODO. Documento
 
 <h3>5. Selección de idioma</h3>
 
@@ -131,7 +144,10 @@ El usuario puede elegir de forma sencilla el idioma en el que se le presenta la 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/idioma.png"/>
+
+TODO. Documento
 
 <h3>6. Fechas</h3>
 
@@ -148,7 +164,10 @@ Este patrón también contempla la posibilidad de poder seleccionar más de una 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/fechas.png"/>   <img src="http://uda.googlecode.com/svn/wiki/images/fechas-multiples.png"/>
+
+TODO. Documento
 
 <h3>7. Intervalos de fechas</h3>
 
@@ -164,7 +183,10 @@ El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo d
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/intervalos-fechas.png"/>
+
+TODO. Documento
 
 <h3>8. Horas</h3>
 
@@ -179,7 +201,10 @@ El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas p
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/horas.png"/>
+
+TODO. Documento
 
 <h3>9. Controles dependientes (Combos)</h3>
 
@@ -196,7 +221,10 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/combos.png"/>
+
+TODO. Documento
 
 <h3>10. Autocompletar (Suggest)</h3>
 
@@ -212,7 +240,10 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/autocompletar.png"/>
+
+TODO. Documento
 
 <h3>11. Ayuda (Tooltip)</h3>
 
@@ -230,7 +261,10 @@ Este tipo de ayuda es muy útil para todos los usuarios pero especialmente para 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tooltip.png"/>
+
+TODO. Documento
 
 <h3>12. Botonera de opciones</h3>
 
@@ -246,7 +280,10 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/botonera.png"/>
+
+TODO. Documento
 
 <h3>13. Presentación de datos en tabla (Grid)</h3>
 
@@ -262,7 +299,10 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla.png"/>
+
+TODO. Documento
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
@@ -279,7 +319,10 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-paginación.png"/>
+
+TODO. Documento
 
 <h3>13.2. Ordenación de filas</h3>
 
@@ -295,7 +338,10 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación.png"/>
+
+TODO. Documento
 
 <h3>13.3. Ordenación de columnas</h3>
 
@@ -312,7 +358,10 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación-columnas.png"/>
+
+TODO. Documento
 
 <h3>13.4. Selección e interacción con elementos</h3>
 
@@ -329,7 +378,10 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-multiselección.png"/>
+
+TODO. Documento
 
 <h3>13.5. Filtrado/Búsqueda</h3>
 
@@ -348,7 +400,10 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
+
+TODO. Documento
 
 <h3>14. Mantenimiento con formulario</h3>
 
@@ -375,7 +430,10 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-formulario.png"/>
+
+TODO. Documento
 
 <h3>15. Mantenimiento con creación y edición en celda</h3>
 
@@ -395,7 +453,10 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-editable.png"/>
+
+TODO. Documento
 
 <h3>16. Mantenimiento maestro-detalle</h3>
 
@@ -415,7 +476,10 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 <li>Permite crear, visualizar, editar o eliminar uno o varios registros en una misma pantalla sin tener que moverse continuamente entre la tabla y la pantalla de creación.</li></ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-maestro-detalle.png"/>
+
+TODO. Documento
 
 <h3>17. Diálogos</h3>
 
@@ -447,7 +511,10 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-diálogo.png"/>    <img src="http://uda.googlecode.com/svn/wiki/images/mensaje-error.png"/>
+
+TODO. Documento
 
 <h3>18. Feedback</h3>
 
@@ -493,4 +560,7 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 </ul>
 
 <h4>Ejemplo</h4>
-TODO. Pegar Ejemplo
+
+<img src="http://uda.googlecode.com/svn/wiki/images/feedback.png"/>
+
+TODO. Documento
