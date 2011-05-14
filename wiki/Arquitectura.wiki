@@ -25,7 +25,7 @@ La arquitectura también cubre la relación entre aplicaciones, es decir,  la fo
 
 Como punto de partida de la definición de la arquitectura conceptual es necesario cumplir con los requerimientos o características más habituales: fomentar la Productividad del desarrollador, reutilización de código, rendimiento, escalabilidad, fiabilidad, disponibilidad, extensibilidad, mantenibilidad, fácil manejo, y seguridad.
 
-== Capas
+== Capas ==
 
 Dentro del desarrollo de aplicaciones software, en este caso dirigido fundamentalmente al desarrollo de aplicaciones web, existen tareas de muy diferente índole, por ejemplo: la creación del interface gráfico, la persistencia y consulta de datos, etc.
 
