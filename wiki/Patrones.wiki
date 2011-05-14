@@ -137,6 +137,8 @@ TODO. Pegar Ejemplo
 
 El usuario puede introducir manualmente una fecha o seleccionarla de un calendario moviéndose por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
 
+Este patrón también contempla la posibilidad de poder seleccionar más de una fecha en un mismo campo.
+
 <h4>Usar cuando</h4>Cuando el usuario tenga que introducir una fecha y queramos darle flexibilidad para escribirla manualmente o seleccionándola de un calendario.
 
 <h4>Por qué</h4>
