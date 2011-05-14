@@ -31,7 +31,7 @@ Ayuda a la entrada de datos: <i>Ayude a los usuarios a evitar y corregir errores
 En cualquier caso, debido a la multitud de problemas de accesibilidad que se pueden dar y a la propia naturaleza a veces poco accesible de las tecnologías RIA, puede haber patrones difícilmente accesibles.
 
 <h2>Tecnología de desarrollo</h2>
-Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework JavaScript [http://jquery.com/ jQuery], aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
+Con el fin de reducir al máximo la curva de aprendizaje en el uso de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, todos los patrones de interacción propuestos han sido desarrollados con el framework JavaScript [http://jquery.com/ jQuery], aprovechando en todos los casos los plugins ya desarrollados por la comunidad.
 
 En general, jQuery es fácil de aprender y tiene un estilo de programación casi coloquial, lo que permite conseguir resultados  rápidamente sin tener que aprender las partes más complejas de JavaScript. 
 
@@ -143,7 +143,6 @@ El usuario puede introducir manualmente una fecha o seleccionarla de un calendar
 <ul>
 <li>Vale tanto a usuarios avanzados (eficiencia) como a novatos (sencillez).</li>
 <li>La forma de introducir la fecha es flexible: unos usuarios preferirán escribirla a mano y otros seleccionarla del calendario.</li>
-<li>Manejo independiente de dispositivo: se puede usar tanto el ratón como el teclado.</li>
 </ul>
 
 <h4>Ejemplo</h4>
@@ -165,7 +164,22 @@ El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo d
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>8. Controles dependientes (Combos)</h3>
+<h3>8. Horas</h3>
+
+El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas para minimizar las posibilidades de que introduzca una hora incorrecta.
+
+<h4>Usar cuando</h4>Cuando el usuario tenga que introducir una hora y queramos darle flexibilidad para escribirla manualmente o bien de manera asistida.
+
+<h4>Por qué</h4>
+<ul>
+<li>Vale tanto a usuarios avanzados (eficiencia) como a novatos (sencillez).</li>
+<li>La forma de introducir la hora es flexible: unos usuarios preferirán escribirla a mano y otros seleccionarla.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+TODO. Pegar Ejemplo 
+
+<h3>9. Controles dependientes (Combos)</h3>
 
 Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
 
@@ -182,7 +196,7 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>9. Autocompletar (Suggest)</h3>
+<h3>10. Autocompletar (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
 
@@ -198,7 +212,7 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>10. Ayuda (Tooltip)</h3>
+<h3>11. Ayuda (Tooltip)</h3>
 
 Proporciona distintos tipos y niveles de ayuda adaptados a las distintas necesidades de los usuarios y que facilitan el aprendizaje progresivo de la aplicación.
 
@@ -216,7 +230,7 @@ Este tipo de ayuda es muy útil para todos los usuarios pero especialmente para 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>11. Botonera de opciones</h3>
+<h3>12. Botonera de opciones</h3>
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
 
@@ -232,7 +246,7 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12. Presentación de datos en tabla (Grid)</h3>
+<h3>13. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -250,7 +264,7 @@ TODO. Pegar Ejemplo
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
-<h3>12.1. Paginación</h3>
+<h3>13.1. Paginación</h3>
 
 Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
 
@@ -265,7 +279,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.2. Ordenación de filas</h3>
+<h3>13.2. Ordenación de filas</h3>
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
 
@@ -281,7 +295,7 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.3. Ordenación de columnas</h3>
+<h3>13.3. Ordenación de columnas</h3>
 
 Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
 
@@ -298,7 +312,7 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.4. Selección e interacción con elementos</h3>
+<h3>13.4. Selección e interacción con elementos</h3>
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
 
@@ -315,7 +329,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo 
 
-<h3>12.5. Filtrado/Búsqueda</h3>
+<h3>13.5. Filtrado/Búsqueda</h3>
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -334,7 +348,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>13. Mantenimiento con formulario</h3>
+<h3>14. Mantenimiento con formulario</h3>
 
 Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
 
@@ -361,7 +375,7 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>14. Mantenimiento con creación y edición en celda</h3>
+<h3>15. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
 
@@ -381,7 +395,7 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>15. Mantenimiento maestro-detalle</h3>
+<h3>16. Mantenimiento maestro-detalle</h3>
 
 Permite al usuario realizar el mantenimiento de dos entidades de datos relacionadas en una sola ventana. Al seleccionar una fila de la tabla maestra se recargan las filas de la tabla detalle dependientes de la primera. 
 
@@ -401,7 +415,7 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>16. Diálogos</h3>
+<h3>17. Diálogos</h3>
 
 Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
@@ -433,7 +447,7 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <h4>Ejemplo</h4>
 TODO. Pegar Ejemplo
 
-<h3>17. Feedback</h3>
+<h3>18. Feedback</h3>
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
