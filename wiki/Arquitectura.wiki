@@ -11,8 +11,6 @@ El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la
 
 Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
 
-[http://code.google.com/p/uda/wiki/Arquitectura#capas Capas]
-
 <h2>Principios fundamentales</h2>
 
 La arquitectura conceptual definida debe facilitar el proceso de desarrollo de aplicaciones web, aumentando al máximo la productividad de los desarrolladores. Tratamos además de reutilizar, de mantener las cosas simples, no limitar la evolución e independizar la solución de las tecnologías en la medida de lo posible. En definitiva estamos describiendo un sistema basado en componentes reutilizables que unidos a generadores de código nos permitan producir software de calidad con poco esfuerzo.
