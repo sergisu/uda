@@ -11,7 +11,7 @@ El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la
 
 Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
 
-[Arquitectura#Capas]
+[http://code.google.com/p/uda/wiki/Arquitectura#Capas]
 
 <h2>Principios fundamentales</h2>
 
