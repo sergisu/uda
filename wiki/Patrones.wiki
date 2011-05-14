@@ -165,7 +165,9 @@ Este patrón también contempla la posibilidad de poder seleccionar más de una 
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/fechas.png"/>                    <img src="http://uda.googlecode.com/svn/wiki/images/fechas-multiples.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/fechas.png"/>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/fechas-multiples.png"/>
 
 TODO. Documento
 
@@ -512,7 +514,9 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-diálogo.png"/>    <img src="http://uda.googlecode.com/svn/wiki/images/mensaje-error.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-diálogo.png"/>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-error.png"/>
 
 TODO. Documento
 
