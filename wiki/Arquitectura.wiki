@@ -1,7 +1,7 @@
 #summary Arquitectura conceptual y tecnologías asociadas
 #labels Phase-Design,Featured
 
-Para poder decidir que deben generar los asistentes de <img src="http://uda.googlecode.com/wiki/images/uda-mini-micro2.png"/>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <img src="http://uda.googlecode.com/wiki/images/uda-mini-micro2.png"/> siguen siempre una arquitectura predefinida.
+Para poder decidir que deben generar los asistentes de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> siguen siempre una arquitectura predefinida.
 
 <h1>Arquitectura conceptual</h1> 
 
@@ -9,7 +9,7 @@ Entendemos como arquitectura conceptual al proceso de definición de la arquitec
 
 El hecho de intentar trabajar sobre ideas o patrones en primer lugar facilita la sustitución de las tecnologías seleccionadas en primera instancia. Además simplifica el desarrollo de aplicaciones al trabajar sobre conceptos funcionales y no sobre tecnologías concretas. Por ejemplo, dentro de la definición de la arquitectura conceptual podemos hablar de que queremos una arquitectura local o que es necesario aislar cada módulo mediante interfaces (sin depender de la implementación) evitando en lo posible la forma o el lenguaje en el que se implementará posteriormente.
 
-Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <img src="http://uda.googlecode.com/wiki/images/uda-mini-micro2.png"/> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
+Con el objetivo de que la arquitectura conceptual que se defina para los sistemas generados con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> sea fácil de entender, se ha procurado tomar como referencia el estándar de descripción marcado por el modelo IEEE "Recommended Practice for Architectural Description of Software Intensive Systems", completándolo en algún caso por otras aportaciones más concretas y prácticas.
 
 <h2>Principios fundamentales</h2>
 
@@ -52,7 +52,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 </li>
 
 </ul>
-<img src="http://uda.googlecode.com/wiki/images/Arquitectura-conceptual-capas.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/Arquitectura-conceptual-capas.png"/>
 
 <h1>Tecnologías asociadas</h1>
 
