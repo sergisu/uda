@@ -322,7 +322,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/tabla-paginación.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/paginación.png"/>
 
 TODO. Documento
 
