@@ -568,3 +568,7 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 <img src="http://uda.googlecode.com/svn/wiki/images/feedback.png"/>
 
 TODO. Documento
+
+<br/>
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a>
+<p>[http://code.google.com/p/uda/ UDA - Utilidades de desarrollo de aplicaciones] by [http://www.ejie.net/ EJIE] is licensed under a [http://creativecommons.org/licenses/by-nc-sa/3.0/ Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 Unported License].
