@@ -1,14 +1,6 @@
 #summary Instalar y configurar.
+#labels Phase-Deploy,Featured
 
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> siguen siempre una arquitectura predefinida.
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+<h1>Arquitectura conceptual</h1> 
