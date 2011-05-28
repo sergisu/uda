@@ -9,7 +9,7 @@ La forma más sencilla y rápida es instalar el entorno de desarrollo Eclipse co
 
 Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
-<li>Oracle Weblogic 11g</li>
+<li>Oracle Weblogic Server 11g</li>
 <ul>
 <li>Instalar el servidor de aplicaciones</li>
 <li>Crear un dominio de desarrollo</li>
@@ -27,16 +27,35 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 
 Una vez instalados todos estos elementos, se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
 <ul>
-<li>Activando la perspectiva "JavaEE", dar de alta un nuevo servidor de aplicaciones. En la pestaña "Servers", con botón derecho activar "New>Server", configurando el Oracle Weblogic 11g instalado previamente</li>
+<li>Activando la perspectiva "JavaEE", dar de alta un nuevo servidor de aplicaciones. En la pestaña "Servers", con botón derecho, activar "New>Server", configurando el "Oracle Weblogic Server 11g" instalado previamente</li>
 <li>En la ventana "Window>Preferences":</li>
 <ul>
 <li>Acceder a "General>Workspace", y establecer el "Text file encoding" a "UTF-8"</li>
+<li>Acceder a "General>Workspace>Content Types". Para los de tipo "Text", pulsando "Update", establecer como "Default enconding" el "UTF-8". Repetir este paso para los subtipos "Java Properties Files" y "JSP"</li>
+<li>Acceder a "General>Web>CSS Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "General>Web>HTML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "General>Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "General>XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default" para:</li>
+<ul>
+<li>*.jsp > JSP Editor</li>
+<li>*.properties > Resource Bundle</li>
+</ul>
+
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero "UDAWLS11Classpath.userlibraries" suministrado</li>
+<li> para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
+<li>Acceder a "Checkstyle" y pulsando en "New..." rellenar la nueva ventana con los siguientes datos:</li>
+<ul>
+<li>Type: External configuration file</li>
+<li>Name: UDA Checkstyle Project</li>
+<li>Location: ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml
 </ul>
-
-
+Seleccionar la nueva configuración y pulsar "Set as Default"
+<li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
+<li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
+<li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 </ul>
- 
-
+</ul>
+Para más detalle se recomienda consultar el documento "Instalacion_PC_local_WLS11_proveedores.pdf".  
 
 <h2>Asistentes (Plugin Eclipse)</h2>
