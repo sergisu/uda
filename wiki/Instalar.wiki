@@ -3,15 +3,15 @@
 
 <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ofrece dos posibles formas para empezar a trabajar y crear aplicaciones rápidamente:
 
-<h2>Entorno de desarrollo (IDE Eclipse)</h2>
+<h2>Entorno de desarrollo (IDE Eclipse para Windows)</h2>
 
 La forma más sencilla y rápida es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
 
 Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
-<li>Oracle Weblogic 11g:</li>
+<li>Oracle Weblogic 11g</li>
 <ul>
-<li>El servidor de aplicaciones</li>
+<li>Instalar el servidor de aplicaciones</li>
 <li>Crear un dominio de desarrollo</li>
 <li>Configurar su integración con XLNets (sistema de seguridad)</li>
 </ul>
@@ -22,7 +22,22 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>Descomprimir el repositorio suministrado, el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> x38ShLibClasses, y de XLNetS (n38a, n38c y n38i), evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
-<li>Librerías de infraestructura </li>
+<li>Librerías de infraestructura, necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero usr.rar en la unidad de disco seleccionada</li>
+
+Una vez instalados todos estos elementos, se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar",  arrancarlo, y seguir los siguientes pasos:
+</ul>
+
+<li>Activando la perspectiva "JavaEE", dar de alta un nuevo servidor de aplicaciones. En la pestaña "Servers", con botón derecho activar "New>Server", definiendo en este caso el Oracle Weblogic 11g instalado previamente</li>
+<li>En la ventana "Window>Preferences":</li>
+<ul>
+<li>Acceder a "General>Workspace", y establecer el "Text file encoding" a "UTF-8"</li>
+<li>Acceder a "Java>Build path>User Libraries" e importar el fichero "UDAWLS11Classpath.userlibraries" suministrado</li>
+</ul>
+
+
+</ul> 
+
+
 
 </ul>
  
