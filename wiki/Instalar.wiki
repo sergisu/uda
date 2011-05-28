@@ -9,7 +9,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <ul>
 <li>Instalar el servidor de aplicaciones</li>
 <li>Crear un dominio de desarrollo</li>
-<li>Configurar su integración con XLNets (sistema de seguridad)</li>
+<li>Configurar su integración con XLNets (sistema de seguridad estándar de EJIE-GV)</li>
 </ul>
 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
