@@ -522,7 +522,7 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 
 <img src="http://uda.googlecode.com/svn/wiki/images/feedback.png"/>
 
-Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar documentación].
+Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la sección [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar "patrones" de la documentación] sumnistrada.
 
 <br/>
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a>
