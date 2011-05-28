@@ -36,7 +36,7 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Acceder a "General>Web>HTML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
-<li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros "*.jsp > JSP Editor" y para "*.properties > Resource Bundle"</li>
+<li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros "'*'.jsp > JSP Editor" y para "'*'.properties > Resource Bundle"</li>
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero "UDAWLS11Classpath.userlibraries" suministrado</li>
 <li> para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
 <li>Acceder a "Checkstyle" y pulsando en "New..." rellenar la nueva ventana con los siguientes datos:</li>
