@@ -42,7 +42,7 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Location: ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
 </ul>
 Seleccionar la nueva configuración y pulsar "Set as Default"
-<li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
+<li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_PMDconfig.xml</li>
 <li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
 <li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 </ul>
