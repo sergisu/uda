@@ -18,7 +18,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>Descomprimir el repositorio suministrado, el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> x38ShLibClasses, y de XLNetS (n38a, n38c y n38i), evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
-<li>Librerías de infraestructura, necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero usr.rar en la unidad de disco seleccionada</li>
+<li>Librerías de infraestructura, necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero "usr.rar" en la unidad de disco seleccionada</li>
 </ul>
 
 Una vez instalados todos estos elementos, se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
