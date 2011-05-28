@@ -46,6 +46,7 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 <li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
 <li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 </ul>
+</ul>
 
 También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento "Instalacion_PC_local_WLS11_proveedores.pdf" .
 
