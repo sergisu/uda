@@ -3,6 +3,20 @@
 
 <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ofrece dos posibles formas para empezar a trabajar y crear aplicaciones rápidamente:
 
-<h1>Entorno de desarrollo (IDE Eclipse)</h1>
+<h2>Entorno de desarrollo (IDE Eclipse)</h2>
 
-<h1>Asistentes (Plugin Eclipse)</h1>
+La forma más sencilla y rápida es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
+
+Si se van a realizar desarrollos para el entorno de EJIE-GV deberás instalar previamente:
+<ul>
+<li>Oracle Weblogic 11g:</li>
+<ul>
+<li>El servidor de aplicaciones</li>
+</ul>
+
+<li>Maven versión 2.0.9 o superior (se ha validado también con la versión 3). Por supuesto configurando al menos las variables de entorno M2_HOME y M2_REPO</li>
+<li>Si te descargas el repositorio de librerías, evitarás  
+</ul> 
+
+
+<h2>Asistentes (Plugin Eclipse)</h2>
