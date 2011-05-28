@@ -38,19 +38,19 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Acceder a "General>XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros ".jsp > JSP Editor" y para los ".properties > Resource Bundle"</li>
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero "UDAWLS11Classpath.userlibraries" suministrado</li>
-<li> para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
+<li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
 <li>Acceder a "Checkstyle" y pulsando en "New..." rellenar la nueva ventana con los siguientes datos:</li>
 <ul>
 <li>Type: External configuration file</li>
 <li>Name: UDA Checkstyle Project</li>
-<li>Location: ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml
+<li>Location: ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
 </ul>
 Seleccionar la nueva configuración y pulsar "Set as Default"
 <li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
 <li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
 <li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 </ul>
-</ul>
+
 Para más detalle se recomienda consultar el documento "Instalacion_PC_local_WLS11_proveedores.pdf".  
 
 <h2>Asistentes (Plugin Eclipse)</h2>
