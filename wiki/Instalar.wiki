@@ -52,8 +52,8 @@ También es posible que ya se tengan instalados previamente todos o parte de los
 
 En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall.v1.0.0.rar "plugin UDA"], recuerde que deberá instalar también:
 <ul>
-<li>[http://uda.googlecode.com/files/addonsPluginUDA.v1.0.0.rar Las extensiones de Hibernate Tools]</li>
-<li>[http://uda.googlecode.com/files/templates.v1.0.0.rar Las plantillas de generación de código]</li>
+<li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.0.0.rar extensiones de Hibernate Tools]</li>
+<li>Las [http://uda.googlecode.com/files/templates.v1.0.0.rar plantillas de generación de código]</li>
 <li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar "x38ShLibClasses-x.x.jar"]</li>
 </ul> 
 
