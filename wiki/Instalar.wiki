@@ -12,9 +12,16 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV deberás instalar pr
 <li>Oracle Weblogic 11g:</li>
 <ul>
 <li>El servidor de aplicaciones</li>
+<li>Un dominio de desarrollo</li>
+<li>Y configurar su integración con XLNets (sistema de seguridad)</li>
 </ul>
 
-<li>Maven versión 2.0.9 o superior (se ha validado también con la versión 3). Por supuesto configurando al menos las variables de entorno M2_HOME y M2_REPO</li>
+<li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)
+<ul>
+<li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
+<li>Descomprimir el repositorio suministrado, el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> x38ShLibClasses, y de XLNetS, evitará una descrga de todas las librerías   necesarias desde Internet </li>
+</ul>
+</li>
 <li>Si te descargas el repositorio de librerías, evitarás  
 </ul> 
 
