@@ -1,7 +1,7 @@
 #summary Instalar y configurar.
 #labels Phase-Deploy,Featured
 
-La forma más sencilla y rápida para empezar a trabajar y crear aplicaciones rápidamente con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
+La forma más sencilla y rápida para empezar a trabajar y crear aplicaciones rápidamente con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> es instalar el entorno de desarrollo Eclipse Helios completo suministrado, el cual ya tiene contiene todos los plugins necesarios, así como las plantillas de generación de código.
 
 Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
@@ -47,4 +47,6 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 <li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 </ul>
 
-Para más detalle se recomienda consultar el documento "Instalacion_PC_local_WLS11_proveedores.pdf".  
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento "Instalacion_PC_local_WLS11_proveedores.pdf" .
+
+Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV, se recomienda adaptar las plantillas suministradas a su contenedor preferido  
