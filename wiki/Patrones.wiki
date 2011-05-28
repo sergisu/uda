@@ -67,8 +67,6 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 
 <img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
 
-TODO. Documento
-
 <h3>2. Menús de navegación</h3>
 
 Menú de la aplicación mantenido a lo largo de todas las páginas de forma consistente, que muestra entradas directas a secciones clave de la aplicación.
@@ -86,9 +84,6 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 
 <img src="http://uda.googlecode.com/svn/wiki/images/menús.png"/>
 
-TODO. Documento
-
-
 <h3>3. Pestañas de navegación</h3>
 
 Menú de navegación de la aplicación que divide ésta en secciones claramente excluyentes entre sí y da acceso a ellas.
@@ -104,8 +99,6 @@ Menú de navegación de la aplicación que divide ésta en secciones claramente 
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
-
-TODO. Documento
 
 <h3>4. Migas de pan</h3>
 
@@ -128,8 +121,6 @@ Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/migas.png"/>
 
-TODO. Documento
-
 <h3>5. Selección de idioma</h3>
 
 El usuario puede elegir de forma sencilla el idioma en el que se le presenta la aplicación.
@@ -146,8 +137,6 @@ El usuario puede elegir de forma sencilla el idioma en el que se le presenta la 
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/idioma.png"/>
-
-TODO. Documento
 
 <h3>6. Fechas</h3>
 
@@ -169,8 +158,6 @@ Este patrón también contempla la posibilidad de poder seleccionar más de una 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/fechas-multiples.png"/>
 
-TODO. Documento
-
 <h3>7. Intervalos de fechas</h3>
 
 El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo de un calendario por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
@@ -188,8 +175,6 @@ El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo d
 
 <img src="http://uda.googlecode.com/svn/wiki/images/intervalos-fechas.png"/>
 
-TODO. Documento
-
 <h3>8. Horas</h3>
 
 El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas para minimizar las posibilidades de que introduzca una hora incorrecta.
@@ -205,8 +190,6 @@ El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas p
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/horas.png"/>
-
-TODO. Documento
 
 <h3>9. Controles dependientes (Combos)</h3>
 
@@ -226,8 +209,6 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 
 <img src="http://uda.googlecode.com/svn/wiki/images/combos.png"/>
 
-TODO. Documento
-
 <h3>10. Autocompletar (Suggest)</h3>
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
@@ -244,8 +225,6 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/autocompletar.png"/>
-
-TODO. Documento
 
 <h3>11. Ayuda (Tooltip)</h3>
 
@@ -266,8 +245,6 @@ Este tipo de ayuda es muy útil para todos los usuarios pero especialmente para 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tooltip.png"/>
 
-TODO. Documento
-
 <h3>12. Botonera de opciones</h3>
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
@@ -285,8 +262,6 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 
 <img src="http://uda.googlecode.com/svn/wiki/images/botonera.png"/>
 
-TODO. Documento
-
 <h3>13. Presentación de datos en tabla (Grid)</h3>
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
@@ -303,8 +278,6 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla.png"/>
-
-TODO. Documento
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
@@ -324,8 +297,6 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 
 <img src="http://uda.googlecode.com/svn/wiki/images/paginación.png"/>
 
-TODO. Documento
-
 <h3>13.2. Ordenación de filas</h3>
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
@@ -342,8 +313,6 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación.png"/>
-
-TODO. Documento
 
 <h3>13.3. Ordenación de columnas</h3>
 
@@ -363,8 +332,6 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación-columnas.png"/>
 
-TODO. Documento
-
 <h3>13.4. Selección e interacción con elementos</h3>
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
@@ -382,8 +349,6 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-multiselección.png"/>
-
-TODO. Documento
 
 <h3>13.5. Filtrado/Búsqueda</h3>
 
@@ -404,8 +369,6 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
-
-TODO. Documento
 
 <h3>14. Mantenimiento con formulario</h3>
 
@@ -435,8 +398,6 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-formulario.png"/>
 
-TODO. Documento
-
 <h3>15. Mantenimiento con creación y edición en celda</h3>
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
@@ -458,8 +419,6 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-editable.png"/>
 
-TODO. Documento
-
 <h3>16. Mantenimiento maestro-detalle</h3>
 
 Permite al usuario realizar el mantenimiento de dos entidades de datos relacionadas en una sola ventana. Al seleccionar una fila de la tabla maestra se recargan las filas de la tabla detalle dependientes de la primera. 
@@ -480,8 +439,6 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-maestro-detalle.png"/>
-
-TODO. Documento
 
 <h3>17. Diálogos</h3>
 
@@ -517,8 +474,6 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <img src="http://uda.googlecode.com/svn/wiki/images/mensaje-diálogo.png"/>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mensaje-error.png"/>
-
-TODO. Documento
 
 <h3>18. Feedback</h3>
 
@@ -567,7 +522,7 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 
 <img src="http://uda.googlecode.com/svn/wiki/images/feedback.png"/>
 
-TODO. Documento
+Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar documentación].
 
 <br/>
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a>
