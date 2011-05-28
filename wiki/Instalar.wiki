@@ -48,6 +48,6 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 </ul>
 </ul>
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento "Instalacion_PC_local_WLS11_proveedores.pdf" .
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento "Instalacion_PC_local_WLS11_proveedores.pdf" .
 
-Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV, se recomienda adaptar las plantillas suministradas a su contenedor preferido  
+Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV, se recomienda adaptar las plantillas suministradas a su contenedor preferido.  
