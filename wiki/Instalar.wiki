@@ -1,11 +1,7 @@
 #summary Instalar y configurar.
 #labels Phase-Deploy,Featured
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ofrece dos posibles formas para empezar a trabajar y crear aplicaciones rápidamente:
-
-<h2>Entorno de desarrollo (IDE Eclipse para Windows)</h2>
-
-La forma más sencilla y rápida es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
+La forma más sencilla y rápida para empezar a trabajar y crear aplicaciones rápidamente con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
 
 Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
@@ -52,5 +48,3 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 </ul>
 
 Para más detalle se recomienda consultar el documento "Instalacion_PC_local_WLS11_proveedores.pdf".  
-
-<h2>Asistentes (Plugin Eclipse)</h2>
