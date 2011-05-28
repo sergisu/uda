@@ -7,23 +7,25 @@
 
 La forma más sencilla y rápida es instalar el entorno de desarrollo Eclipse completo, el cual ya tiene instalados y configurados todos los plugins necesarios, así como las plantillas de generación de código.
 
-Si se van a realizar desarrollos para el entorno de EJIE-GV deberás instalar previamente:
+Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
 <li>Oracle Weblogic 11g:</li>
 <ul>
 <li>El servidor de aplicaciones</li>
-<li>Un dominio de desarrollo</li>
-<li>Y configurar su integración con XLNets (sistema de seguridad)</li>
+<li>Crear un dominio de desarrollo</li>
+<li>Configurar su integración con XLNets (sistema de seguridad)</li>
 </ul>
 
-<li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)
+<li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el repositorio suministrado, el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> x38ShLibClasses, y de XLNetS, evitará una descrga de todas las librerías   necesarias desde Internet </li>
+<li>Descomprimir el repositorio suministrado, el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> x38ShLibClasses, y de XLNetS (n38a, n38c y n38i), evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
-</li>
-<li>Si te descargas el repositorio de librerías, evitarás  
-</ul> 
+
+<li>Librerías de infraestructura </li>
+
+</ul>
+ 
 
 
 <h2>Asistentes (Plugin Eclipse)</h2>
