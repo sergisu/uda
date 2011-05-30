@@ -39,7 +39,7 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 </ul>
 </ul>
 
-Por último, ya solo queda configurar el entorno de aseguramiento de calidad de EJIE-GV.
+Por último, ya solo queda configurar el entorno de aseguramiento de la calidad del código de EJIE-GV.
 
 <ul>
 <li>Acceder a "Checkstyle" y pulsando en "New..." rellenar la nueva ventana con los siguientes datos:</li>
@@ -53,9 +53,9 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 <li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
 </ul>
 
-El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente instalando dichos plugins, eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados, o bien eliminándolos de la carpeta de "templates".
+El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar "Instalacion_PC_local_WLS11_proveedores.pdf"].
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar "Instalacion_PC_local_WLS11_proveedores.pdf"].
 
 En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall.v1.0.0.rar "plugin UDA"], recuerde que deberá instalar también:
 <ul>
