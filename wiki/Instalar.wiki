@@ -36,6 +36,7 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero [http://uda.googlecode.com/files/UDAWLS11Classpath.userlibraries "UDAWLS11Classpath.userlibraries"] suministrado</li>
 <li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
+</ul>
 
 Por último, ya solo queda configurar el entorno de aseguramiento de calidad de EJIE-GV:
 
