@@ -37,9 +37,11 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero [http://uda.googlecode.com/files/UDAWLS11Classpath.userlibraries "UDAWLS11Classpath.userlibraries"] suministrado</li>
 <li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
 </ul>
+</ul>
 
 Por último, ya solo queda configurar el entorno de aseguramiento de calidad de EJIE-GV:
 
+<ul>
 <li>Acceder a "Checkstyle" y pulsando en "New..." rellenar la nueva ventana con los siguientes datos:</li>
 <ul>
 <li>Type: External configuration file</li>
@@ -49,7 +51,6 @@ Por último, ya solo queda configurar el entorno de aseguramiento de calidad de 
 Seleccionar la nueva configuración y pulsar "Set as Default"
 <li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_PMDconfig.xml</li>
 <li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
-</ul>
 </ul>
 
 También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar "Instalacion_PC_local_WLS11_proveedores.pdf"].
