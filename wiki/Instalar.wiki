@@ -71,8 +71,9 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 
 <h3>30-Mayo-2011</h3>
 <ul>
-<li>*Helios UDA.1.0.0.part_n* : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0)</li>
+<li>*Helios UDA.1.0.0.part_n* : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0) y las reglas de aseguramiento de la calidad del código (análisis estático) establecidas en el entorno de EJIE-GV (rules.v1.0.0).</li>
 <li>*templates.v1.0.0* : Plantillas de generación de código</li>
+<li>*rules.v1.0.0* : Reglas de aseguramiento de la calidad del código (análisis estático) establecidas en el entorno de EJIE-GV </li>
 <li>*rup.v1.0.0* : Patrones de interacción (plugins jQuery y jQueryUI). Al hacer uso del asistente de "crear nueva aplicación", se generará un proyecto tipo War (appStatics) con los contenidos estáticos necesarios para la apliación, conteniendo por lo tanto los patrones RUP propuestos por <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>. Para actualizar solo la versión de los patrones RUP, será suficiente con sustituir el subdirectorio "rup" en el proyecto de contenidos estáticos.</li> 
 <li>*usr.v1.0.0* : Librerías de infraestructura; necesarias si se va ha desarrollar para el entorno de EJIE-GV, haciendo uso de XLNetS, y creando puebas unitarias, de integración, o de sistema.</li>
 <ul>
