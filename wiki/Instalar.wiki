@@ -64,16 +64,16 @@ En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/plugi
 <li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar "x38ShLibClasses-x.x.jar"]</li>
 </ul> 
 
-Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV, se recomienda adaptar las plantillas suministradas a su contenedor preferido.
+Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV se recomienda adaptar las plantillas suministradas a su contenedor preferido.
 
 
 <h2>Versiones y productos</h2>
 
 <h3>30-Mayo-2011</h3>
 <ul>
-<li>Helios UDA.1.0.0.part_n : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0)<li>
+<li>Helios UDA.1.0.0.part_n : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0)</li>
 <li>templates.v1.0.0 : Plantillas de generación de código</li>
-<li>rup.v1.0.0 : Patrones de interacción (plugins jQuery y jQueryUI). Al hacer uso del asistente de "crear nueva aplicación", se generará un proyecto tipo War (appStatics) con los contenidos estáticos necesarios para la apliación, conteniendo por lo tanto los patrones RUP propuestos por <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>. Para actualizar solo la versión de los patrones RUP, será suficiente con sustituir el subdirectorio "rup" en el proyecto de contenidos estáticos.   
+<li>rup.v1.0.0 : Patrones de interacción (plugins jQuery y jQueryUI). Al hacer uso del asistente de "crear nueva aplicación", se generará un proyecto tipo War (appStatics) con los contenidos estáticos necesarios para la apliación, conteniendo por lo tanto los patrones RUP propuestos por <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>. Para actualizar solo la versión de los patrones RUP, será suficiente con sustituir el subdirectorio "rup" en el proyecto de contenidos estáticos.</li> 
 <li>usr.v1.0.0 : Librerías de infraestructura; necesarias si se va ha desarrollar para el entorno de EJIE-GV, haciendo uso de XLNetS, y creando puebas unitarias, de integración, o de sistema.</li>
 <ul>
 <li>XLNetS (Sistema de seguridad)</li>
