@@ -15,13 +15,13 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository.v1.0.rar repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar x38ShLibClasses], y de XLNetS (n38a, n38c y n38i), evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository.v1.0.rar repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
 <li>[http://uda.googlecode.com/files/usr.v1.0.0.rar Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [http://uda.googlecode.com/files/usr.v1.0.0.rar "usr.rar"] en la unidad de disco seleccionada</li>
 </ul>
 
-Una vez instalados todos estos elementos, se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
+Una vez instalados todos estos elementos se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
 <ul>
 <li>Activando la perspectiva "JavaEE", dar de alta un nuevo servidor de aplicaciones. En la pestaña "Servers", con botón derecho, activar "New>Server", configurando el "Oracle Weblogic Server 11g" instalado previamente</li>
 <li>En la ventana "Window>Preferences":</li>
@@ -33,9 +33,9 @@ Una vez instalados todos estos elementos, se deberá descomprimir el fichero que
 <li>Acceder a "General>Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros ".jsp > JSP Editor" y para los ".properties > Resource Bundle"</li>
-<li>Acceder a "ResourceBundle Editor>Formato" y desactivar el check "Convert unicode values to \uXXXX"</li>
+<li>Acceder a "ResourceBundle Editor>Format" y desactivar el check "Convert unicode values to \uXXXX"</li>
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero [http://uda.googlecode.com/files/UDAWLS11Classpath.userlibraries "UDAWLS11Classpath.userlibraries"] suministrado</li>
-<li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
+<li>Acceder a "UDA" para configurar el path que contiene las plantillas, "<ECLIPSE_HOME>\templates", y marcar la casilla "Desarrollo para EJIE"</li>
 </ul>
 </ul>
 
@@ -46,11 +46,11 @@ Por último, ya solo queda configurar el entorno de aseguramiento de la calidad 
 <ul>
 <li>Type: External configuration file</li>
 <li>Name: UDA Checkstyle Project</li>
-<li>Location: ECLIPSE_HOME\rules\OTC_Sonar_Checkconfig.xml</li>
+<li>Location: <ECLIPSE_HOME>\rules\OTC_Sonar_Checkconfig.xml</li>
 </ul>
 Seleccionar la nueva configuración y pulsar "Set as Default"
-<li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_PMDconfig.xml</li>
-<li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero ECLIPSE_HOME\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
+<li>Acceder a "PMD>Rules configuration", pulsar en "Clear all", e importar ("Import rule set...") las nuevas reglas desde el fichero <ECLIPSE_HOME>\rules\OTC_Sonar_PMDconfig.xml</li>
+<li>Acceder a "Java>FindBugs". En la pestaña "Filter Files", apartado "Include filter files" añadir ("Add...") las nuevas reglas desde el fichero <ECLIPSE_HOME>\rules\OTC_Sonar_Findbugsconfig.xml. En la pestaña "Reporter configuration" marcar todos los checks.</li>
 </ul>
 
 El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
@@ -75,16 +75,16 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 <li>*templates.v1.0.0* : Plantillas de generación de código</li>
 <li>*rules.v1.0.0* : Reglas de aseguramiento de la calidad del código (análisis estático) establecidas en el entorno de EJIE-GV </li>
 <li>*rup.v1.0.0* : Patrones de interacción (plugins jQuery y jQueryUI). Al hacer uso del asistente de "crear nueva aplicación", se generará un proyecto tipo War (appStatics) con los contenidos estáticos necesarios para la apliación, conteniendo por lo tanto los patrones RUP propuestos por <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>. Para actualizar solo la versión de los patrones RUP, será suficiente con sustituir el subdirectorio "rup" en el proyecto de contenidos estáticos.</li> 
-<li>*usr.v1.0.0* : Librerías de infraestructura; necesarias si se va ha desarrollar para el entorno de EJIE-GV, haciendo uso de XLNetS, y creando puebas unitarias, de integración, o de sistema.</li>
+<li>*usr.v1.0.0* : Librerías de infraestructura; necesarias si se va ha desarrollar para el entorno de EJIE-GV, haciendo uso de XLNetS y creando puebas unitarias, de integración, o de sistema.</li>
 <ul>
 <li>XLNetS (Sistema de seguridad)</li>
 <li>Entorno de calidad y pruebas (junit4.8.2 y selenium 1.2)</li>
 </ul>
-<li>*UDAWLS11Classpath.userlibraries* : Configura en Eclipse como "userlibraries", las librerías de infraestructura, por tanto solo es necesario si se va ha deasrrollar para el entorno de EJIE-GV. </li>
+<li>*UDAWLS11Classpath.userlibraries* : Configura en Eclipse como "userlibraries", las librerías de infraestructura, por tanto, solo es necesario si se va ha deasrrollar para el entorno de EJIE-GV. </li>
 <li>*addonsPluginUDA.v1.0.0* : Extensiones de Hibernate Tools (htejie.jar, ejb-api-3.0.jar y ojdbc5.jar)</li>
-<li>*x38ShLibClasses-1.0* : Librería de utildades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/></li>
+<li>*x38ShLibClasses-1.0* : Librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/></li>
 <li>*MavenRepository.v1.0* : Repositorio Maven, conteniendo también la librería de utilidades de UDA "x38ShLibClasses-x.x.jar"</li>
 <li>*pluginUDAInstall.v1.0.0* : Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/></li>
-
+<li>*Documentación* : Toda la documentación necesaria para el uso de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> y de cualquiera de sus componentes.</li>
 </ul>
  
