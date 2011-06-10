@@ -69,6 +69,11 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 
 <h2>Versiones y productos</h2>
 
+<h3>10-Junio-2011</h3>
+
+Actualizada la [http://code.google.com/p/uda/downloads/detail?name=Documentaci%C3%B3n.v1.0.1.zip&can=2&q= documentación con la versión 1.0.1], completándose con las guías de uso de los patrones (Documentación.v1.0.1\Guias de uso\Patrones), y cambios menores en la 
+guía de uso de los plugins (Documentación.v1.0.1\Plugin UDA\Guia_Uso_Plugins.v.1.0.1.pdf).
+
 <h3>30-Mayo-2011</h3>
 <ul>
 <li>*Helios UDA.1.0.0.part_n* : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0) y las reglas de aseguramiento de la calidad del código (análisis estático) establecidas en el entorno de EJIE-GV (rules.v1.0.0).</li>
