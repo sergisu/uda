@@ -55,7 +55,7 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 
 El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentaci%C3%B3n.rar "Instalacion_PC_local_WLS11_proveedores.pdf"].
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentaci%C3%B3n.v1.0.1.zip "Instalacion_PC_local_WLS11_proveedores.pdf"].
 
 En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall.v1.0.0.rar "plugin UDA"], recuerde que deberá instalar también:
 <ul>
@@ -71,7 +71,7 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 
 <h3>10-Junio-2011</h3>
 
-Actualizada la [http://code.google.com/p/uda/downloads/detail?name=Documentaci%C3%B3n.v1.0.1.zip&can=2&q= documentación con la versión 1.0.1], completándose con las guías de uso de los patrones (Documentación.v1.0.1\Guias de uso\Patrones), y cambios menores en la 
+Actualizada la [http://uda.googlecode.com/files/Documentaci%C3%B3n.v1.0.1.zip documentación con la versión 1.0.1], completándose con las guías de uso de los patrones (Documentación.v1.0.1\Guias de uso\Patrones), y cambios menores en la 
 guía de uso de los plugins (Documentación.v1.0.1\Plugin UDA\Guia_Uso_Plugins.v.1.0.1.pdf).
 
 <h3>30-Mayo-2011</h3>
