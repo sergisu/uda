@@ -1,7 +1,7 @@
 #summary Instalar y configurar.
 #labels Phase-Deploy,Featured
 
-La forma más sencilla y rápida para empezar a trabajar y crear aplicaciones rápidamente con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> es instalar el entorno de desarrollo Eclipse Helios completo suministrado, el cual ya tiene contiene todos los plugins necesarios, así como las plantillas de generación de código, siempre actualizados.
+La forma más sencilla y rápida para empezar a trabajar y crear aplicaciones rápidamente con <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> es instalar la última versión del entorno de desarrollo Eclipse Helios UDA suministrado, el cual ya contiene todos los plugins necesarios, así como las plantillas de generación de código, además, *siempre actualizados*.
 
 Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar previamente:
 <ul>
