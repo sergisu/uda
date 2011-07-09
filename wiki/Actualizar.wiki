@@ -9,106 +9,105 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 <li>Modificar la inclusión de los ficheros CSS (template) y JS (base-includes):
 
     {{{<xxxYYY>}}}War\WebContent\WEB-INF\layouts\template.jsp (líneas 17-32):
-	{{{
-	<!-- Patrones (basic-theme) -->
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.base-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.autocomplete-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.breadCrumb-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.combo-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.date-1.0.0.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.feedback-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.grid-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.lang-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.maint-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.menu-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.messages-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.tabs-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.time-1.0.0.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.toolbar-1.0.1.css" rel="stylesheet" type="text/css" />
-	<link href="${staticsUrl}/rup/basic-theme/theme.rup.tooltip-1.0.0.css" rel="stylesheet" type="text/css" />
-	}}}
+    {{{
+    <!-- Patrones (basic-theme) -->
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.base-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.autocomplete-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.breadCrumb-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.combo-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.date-1.0.0.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.feedback-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.grid-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.lang-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.maint-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.menu-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.messages-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.tabs-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.time-1.0.0.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.toolbar-1.0.1.css" rel="stylesheet" type="text/css" />
+    <link href="${staticsUrl}/rup/basic-theme/theme.rup.tooltip-1.0.0.css" rel="stylesheet" type="text/css" />
+    }}}
 			
-			**NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
-		
-    {{{<xxxYYY>}}}\WebContent\WEB-INF\layouts\base-includes.jsp (líneas 15-56):
-		
-	{{{
-	<!-- jQuery 1.4.4 -->
-	<script src="${staticsUrl}/rup/scripts/core/jquery-1.4.4.js" type="text/javascript"></script>
-	
-	<!-- RUP-CORE -->
-	<script src="${staticsUrl}/rup/scripts/rup.utils-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.base-1.0.1.js" type="text/javascript"></script>
+    **NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
 
-	<!-- jQuery UI 1.8.11 (+ patrones subyacentes) -->
-	<script src="${staticsUrl}/rup/scripts/core/jquery.blockUI.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/xbreadcrumbs.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui-1.8.11.custom.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.autocomplete.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.menu.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui.multidatespicker.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.selectmenu.js" type="text/javascript"></script><!-- combo -->
-	<script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui.timepicker.js" type="text/javascript"></script>
+    {{{<xxxYYY>}}}\WebContent\WEB-INF\layouts\base-includes.jsp (líneas 15-56):
+    {{{
+    <!-- jQuery 1.4.4 -->
+    <script src="${staticsUrl}/rup/scripts/core/jquery-1.4.4.js" type="text/javascript"></script>
 	
-	<!-- jqGrid 3.8.1 -->
-	<script src="${staticsUrl}/rup/scripts/core/jqGrid.min-3.8.1.js" type="text/javascript"></script>
+    <!-- RUP-CORE -->
+    <script src="${staticsUrl}/rup/scripts/rup.utils-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.base-1.0.1.js" type="text/javascript"></script>
+
+    <!-- jQuery UI 1.8.11 (+ patrones subyacentes) -->
+    <script src="${staticsUrl}/rup/scripts/core/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/xbreadcrumbs.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui-1.8.11.custom.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.autocomplete.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.menu.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui.multidatespicker.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery.ui.selectmenu.js" type="text/javascript"></script><!-- combo -->
+    <script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui.timepicker.js" type="text/javascript"></script>
 	
-	<!-- Utilidades adicionales -->
-	<script src="${staticsUrl}/rup/scripts/core/jquery.form.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/jquery.json-2.2.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/form2object.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/core/jquery.numeric.js" type="text/javascript"></script>
-	
-	<!-- Patrones RUP -->
-	<script src="${staticsUrl}/rup/scripts/rup.autocomplete-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.breadCrumb-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.combo-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.date-1.0.0.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.dialog-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.feedback-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.grid-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.lang-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.maint-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.menu-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.message-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.tabs-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.time-1.0.0.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.toolbar-1.0.1.js" type="text/javascript"></script>
-	<script src="${staticsUrl}/rup/scripts/rup.tooltip-1.0.0.js" type="text/javascript"></script>
-	}}}
+    <!-- jqGrid 3.8.1 -->
+    <script src="${staticsUrl}/rup/scripts/core/jqGrid.min-3.8.1.js" type="text/javascript"></script>
+   
+    <!-- Utilidades adicionales -->
+    <script src="${staticsUrl}/rup/scripts/core/jquery.form.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/jquery.json-2.2.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/form2object.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/core/jquery.numeric.js" type="text/javascript"></script>
+
+    <!-- Patrones RUP -->
+    <script src="${staticsUrl}/rup/scripts/rup.autocomplete-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.breadCrumb-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.combo-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.date-1.0.0.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.dialog-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.feedback-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.grid-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.lang-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.maint-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.menu-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.message-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.tabs-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.time-1.0.0.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.toolbar-1.0.1.js" type="text/javascript"></script>
+    <script src="${staticsUrl}/rup/scripts/rup.tooltip-1.0.0.js" type="text/javascript"></script>
+    }}}
 </li>			
 <li>Añadir la siguiente cabecera para soporte nativo de IE8 en templates.jsp (línea 8):
 
-	{{{
-        <meta http-equiv="X-UA-Compatible" content="IE=8" /
-	}}}
+    {{{
+    <meta http-equiv="X-UA-Compatible" content="IE=8" /
+    }}}
 	
-        **NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
+    **NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
 </li>	
 <li>Cambiar el fichero "security-core-config.xml" [a nivel de WAR]</li>
 <li>Aumentar el tiempo de cacheo en el fichero "security-config.xml" [a nivel de WAR] de 2 a 120 para cuando se usa el wrapper de n38 (línea 7):
 
-	{{{
-	<property name="xlnetCachingPeriod" value="120" />
-	}}}
+    {{{
+    <property name="xlnetCachingPeriod" value="120" />
+    }}}
 	
-        **NOTA: Antes la configuración era en minutos y actualmente el valor es en segundos
+    **NOTA: Antes la configuración era en minutos y actualmente el valor es en segundos
 </li>
 <li>Actualizar x38ShLibClasses a la versión 1.0.1 [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses-1.0.1.jar]</li>
 <li>Modificar el pom.xml del EAR para permitir SNAPSHOT del repositorio de OTC {{{"<enabled>true</enabled>"}}} (línea 160):
 
-	{{{
-	<repositories>
-		<repository>
-			<id>ejie</id>
-			<name>ejie</name>
-			<url>http://www.otc.ejiedes.net/archiva/repository/repoEJIE</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	}}}
+    {{{
+    <repositories>
+   	<repository>
+		<id>ejie</id>
+		<name>ejie</name>
+		<url>http://www.otc.ejiedes.net/archiva/repository/repoEJIE</url>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+    </repositories>
+    }}}
 </li>
 <ol>
 
