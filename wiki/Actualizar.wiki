@@ -1,7 +1,9 @@
 #summary Actualizar a la última versión disponible
 #labels Phase-Deploy,Featured
 
-En esta sección iremos indicando como mantenerse actualizado con las últimas versiones disponibles de los componentes de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+En esta sección iremos indicando como mantenerse actualizado con las últimas versiones disponibles de los componentes de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, es decir, cuando ya tienes una aplicación generada y quieres incorporarle las últimas actualizaciones.
+ 
+Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
 <h3>09-Julio-2011</h3>
 <ol>
