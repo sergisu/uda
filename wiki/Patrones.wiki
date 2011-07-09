@@ -370,7 +370,7 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
 
-<h3>14. Mantenimiento con formulario</h3>
+===14. Mantenimiento con formulario===
 
 Añadir(Create): El usuario puede añadir nuevos registros a una tabla cuyos registros pueden contener más campos de los que se muestran en la vista de la tabla. 
 
