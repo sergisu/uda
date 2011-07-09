@@ -15,7 +15,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository.v1.0.rar repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
 <li>[http://uda.googlecode.com/files/usr.v1.0.0.rar Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [http://uda.googlecode.com/files/usr.v1.0.0.rar "usr.rar"] en la unidad de disco seleccionada</li>
@@ -60,14 +60,26 @@ También es posible que ya se tengan instalados previamente todos o parte de los
 En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall.v1.0.0.rar "plugin UDA"], recuerde que deberá instalar también:
 <ul>
 <li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.0.0.rar extensiones de Hibernate Tools]</li>
-<li>Las [http://uda.googlecode.com/files/templates.v1.0.0.rar plantillas de generación de código]</li>
-<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.0.jar "x38ShLibClasses-x.x.jar"]</li>
+<li>Las [http://uda.googlecode.com/files/templates.v1.0.1.zip plantillas de generación de código]</li>
+<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar "x38ShLibClasses-x.x.jar"]</li>
 </ul> 
 
 Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> en un entorno distinto al de EJIE-GV se recomienda adaptar las plantillas suministradas a su contenedor preferido.
 
 
 ==Versiones y productos==
+
+<h3>09-Julio-2011</h3>
+<ul>
+<li>Actualizada la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar versión x38ShLibClasses-1.0.1.jar]. Se han completado y mejorado ciertos aspectos sobre la gestión de la seguridadde la aplicación.</li>
+<li>Se ha actualizado también el [http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip repositorio Maven (v1.0.1)] para incluir la nueva versión de la librería de utilidades.</li>
+<li>Corregidos ciertos bugs y aplicadas algunas mejoras sobre los [http://uda.googlecode.com/files/rup-v1.0.1.zip componentes RUP], pasando a la versión 1.0.1.</li>
+<li>Puesto que las [http://uda.googlecode.com/files/templates-v1.0.1.zip plantillas] generan automáticamente los  componentes RUP, estas tambien han sido actualizadas a la versión 1.0.1</li>
+</ul>
+
+En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/changelog.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizarte a la última versión de UDA disponible.
 
 <h3>10-Junio-2011</h3>
 
