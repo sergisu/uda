@@ -118,4 +118,4 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </li>
 </ol>
 
-** NOTA: Los mantenimientos no requieren que su ID comience con "EJIE_MAINT_". No hace falta hacer cambios esto es un comentario
+** NOTA: Los mantenimientos no requieren que su ID comience con "EJIE_MAINT_". No hace falta hacer cambios, esto es solo un comentario
