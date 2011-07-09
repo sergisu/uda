@@ -81,13 +81,13 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 <li>Añadir la siguiente cabecera para soporte nativo de IE8 en templates.jsp (línea 8):
 
 {{{
-<meta http-equiv="X-UA-Compatible" content="IE=8" /
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
 }}}
 	
     **NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
 </li>	
 
-<li>Actualizar el fichero [http://uda.googlecode.com/svn/wiki/files/security-core-config.xml "security-core-config.xml" (a nivel de WAR)
+<li>Actualizar el fichero [http://uda.googlecode.com/svn/wiki/files/security-core-config.xml "security-core-config.xml"] (a nivel de WAR)
 
     **NOTA: Este fichero no está disponible en la sección de "downloads", por tanto, decárgatelo desde el enlace anterior.
 </li>
@@ -116,6 +116,6 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </repositories>
 }}}
 </li>
-<ol>
+</ol>
 
 ** NOTA: Los mantenimientos no requieren que su ID comience con "EJIE_MAINT_". No hace falta hacer cambios esto es un comentario
