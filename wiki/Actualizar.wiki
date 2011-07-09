@@ -84,7 +84,11 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 	
     **NOTA: En caso de tener templateVertical.jsp o templateMixto.jsp el cambio sería idéntico
 </li>	
-<li>Cambiar el fichero "security-core-config.xml" [a nivel de WAR]</li>
+
+<li>Actualizar el fichero [http://uda.googlecode.com/svn/wiki/files/security-core-config.xml "security-core-config.xml" (a nivel de WAR)
+
+    **NOTA: Este fichero no está disponible en la sección de "downloads", por tanto, decárgatelo desde el enlace anterior.
+</li>
 <li>Aumentar el tiempo de cacheo en el fichero "security-config.xml" [a nivel de WAR] de 2 a 120 para cuando se usa el wrapper de n38 (línea 7):
 
 {{{
@@ -93,6 +97,7 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 	
     **NOTA: Antes la configuración era en minutos y actualmente el valor es en segundos
 </li>
+
 <li>Actualizar x38ShLibClasses a la versión 1.0.1 [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses-1.0.1.jar]</li>
 <li>Modificar el pom.xml del EAR para permitir SNAPSHOT del repositorio de OTC {{{"<enabled>true</enabled>"}}} (línea 160):
 
