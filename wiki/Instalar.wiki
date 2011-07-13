@@ -60,7 +60,7 @@ También es posible que ya se tengan instalados previamente todos o parte de los
 En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall.v1.0.0.rar "plugin UDA"], recuerde que deberá instalar también:
 <ul>
 <li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.0.0.rar extensiones de Hibernate Tools]</li>
-<li>Las [http://uda.googlecode.com/files/templates.v1.0.1.zip plantillas de generación de código]</li>
+<li>Las [http://uda.googlecode.com/files/templates.v.1.0.1.zip plantillas de generación de código]</li>
 <li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar "x38ShLibClasses-x.x.jar"]</li>
 </ul> 
 
@@ -74,7 +74,7 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 <li>Actualizada la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar versión x38ShLibClasses-1.0.1.jar]. Se han completado y mejorado ciertos aspectos sobre la gestión de la seguridad de las aplicaciones.</li>
 <li>Se ha actualizado también el [http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip repositorio Maven (v1.0.1)] para incluir la nueva versión de la librería de utilidades.</li>
 <li>Corregidos ciertos bugs y aplicadas algunas mejoras sobre los [http://uda.googlecode.com/files/rup-v1.0.1.zip componentes RUP], pasando a la versión 1.0.1.</li>
-<li>Puesto que las [http://uda.googlecode.com/files/templates-v1.0.1.zip plantillas] generan automáticamente los  componentes RUP, estas también han sido actualizadas a la versión 1.0.1</li>
+<li>Puesto que las [http://uda.googlecode.com/files/templates-v.1.0.1.zip plantillas] generan automáticamente los  componentes RUP, estas también han sido actualizadas a la versión 1.0.1</li>
 </ul>
 
 En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/changelog.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
