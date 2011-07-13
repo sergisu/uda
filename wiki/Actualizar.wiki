@@ -116,6 +116,13 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </repositories>
 }}}
 </li>
+<li>Para no tener problemas con los caracteres acentuados, eñes, etc. incluye en el fichero weblogic.xml de todos tus WARs lo siguiente (línea 5):
+{{{
+<wls:jsp-descriptor>
+    <wls:encoding>UTF-8</wls:encoding>
+</wls:jsp-descriptor> 
+}}}
+</li>
 </ol>
 
 ** NOTA: Los mantenimientos no requieren que su ID comience con "EJIE_MAINT_". No hace falta hacer cambios, esto es solo un comentario
