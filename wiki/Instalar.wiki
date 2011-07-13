@@ -79,7 +79,7 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 
 En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/changelog.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
 
-También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizarte a la última versión de UDA disponible.
+También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizar una aplicación que ya hayas generado con UDA previamente.
 
 <h3>10-Junio-2011</h3>
 
