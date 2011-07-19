@@ -100,7 +100,6 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
     **NOTA: Antes la configuración era en minutos y actualmente el valor es en segundos
 </li>
 
-<li>Actualizar x38ShLibClasses a la versión 1.0.1 [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses-1.0.1.jar]</li>
 <li>Modificar el pom.xml del EAR para permitir SNAPSHOT del repositorio de OTC {{{"<enabled>true</enabled>"}}} (línea 160):
 
 {{{
@@ -116,6 +115,21 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </repositories>
 }}}
 </li>
+<li>Actualizar x38ShLibClasses a la versión 1.0.1 [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses-1.0.1.jar]. Puedes copiar directamente la librería sobre el subdirectorio APP-INF/lib del EAR, o bien seguir estos pasos (recomendado):
+<ul>
+<li>En el fichero pom.xml del EAR actualiza la versión de x38:
+{{{
+<dependency>
+<groupId>com.ejie.x38</groupId>
+<artifactId>x38ShLibClasses</artifactId>
+<version>1.0.1</version>
+</dependency>
+}}}
+</li>
+<li>Abre el build.xml del proyecto EAR con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
+<li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build)</li>
+</ul>
+</li>
 <li>Para no tener problemas con los caracteres acentuados, eñes, etc. incluye en el fichero weblogic.xml de todos tus WARs lo siguiente (línea 5):
 {{{
 <wls:jsp-descriptor>
@@ -123,6 +137,10 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </wls:jsp-descriptor> 
 }}}
 </li>
+<li>A partir de la versión 1.0.1 los mantenimientos no requieren que el identificador de su capa comience con "{{{EJIE_MAINT_}}}". Debido a este cambio es posible que sea necesario realizar las siguientes modificaciones en las páginas que utilicen el componente mantenimiento:
+<ul>
+<li>En las jsp creadas de acuerdo a la versión 1.0.0 el identificador de la capa del mantenimiento será "EJIE_MAINT_nombre", siendo "nombre" el literal identificador del mantenimiento. De acuerdo a los cambios realizados el identificador de la capa deberá ser "nombre". Por ejemplo sustiuir {{{<div id="EJIE_MAINT_usuarios">}}} por {{{<div id="usuarios">}}}.</li>
+<li>Del mismo modo, se deberá de modificar en el fichero js asociado a la jsp, la llamada que se realiza para la construcción del componente mantenimiento de modo que se referencie correctamente al nuevo identificador. Siguiendo el mismo ejemplo, se debería de modificar la llamada existente {{{$("#EJIE_MAINT_usuarios").rup_maint(}}} por {{{$("#usuarios").rup_maint(}}}</li>
+</ul>
+</li>
 </ol>
-
-** NOTA: Los mantenimientos no requieren que su ID comience con "EJIE_MAINT_". No hace falta hacer cambios, esto es solo un comentario
