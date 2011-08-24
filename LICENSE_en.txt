@@ -1,7 +1,7 @@
 Copyright 2011 E.J.I.E., S.A.
 
-Licensed under the EUPL, Version 1.1 only (the
-"Licence");
+Licensed under the EUPL, Version 1.1 only (the"Licence");
+
 You may not use this work except in compliance with the
 Licence.
 You may obtain a copy of the Licence at:
