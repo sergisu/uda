@@ -58,8 +58,8 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 <h1>Tecnologías asociadas</h1>
 
 || *Tecnología* || *Versión* || *Función* || *Capa* ||
-||jQuery||1.4.4||Vista y Ajax||Presentación||
-||jQueryUI||1.8.11||Vista y Ajax||Presentación||
+||jQuery||1.6.2||Vista y Ajax||Presentación||
+||jQueryUI||1.8.16||Vista y Ajax||Presentación||
 ||Tiles||2.2.2||Plantillado||Presentación||
 ||JSTL||1.2||Vista||Presentación||
 ||Spring MVC||3.0.5||Control||Presentación||
@@ -67,12 +67,13 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 ||Spring Framework||3.0.5||Servicio||Servicio||
 ||JTA||1.1||Transaccionalidad||Acceso a datos||
 ||Spring JDBC||3.0.5||Persistencia JDBC||Acceso a datos||
-||EclipseLink ||2.1.1||Persistencia JPA2.0||Acceso a datos||
+||EclipseLink ||2.3.0||Persistencia JPA2.0||Acceso a datos||
 ||Spring Framework||3.0.5||Modelo de datos||Modelo||
 ||Spring Framework||3.0.5||Contenedor IoC||Todas||
 ||Spring AOP||3.0.5||Aspectos||Todas||
 ||Spring Security||3.0.5||Seguridad||Todas||
-||Log4J||1.2.16||Trazas||Todas||
+||Logback||0.9.29||Trazas||Todas||
+||Slf4j||1.6.1||Trazas||Todas||
 ||Hibernate Validator||4.1||Validación||Todas||
 ||Weblogic||10.3.1||Servidor de aplicaciones||Contenedor JEE||
 ||Java Development Kit||6||Maquina Virtual Java||JVM||
