@@ -76,7 +76,7 @@ NOTA: Donde se indica "WARNAME" es el nombre del War pero sin la terminación "W
 <li>
 *War:*
 
-El fichero de inclusión de TLDs y definición de variables estáticas ha cambiado de ruta (se ha sacado del directorio views/incluyes):
+El fichero de inclusión de TLDs y definición de variables estáticas ha cambiado de ruta (se ha sacado del directorio {{{views/includes}}}):
 
 Antes:
 {{{
@@ -117,6 +117,8 @@ Se añaden nuevos ficheros para facilitar la inclusión de los estáticos y son 
 <li>{{{…/WEB-INF/layouts/includes/xxx.styles.inc}}} (Estilos de la aplicación)</li>
 </ul>
 
+NOTA: Estos ficheros están incluidos en las plantillas [http://uda.googlecode.com/files/templates-v1.1.0.zip templates-v1.1.0.zip], en la carpeta "{{{templates\war\WebContent\WEB-INF\layouts\includes}}}"
+
 Esta modificación produce cambios en cadena en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-includes.jsp}}}":
 
 	
@@ -153,30 +155,22 @@ Ahora:
 <%@include file="/WEB-INF/layouts/includes/xxx.styles.inc"%>
 }}}		
 	
-NOTA: Para utilizar los ficheros .inc se deberá actualizar la versión de los componentes visuales (RUP).		
+NOTA: Para utilizar los ficheros .inc se deberán actualizar también los componentes visuales (RUP) a la [http://uda.googlecode.com/files/rup-v1.1.0.zip versión 1.1.0].		
 </li>
 </ul>
 </li>
-
-
-
-
-
-
-
-
 
 <li>Migración del sistema de trazas de LOG4J a SLF4J y LOGBack
 <ul>
 
 <li>Para que en nuevo sistema de trazas funcione correctamente, es necesario actualizar las siguientes librerías ubicadas en el proyecto EAR de la aplicación:
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img1.JPG"/>
 
 <ul>
-<li>Actualizar la librería de UDA a la última versión x38ShLibClasses-1.1.0.jar para tener el código del nuevo sistema de trazas de UDA.</li>
+<li>Actualizar la librería de UDA a la última versión [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar x38ShLibClasses-1.1.0.jar] para tener el código del nuevo sistema de trazas de UDA.</li>
 <li>Cambiar las librerías de LOG4J por las de SLF4J y LOGBack:
 
-Borrar las librerías {{{log4j-1.2.16.jar}}} y {{{slf4j-log4j12-1.6.1.jar}}}, y añadir las librerías {{{slf4j-ext-1.6.1.jar}}},{{{logback-classic-0.9.29.jar}}} y {{{logback-core-0.9.29.jar}}} 
+Borrar las librerías {{{log4j-1.2.16.jar}}} y {{{slf4j-log4j12-1.6.1.jar}}}, y añadir las librerías {{{slf4j-ext-1.6.1.jar}}}, {{{logback-classic-0.9.29.jar}}}, {{{logback-core-0.9.29.jar}}}, {{{jcl-over-slf4j-1.6.1.jar}}}, {{{jdbcdslog-1.0.5.jar}}} y {{{slf4j-api-1.6.1.jar}}} (estas pueden obtenerse desde el fichero de [http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip repositorio Maven 1.1.0 suministrado]) 
 
 <li>Cambiar el fichero "{{{pom.xml}}}" del proyecto EAR para dejar acorde las dependencias de las librerías:
 
@@ -191,7 +185,7 @@ Ahora:
 
 También se deben sustituir los siguientes bloques de dependencias:
 
-Antes
+Antes:
 {{{
 <!-- Logging -->
 <dependency>
@@ -278,7 +272,7 @@ Ahora:
 </ul>
 </li>
 
-<li>Modificar los ficheros de configuración de LOGBack ("{{{logback-test.xml}}}" y "{{{logback.xml}}}") para aplicarles el código de aplicación que albergara el sistema de trazas cambiando el campo {{{<contextName>xxxx</contextName>}}} (situado al comienzo de los ficheros) con el código apropiado de aplicación (Ej. {{{<contextName>x21b</contextName>}}})
+<li>Modificar los ficheros de configuración de LOGBack ([http://code.google.com/p/uda/source/browse/wiki/files/logback-test.xml "logback-test.xml"] y [http://code.google.com/p/uda/source/browse/wiki/files/logback.xml "logback.xml"]) para aplicarles el código de aplicación que albergara el sistema de trazas cambiando el campo {{{<contextName>xxxx</contextName>}}} (situado al comienzo de los ficheros) con el código apropiado de aplicación (Ej. {{{<contextName>x21b</contextName>}}})
 
 Copiar los ficheros en el proyecto/ruta correspondiente:
 <ul>
@@ -286,14 +280,14 @@ Copiar los ficheros en el proyecto/ruta correspondiente:
 <li>{{{logback.xml}}} en la carpeta {{{xxxConfig/}}}</li>
 </ul>
 
+
 Borrar el fichero de configuración de log4j ({{{.properties}}}) del proyecto. 
 
 Así, los proyectos deberían quedar como en las siguientes imágenes:
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img2.JPG"/>
 
-
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img3.JPG"/>
 
 </li>
 
@@ -317,7 +311,7 @@ El resto de propiedades indica el nivel de traza de cada uno de los ficheros que
 
 <li>Para que la configuración de LOGBack sea cargada por Spring es necesario editar el fichero "{{{log-config.xml}}}" situado en la carpeta {{{spring}}} del directorio {{{src}}} del proyecto {{{EarClasses}}} de la aplicación.
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img5.JPG"/>
 
 {{{
 <!-- Se especifica la inicialización de los trazas mediante logback -->
@@ -393,15 +387,15 @@ Para hacer este cambio de forma rápida y sencilla se recomienda utilizar la her
 
 Con el Eclipse arrancado y dentro del WorkSpace donde se encuentra el código a adaptar, se debe presionar las teclas Ctrl+h. Esto sacará la ventana de búsquedas del Eclipse.
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img6.JPG"/>
 
 En dicha ventana, se usará la pestaña "File Search" para realizar todos los cambios automáticos de código. Las búsquedas se deberán parametrizar sobre todos los ficheros indicando un {{{*}}} en el campo "File name patterns". Para cada búsqueda se indicará el texto a buscar en el campo "Containing text" y se presionará el botón "Replace". Se desencadenará una búsqueda sobre todo el código y se presentará una nueva ventana donde se solicita el texto a utilizar en el reemplazo. 
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img7.JPG"/>
 
 Una vez especificado el texto a sustituir en el campo "With", se presionará el botón "Ok" para culminar el procedimiento. Si se desea visualizar los cambios que se van a realizar, y asegurarse de que todo va a marchar como debe, presionando el botón "Preview" se podrán visualizar los cambios que va a realizar el Eclipse.
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img8.JPG"/>
 
 Una vez se entiende y comprende la herramienta que se va a utilizar las sustituciones que se deben realizar son las siguientes:
 
@@ -431,9 +425,9 @@ Es muy posible que en esta búsqueda aparezcan algunas ocurrencias de los nivele
 <li>Existe la posibilidad de auditar los accesos a Base de Datos para conocer las consultas que se lanzan contra la Base de Datos y los datos que se devuelven. Por seguridad esta traza no se configura inicialmente en UDA pero a continuación se comentan los pasos a seguir de cara aplicar esta auditoría.
 
 <ul>
-<li>Añadir la librería necesaria {{{jdbcdslog-1.0.5.jar}}} al proyecto EAR
+<li>Añadir la librería necesaria {{{jdbcdslog-1.0.5.jar}}} al proyecto EAR (esta puede obtenerse desde el fichero de [http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip repositorio Maven 1.1.0 suministrado])
 
-<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/img9.JPG"/>
 
 </li>
 
