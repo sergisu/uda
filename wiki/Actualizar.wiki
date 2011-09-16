@@ -5,6 +5,542 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 <p> 
 Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
+<h3>15-Septiembre-2011</h3>
+
+<ol>
+<li>Actualizar la estructura de proyectos
+
+<ul>
+<li>
+*EARClasses:*
+
+Se ha cambiado la ruta de los ficheros de configuración de Spring (se han sacado del directorio META-INF):
+
+Antes:
+{{{
+xxxEARClasses/src/META-INF/spring/
+}}}
+Ahora:
+{{{
+xxxEARClasses/src/spring/
+}}}
+
+Esta modificación produce cambios en cadena en el fichero "{{{xxxEARClasses/src/beanRefContext.xml}}}":
+
+Antes:
+{{{
+<value>META-INF/spring/dao-config.xml</value> 
+<value>META-INF/spring/log-config.xml</value>
+<value>META-INF/spring/service-config.xml</value>
+<value>META-INF/spring/security-config.xml</value>
+<value>META-INF/spring/tx-config.xml</value>
+}}}
+Ahora: 
+{{{
+<value>spring/dao-config.xml</value> 
+<value>spring/log-config.xml</value>
+<value>spring/service-config.xml</value>
+<value>spring/security-config.xml</value>	
+<value>spring/tx-config.xml</value>
+}}}
+</li>
+
+<li>
+*Statics:*
+
+El fichero de carga del layout ha cambiado de ruta:
+
+Antes:
+{{{
+xxxStatics/WebContent/xxx/scripts/layoutLoaderXxxWARNAME.js
+}}}
+Ahora:
+{{{
+xxxStatics/WebContent/xxx/scripts/WARNAME/_layoutLoader.js
+}}}
+
+Esta modificación produce cambios en cadena en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-includes.jsp}}}":
+
+Antes:
+{{{
+<script src="${staticsUrl}/xxx/scripts/layoutLoaderXXXPilotoPatrones.js" type="text/javascript"></script>
+}}}
+Ahora:
+{{{
+<script src="${staticsUrl}/xxx/scripts/WARNAME/layoutLoader.js" type="text/javascript"></script>
+}}}
+
+NOTA: Donde se indica "WARNAME" es el nombre del War pero sin la terminación "War" (Ej. De {{{x21aPilotoPatronesWar}}} sería {{{PilotoPatrones}}})
+</li>
+ 
+<li>
+*War:*
+
+El fichero de inclusión de TLDs y definición de variables estáticas ha cambiado de ruta (se ha sacado del directorio views/incluyes):
+
+Antes:
+{{{
+…/WEB-INF/views/includes/includeTemplate.inc
+}}}
+Ahora:
+{{{
+…/WEB-INF/includeTemplate.inc
+}}}
+
+Esta modificación produce cambios en cadena en los ficheros:
+<ul>
+<li>{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-includes.jsp}}}</li>
+<li>{{{xxxNombreWar/WebContent/WEB-INF/layouts/header.jsp}}}</li>
+<li>{{{xxxNombreWar/WebContent/WEB-INF/layouts/template.jsp}}}</li>
+<li>Páginas generadas con el plugin de mantenimiento</li>
+<ul>
+<li>{{{xxxNombreWar/WebContent/WEB-INF/views/aaa/aaa-includes.jsp}}}</li>
+<li>{{{xxxNombreWar/WebContent/WEB-INF/views/aaa/aaa.jsp}}}</li>
+</ul>
+</ul>
+
+Antes:
+{{{
+<%@include file="/WEB-INF/views/includes/includeTemplate.inc"%>
+}}}
+Ahora:
+{{{
+<%@include file="/WEB-INF/includeTemplate.inc"%>
+}}}
+
+Se añaden nuevos ficheros para facilitar la inclusión de los estáticos y son los siguientes ficheros:
+
+<ul>
+<li>{{{…/WEB-INF/layouts/includes/rup.scripts.inc}}} (Scripts de RUP)</li>
+<li>{{{…/WEB-INF/layouts/includes/rup.styles.inc}}} (Estilos de RUP)</li>
+<li>{{{…/WEB-INF/layouts/includes/xxx.scripts.inc}}} (Scripts de la aplicación)</li> 
+<li>{{{…/WEB-INF/layouts/includes/xxx.styles.inc}}} (Estilos de la aplicación)</li>
+</ul>
+
+Esta modificación produce cambios en cadena en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-includes.jsp}}}":
+
+	
+Antes:
+{{{
+<!-- jQuery 1.4.4 -->
+<script src="<#noparse>${staticsUrl}</#noparse>/rup/scripts/core/jquery-1.4.4.js" type="text/javascript"></script>
+
+<!-- RUP-CORE -->
+<script src="<#noparse>${staticsUrl}</#noparse>/rup/scripts/rup.utils-1.0.1.js" type="text/javascript"></script>
+<script src="<#noparse>${staticsUrl}</#noparse>/rup/scripts/rup.base-1.0.1.js" type="text/javascript"></script>
+			...
+}}}
+Ahora:
+{{{
+<%@include file="/WEB-INF/layouts/includes/rup.scripts.inc"%>
+<%@include file="/WEB-INF/layouts/includes/xxx.scripts.inc"%>
+}}}
+
+Además también se producen cambios en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/template.jsp}}}":
+		
+Antes:
+{{{
+<!-- BASE (sub-productos para patrones) -->
+<link href="<#noparse>${staticsUrl}</#noparse>/rup/basic-theme/ui.jqgrid.css" rel="stylesheet" type="text/css" />
+
+<!-- jQuery UI (custom-theme) -->
+<link href="<#noparse>${staticsUrl}</#noparse>/rup/custom-theme/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css" />
+			...
+}}}
+Ahora:
+{{{
+<%@include file="/WEB-INF/layouts/includes/rup.styles.inc"%>
+<%@include file="/WEB-INF/layouts/includes/xxx.styles.inc"%>
+}}}		
+	
+NOTA: Para utilizar los ficheros .inc se deberá actualizar la versión de los componentes visuales (RUP).		
+</li>
+</ul>
+</li>
+
+
+
+
+
+
+
+
+
+<li>Migración del sistema de trazas de LOG4J a SLF4J y LOGBack
+<ul>
+
+<li>Para que en nuevo sistema de trazas funcione correctamente, es necesario actualizar las siguientes librerías ubicadas en el proyecto EAR de la aplicación:
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+<ul>
+<li>Actualizar la librería de UDA a la última versión x38ShLibClasses-1.1.0.jar para tener el código del nuevo sistema de trazas de UDA.</li>
+<li>Cambiar las librerías de LOG4J por las de SLF4J y LOGBack:
+
+Borrar las librerías {{{log4j-1.2.16.jar}}} y {{{slf4j-log4j12-1.6.1.jar}}}, y añadir las librerías {{{slf4j-ext-1.6.1.jar}}},{{{logback-classic-0.9.29.jar}}} y {{{logback-core-0.9.29.jar}}} 
+
+<li>Cambiar el fichero "{{{pom.xml}}}" del proyecto EAR para dejar acorde las dependencias de las librerías:
+
+Antes:
+{{{
+<org.log4j.version>1.2.16</org.log4j.version> 
+}}}
+Ahora:
+{{{
+<org.logback.version>0.9.29</org.logback.version>
+}}}
+
+También se deben sustituir los siguientes bloques de dependencias:
+
+Antes
+{{{
+<!-- Logging -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>${org.slf4j.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>jcl-over-slf4j</artifactId>
+    <version>${org.slf4j.version}</version>
+    <scope>runtime</scope>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>${org.slf4j.version}</version>
+    <scope>runtime</scope>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>${org.log4j.version}</version>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- x38 -->
+<dependency>
+    <groupId>com.ejie.x38</groupId>
+    <artifactId>x38ShLibClasses</artifactId>
+    <version>1.0.1</version>
+</dependency>
+}}}
+Ahora:
+{{{
+<!-- Logging -->
+
+<!-- SLF4J -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>jcl-over-slf4j</artifactId>
+    <version>${org.slf4j.version}</version>
+    <scope>runtime</scope>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>${org.slf4j.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-ext</artifactId>
+    <version>${org.slf4j.version}</version>
+    <exclusions>
+    <!-- Exclude Compiler assisted localization library (CAL10N) -->
+       <exclusion>
+          <groupId>ch.qos.cal10n</groupId>
+          <artifactId>cal10n-api</artifactId>
+       </exclusion>                       
+    </exclusions> 
+</dependency>
+
+<!-- Logback -->
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-core</artifactId>
+    <version>${org.logback.version}</version>
+</dependency>
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+    <version>${org.logback.version}</version>
+</dependency>
+		
+<!-- x38 -->
+<dependency>
+    <groupId>com.ejie.x38</groupId>
+    <artifactId>x38ShLibClasses</artifactId>
+    <version>1.1.0</version>
+</dependency>
+}}}
+</li>
+</li>
+</ul>
+</li>
+
+<li>Modificar los ficheros de configuración de LOGBack ("{{{logback-test.xml}}}" y "{{{logback.xml}}}") para aplicarles el código de aplicación que albergara el sistema de trazas cambiando el campo {{{<contextName>xxxx</contextName>}}} (situado al comienzo de los ficheros) con el código apropiado de aplicación (Ej. {{{<contextName>x21b</contextName>}}})
+
+Copiar los ficheros en el proyecto/ruta correspondiente:
+<ul>
+<li>{{{logback-test.xml}}} en la carpeta {{{xxxEarClasses/src/}}}</li>
+<li>{{{logback.xml}}} en la carpeta {{{xxxConfig/}}}</li>
+</ul>
+
+Borrar el fichero de configuración de log4j ({{{.properties}}}) del proyecto. 
+
+Así, los proyectos deberían quedar como en las siguientes imágenes:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+</li>
+
+<li>Se deben modificar las propiedades que configuran el nuevo sistema de trazas. En el fichero de propiedades de la aplicación ({{{xxxConfig/xxx.properties}}}) se deberán añadir las siguientes líneas:
+
+{{{
+#Loggin parameters
+log.path=c:/datos/xxx/log
+log.level.salidaEstandar=INFO
+log.level.UDATrazas=TRACE
+log.level.aplicTrazas=INFO
+log.level.auditoriaAccesos=INFO
+}}}
+
+Donde {{{log.path}}} indica la ruta del directorio que albergará los ficheros de trazas. 
+
+NOTA: En EJIE, por normativa, la ubicación es "{{{datos/xxx/log}}}" (siendo xxx el código de aplicación).
+
+El resto de propiedades indica el nivel de traza de cada uno de los ficheros que se genera.
+</li>
+
+<li>Para que la configuración de LOGBack sea cargada por Spring es necesario editar el fichero "{{{log-config.xml}}}" situado en la carpeta {{{spring}}} del directorio {{{src}}} del proyecto {{{EarClasses}}} de la aplicación.
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+{{{
+<!-- Se especifica la inicialización de los trazas mediante logback -->
+<bean id="trazasystemInitializer" 
+      class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">  
+
+  <property name="staticMethod" value="com.ejie.x38.log.LogbackConfigurer.initLogging" />  
+  <property name="arguments">  
+    <list>  
+       <!-- Se especifica la ubicación del fichero de configuración de logback (puede ser una ruta del classpath o absoluta) -->
+       <value>XXX/logback.xml</value>
+
+       <!-- Se especifica si se desea que se pinte el estado de la configuración de Logback por la salida de log correspondiente -->
+       <value>true</value>
+    </list>  
+  </property>  
+</bean>
+}}}
+</li>
+
+<li>Cambiar toda referencia a log4j (imports y entradas de trazas) del código de la aplicación por el de SLF4J. Para ello se deberían hacer los siguientes cambios:
+
+Los imports de log4j 
+
+Antes:
+{{{
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger; 
+}}}
+Ahora:
+{{{
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+}}}
+
+Las instancias de los loggers 
+
+Antes:
+{{{
+private static final  Logger  logger = Logger.getLogger(xxxServiceImpl.class);
+}}}
+Ahora:
+{{{
+private static final  Logger  logger = LoggerFactory.getLogger(xxxServiceImpl.class);
+}}}
+
+Cualquier traza incluida en el código con log4j debe ser adaptada a la sintaxis utilizada por slf4j. El cambio principal es la especificación del nivel de traza. :
+
+Antes (log4j especifica el nivel como parámetro): 
+{{{
+logger.log(Level.ALL, "mensaje de ejemplo");
+logger.log(Level.DEBUG, "mensaje de ejemplo");
+logger.log(Level.ERROR, "mensaje de ejemplo");
+logger.log(Level.FATAL, "mensaje de ejemplo");
+logger.log(Level.INFO, "mensaje de ejemplo");
+logger.log(Level.OFF, "mensaje de ejemplo");
+logger.log(Level.TRACE, "mensaje de ejemplo");
+logger.log(Level.WARN, "mensaje de ejemplo");
+}}}
+
+Ahora (SLF4J tiene un método específico para cada nivel de log):
+{{{
+logger.debug("mensaje de ejemplo");
+logger.error("mensaje de ejemplo");
+logger.info("mensaje de ejemplo");
+logger.trace("mensaje de ejemplo");
+logger.warn("mensaje de ejemplo");
+}}}
+
+Es importante tener en cuenta que los niveles que se pueden asociar a un mensaje de traza varían entre una tecnología y otra. Los más comunes coincidirán y solo habrá que cambiar el parámetro por la invocación al método correspondiente, pero en aquéllos que no coinciden habrá que adecuarlos convenientemente a SLF4J.
+
+Para hacer este cambio de forma rápida y sencilla se recomienda utilizar la herramienta de reemplazo de código integrada en el Eclipse.
+
+Con el Eclipse arrancado y dentro del WorkSpace donde se encuentra el código a adaptar, se debe presionar las teclas Ctrl+h. Esto sacará la ventana de búsquedas del Eclipse.
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+En dicha ventana, se usará la pestaña "File Search" para realizar todos los cambios automáticos de código. Las búsquedas se deberán parametrizar sobre todos los ficheros indicando un {{{*}}} en el campo "File name patterns". Para cada búsqueda se indicará el texto a buscar en el campo "Containing text" y se presionará el botón "Replace". Se desencadenará una búsqueda sobre todo el código y se presentará una nueva ventana donde se solicita el texto a utilizar en el reemplazo. 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+Una vez especificado el texto a sustituir en el campo "With", se presionará el botón "Ok" para culminar el procedimiento. Si se desea visualizar los cambios que se van a realizar, y asegurarse de que todo va a marchar como debe, presionando el botón "Preview" se podrán visualizar los cambios que va a realizar el Eclipse.
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+Una vez se entiende y comprende la herramienta que se va a utilizar las sustituciones que se deben realizar son las siguientes:
+
+Buscar "{{{import org.apache.log4j.Level;}}}" y sustituir por "{{{import org.slf4j.LoggerFactory;}}}"
+
+Buscar "{{{import org.apache.log4j.Logger;}}}" y sustituir por "{{{import org.slf4j.Logger;}}}
+
+Buscar "{{{Logger.getLogger;}}}" y sustituir por "{{{LoggerFactory.getLogger;}}}"
+
+Buscar "{{{logger.log(Level.DEBUG,}}}" y sustituir por "{{{logger.debug(}}}"
+
+Buscar "{{{logger.log(Level.ERROR,}}}" y sustituir por "{{{logger.error(}}}"
+
+Buscar "{{{logger.log(Level.INFO,}}}" y sustituir por "{{{logger.info(}}}"
+
+Buscar "{{{logger.log(Level.TRACE,}}}" y sustituir por "{{{logger.trace(}}}"
+
+Buscar "{{{logger.log(Level.WARN,}}}" y sustituir por "{{{logger.warn(}}}"
+
+Una vez realizadas las sustituciones anteriores, se habrá adaptado el 95% de los cambios. Llegados a este punto se deberán buscar los niveles de log4j que no cubre SLF4J para adaptarlos. Para ello se deberá buscar, mediante la herramienta de búsqueda (Ctrl.+ h), el texto "{{{logger.log(}}}"  y acceder a esos casos para realizar los cambios a mano. 
+
+Es muy posible que en esta búsqueda aparezcan algunas ocurrencias de los niveles ya buscados por que el patrón de búsqueda utilizado difiere en algún espacio al utilizado en la aplicación. En estos casos, se debería ajustar el patrón de búsqueda y realizar de nuevo el reemplazo para ajustar el código de forma correcta. 
+</li>
+</ul>
+</li>
+
+<li>Existe la posibilidad de auditar los accesos a Base de Datos para conocer las consultas que se lanzan contra la Base de Datos y los datos que se devuelven. Por seguridad esta traza no se configura inicialmente en UDA pero a continuación se comentan los pasos a seguir de cara aplicar esta auditoría.
+
+<ul>
+<li>Añadir la librería necesaria {{{jdbcdslog-1.0.5.jar}}} al proyecto EAR
+
+<img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>
+
+</li>
+
+<li>
+Modificar el fichero de configuración de propiedades "{{{xxx.properties}}}" para indicar el nivel de traza del fichero. Se debe añadir la siguiente línea:
+
+{{{
+log.level.auditoriaBBDD=INFO
+}}}
+</li>
+
+<li>Se deberá incluir el {{{DataSource}}} que interceptará las peticiones a Base de Datos. Se deberá modificar el fichero "{{{dao-config.xml}}}" del proyecto {{{xxxEARClasses}}}.
+
+{{{
+<!--Configuration of dataSource with DDBB audit -->
+<jee:jndi-lookup id="aplicDataSource" jndi-name="x21a.x21aDataSource" resource-ref="false"/>
+	
+<bean id="dataSource" class="org.jdbcdslog.ConnectionPoolDataSourceProxy">
+      <property name="targetDSDirect" ref="aplicDataSource" />
+</bean>
+}}}
+
+NOTA: En este ejemplo el {{{DataSource}}} al que se conecta es {{{x21a.x21aDataSource}}}
+
+En el caso de tratarse de un proyecto JPA hay que hacer un par de modificaciones:
+
+<ul>
+<li>Añadir la cabecera "{{{xmlns:jee}}}" para soportar la etiqueta {{{<jee>}}}:
+
+{{{
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+xmlns:jee="http://www.springframework.org/schema/jee"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd
+   http://www.springframework.org/schema/jee
+   http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+}}}
+</li>
+<li>Añadir la propiedad "{{{dataSource}}}":
+    
+{{{
+<!-- Configuration of the JPA Management  -->
+<bean id="jtaEntityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="persistenceUnitName" value="XXX_JTA" />
+        <property name="dataSource" ref="dataSource" />
+        <property name="persistenceXmlLocation" value="classpath:udaPersistence.xml" />
+        <property name="loadTimeWeaver">
+            <bean class="org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver" />
+        </property>
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter">
+                <property name="database" value="ORACLE" />
+                <property name="showSql" value="true" />
+            </bean>
+        </property>
+</bean>
+}}}
+</li>
+</ul>
+</li>
+
+<li>Modificar el fichero "{{{xxxConfig/logback.xml}}}" para incluir el {{{appender}}} y los {{{loggers}}} necesarios para generar las trazas.
+
+{{{
+<appender name="auditoriaBBDDAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	
+        <File>${log.path}/auditoriaBBDD_${CONTEXT_NAME}_${weblogic.Name}.log</File>
+	<filter class="com.ejie.x38.log.UdaLogFilter"/>
+	<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+		<layout class="com.ejie.x38.log.LogLayout">
+			<appCode>${CONTEXT_NAME}</appCode>
+	     		<instance>${weblogic.Name}</instance>	
+		</layout>
+	</encoder>
+	<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+	
+        <!-- rollover daily -->
+        <fileNamePattern>${log.path}/auditoriaBBDD_${CONTEXT_NAME}_${weblogic.Name}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+
+        <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+	<maxFileSize>100MB</maxFileSize>
+	</timeBasedFileNamingAndTriggeringPolicy>
+	
+        <!-- 7-day history -->
+      	<maxHistory>6</maxHistory>
+	</rollingPolicy>
+</appender>
+
+<logger name="org.jdbcdslog" level="${log.level.auditoriaBBDD}" additivity="false">
+       <appender-ref ref="auditoriaBBDDAppender"/>
+</logger>
+<logger name="org.eclipse.persistence-connection" level="${log.level.auditoriaBBDD}" 
+    additivity="false">
+       <appender-ref ref="auditoriaBBDDAppender"/>
+</logger>
+<logger name="org.eclipse.persistence" level="${log.level.auditoriaBBDD}" 
+    additivity="false">
+	<appender-ref ref="auditoriaBBDDAppender"/>
+</logger>
+}}}
+</li>
+</ul>
+</li>
+</ol>
+
 <h3>09-Julio-2011</h3>
 <ol>
 <li>Cambiar la carpeta {{{<APP>}}}Statics\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.0.1.zip rup-v1.0.1.zip]</li>
