@@ -164,6 +164,7 @@ NOTA: Para utilizar los ficheros .inc se deberán actualizar también los compon
 <ul>
 
 <li>Para que en nuevo sistema de trazas funcione correctamente, es necesario actualizar las siguientes librerías ubicadas en el proyecto EAR de la aplicación:
+
 <img src="http://uda.googlecode.com/svn/wiki/images/img1.JPG"/>
 
 <ul>
