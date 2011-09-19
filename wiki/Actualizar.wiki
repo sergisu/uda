@@ -70,7 +70,7 @@ Ahora:
 <script src="${staticsUrl}/xxx/scripts/WARNAME/layoutLoader.js" type="text/javascript"></script>
 }}}
 
-NOTA: Donde se indica "WARNAME" es el nombre del War pero sin la terminación "War" (Ej. De {{{x21aPilotoPatronesWar}}} sería {{{x21aPilotoPatrones}}})
+NOTA: Donde se indica "WARNAME" es el nombre del War sin código de aplicación y sin la terminación "War" (Ej. De {{{x21aPilotoPatronesWar}}} sería {{{PilotoPatrones}}})
 </li>
  
 <li>
