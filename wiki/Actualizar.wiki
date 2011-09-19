@@ -138,7 +138,7 @@ Ahora:
 <%@include file="/WEB-INF/layouts/includes/xxx.scripts.inc"%>
 }}}
 
-Además también se producen cambios en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/template.jsp}}}":
+Además también se producen cambios en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-head.jsp}}}":
 		
 Antes:
 {{{
