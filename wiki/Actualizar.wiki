@@ -402,9 +402,9 @@ Una vez se entiende y comprende la herramienta que se va a utilizar las sustituc
 
 Buscar "{{{import org.apache.log4j.Level;}}}" y sustituir por "{{{import org.slf4j.LoggerFactory;}}}"
 
-Buscar "{{{import org.apache.log4j.Logger;}}}" y sustituir por "{{{import org.slf4j.Logger;}}}
+Buscar "{{{import org.apache.log4j.Logger;}}}" y sustituir por "{{{import org.slf4j.Logger;}}}"
 
-Buscar "{{{Logger.getLogger;}}}" y sustituir por "{{{LoggerFactory.getLogger;}}}"
+Buscar "{{{Logger.getLogger}}}" y sustituir por "{{{LoggerFactory.getLogger}}}"
 
 Buscar "{{{logger.log(Level.DEBUG,}}}" y sustituir por "{{{logger.debug(}}}"
 
