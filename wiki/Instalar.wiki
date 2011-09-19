@@ -15,7 +15,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
 <li>[http://uda.googlecode.com/files/usr.v1.0.0.rar Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [http://uda.googlecode.com/files/usr.v1.0.0.rar "usr.rar"] en la unidad de disco seleccionada</li>
@@ -68,7 +68,7 @@ En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/plugi
 <li>ECLIPSE_HOME\features\com.ejie.uda.feature_XXX</li>
 <li>ECLIPSE_HOME\plugins\com.ejie.uda_XXX.jar</li>
 </ul>
-<li>Eliminar manualmente el fichero "htejie.jar" de la ruta ECLIPSE_HOME\plugins\org.hibernate.eclipse_3.4.0.v20110215-
+<li>A partir de la versión 1.1.0, no es necesario el fichero "htejie.jar", por lo que habrá que eliminarlo manualmente de la ruta ECLIPSE_HOME\plugins\org.hibernate.eclipse_3.4.0.v20110215-
 1252-H31-GA\lib\tools
 
 </li>
@@ -92,7 +92,7 @@ NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar 
 Además recuerde que deberá instalar también:
 <ul>
 <li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.1.0.zip extensiones de Hibernate Tools]</li>
-<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar "x38ShLibClasses-x.x.jar"]</li>
+<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar "x38ShLibClasses-x.x.x.jar"]</li>
 </ul>
 
 <br>
@@ -100,6 +100,20 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 
 
 ==Versiones y productos==
+
+<h3>16-Septiembre-2011</h3>
+<ul>
+<li>Actualizada la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar versión 1.1.0]. Se ha modificado el sistema de logs para mejorar las trazas de las aplicaciones desarrolladas cambiando la implementación de log4j por [http://www.slf4j.org slf4j] y [http://logback.qos.ch logback].</li>
+<li>Se ha actualizado el [http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip repositorio Maven (v1.1.0)] para incluir la nueva versión de la librería de utilidades.</li>
+<li>Se han corregido varios bugs y modificado la estructura del proyecto War y de los [http://uda.googlecode.com/files/rup-v1.0.1.zip componentes RUP] para facilitar futuras tareas de compresión y minimizado, pasando a la versión 1.1.0.</li>
+<li>Se ha actualizado convenientemente las [http://uda.googlecode.com/files/templates-v.1.1.0.zip plantillas] que generan automáticamente el código de los proyectos y los componentes RUP, a su versión 1.1.0.</li>
+<li>Se ha eliminado una dependencia estructural de la implementación del propio plugin UDA, eliminando la necesidad de incluir el fichero "htejie.jar" como extensión de Hibernate Tools.</li>
+</ul>
+
+En la sección UDA v1.1.0 (15-09-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizar una aplicación que ya hayas generado con UDA previamente.
+
 
 <h3>09-Julio-2011</h3>
 <ul>
