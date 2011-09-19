@@ -123,7 +123,7 @@ También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Ac
 <li>Puesto que las [http://uda.googlecode.com/files/templates-v.1.0.1.zip plantillas] generan automáticamente los  componentes RUP, estas también han sido actualizadas a la versión 1.0.1</li>
 </ul>
 
-En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/changelog.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
 
 También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizar una aplicación que ya hayas generado con UDA previamente.
 
