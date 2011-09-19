@@ -56,7 +56,7 @@ xxxStatics/WebContent/xxx/scripts/layoutLoaderXxxWARNAME.js
 }}}
 Ahora:
 {{{
-xxxStatics/WebContent/xxx/scripts/WARNAME/_layoutLoader.js
+xxxStatics/WebContent/xxx/scripts/WARNAME/layoutLoader.js
 }}}
 
 Esta modificación produce cambios en cadena en el fichero "{{{xxxNombreWar/WebContent/WEB-INF/layouts/base-includes.jsp}}}":
