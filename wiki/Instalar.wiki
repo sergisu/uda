@@ -112,7 +112,7 @@ Si se va a utilizar <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini
 <ul><li>Suprimir la necesidad de incluir el fichero "htejie.jar" como extensión de Hibernate Tools.</li>
 <li>Unificar la inyección de dependencias en la generación de los proyectos EarClasses y War mediante XML o anotaciones.</li>
 </ul></li>
-<li>Se incluye el plugin [http://market.eclipsesource.com/yoxos/node/org.jboss.ide.eclipse.freemarker.feature.feature.group Freemarker IDE (JBoss Tools)] en Eclipse para facilitar la edición de las plantillas de generación de código.</li>
+<li>Se incluye el plugin [http://www.jboss.org/tools Freemarker IDE (JBoss Tools)] en Eclipse para facilitar la edición de las plantillas de generación de código.</li>
 </ul>
 
 En la sección UDA v1.1.0 (15-09-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
