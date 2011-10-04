@@ -661,11 +661,14 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 <li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build)</li>
 </ul>
 </li>
-<li>Para no tener problemas con los caracteres acentuados, eñes, etc. incluye en el fichero weblogic.xml de todos tus WARs lo siguiente (línea 5):
+<li>Para no tener problemas con los caracteres acentuados, eñes, etc. incluye en el fichero web.xml de todos tus WARs lo siguiente (línea 5):
 {{{
-<wls:jsp-descriptor>
-    <wls:encoding>UTF-8</wls:encoding>
-</wls:jsp-descriptor> 
+<jsp-config>
+    <jsp-property-group>
+        <url-pattern>*.jsp</url-pattern>
+        <page-encoding>UTF-8</page-encoding>
+    </jsp-property-group>
+</jsp-config>
 }}}
 </li>
 <li>A partir de la versión 1.0.1 los mantenimientos no requieren que el identificador de su capa comience con "{{{EJIE_MAINT_}}}". Debido a este cambio es posible que sea necesario realizar las siguientes modificaciones en las páginas que utilicen el componente mantenimiento:
