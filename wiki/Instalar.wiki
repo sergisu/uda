@@ -114,7 +114,7 @@ En la sección UDA v1.1.1 (14-10-2011) del archivo [http://uda.googlecode.com/fi
 Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion 
 <ul>
 <li>habrá que descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
-<li>modificar los ficheros *.inc con la versión correspondiente de los patrones.</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
 </ul>
 
 <h3>15-Septiembre-2011</h3>
