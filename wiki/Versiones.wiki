@@ -1,0 +1,72 @@
+<h2>Versiones</h2>
+<p> 
+<h3>1.1.1 (14-Octubre-2011)</h3>
+<p>
+[http://code.google.com/p/uda/downloads/list Descargas actualizadas]:
+<ul>
+<li>Librería de utilidades <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>: [http://uda.googlecode.com/files/x38ShLibClasses-1.1.1.jar  x38ShLibClasses-1.1.1.jar]</li>
+<li>Repositorio Maven de dependencias: [http://uda.googlecode.com/files/MavenRepository-v1.1.1.zip Repositorio Maven (v1.1.1)]</li>
+<li>Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> para Eclipse: [http://uda.googlecode.com/files/pluginUDAInstall-v1.1.1.zip Plugin UDA (v1.1.1)]</li>
+<li>Plantillas de generación de código: [http://uda.googlecode.com/files/templates-v1.1.1.zip Plantillas (v1.1.1)]</li>
+<li>Patrones de presentación RUP: [http://uda.googlecode.com/files/rup-v1.1.1.zip Componentes RUP (v1.1.1)]</li>
+<li>Eclipse IDE configurado para <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>: [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.1.1)]</li>
+<li>Documentación: [http://uda.googlecode.com/files/Documentacion.v1.1.1.zip  Documentacion.v1.1.1.zip]</li>
+</ul>
+<p>
+
+Mejoras implementadas:
+<ul>
+<li>Integración en portal. Se ha creado una utilidad para adecuar los css de una aplicación a la estructura que marca la integración en la infraestructura de portal. De esta forma, es posible desarrollar los css de la aplicación sin tener en cuenta las restricciones del portal y después, en el momento de la integración, la utilidad parsea los css incluyendo los elementos que impone la integración.</li>
+<li>Corrección de [http://code.google.com/p/uda/issues/detail?id=8&can=1 incidencia relacionada con XlNets] en la librería de utilidades</li>
+<li>Correcciones de accesibilidad en los patrones lenguaje, migas y menu para el cumplimiento de WCAG 2.0 nivel AA</li>
+</ul> 
+
+En la sección UDA v1.1.1 (14-Octubre-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+<p>
+
+
+
+<h3>1.1.0 (15-Septiembre-2011)</h3>
+<p>
+[http://code.google.com/p/uda/downloads/list Descargas actualizadas]:
+<ul>
+<li>Librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>: [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar  x38ShLibClasses-1.1.0.jar]</li>
+<li>[http://uda.googlecode.com/files/pluginUDAInstall-v1.1.0.zip Plugin UDA (v1.1.0)]</li>
+<li>[http://uda.googlecode.com/files/addonsPluginUDA.v1.1.0.zip Extensiones para Hibernate Tools (v1.1.0)]</li>
+<li>[http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip Repositorio Maven (v1.1.0)]</li>
+<li>[http://uda.googlecode.com/files/rup-v1.1.0.zip Componentes RUP (v1.1.0)]</li>
+<li>[http://uda.googlecode.com/files/templates-v1.1.0.zip Plantillas (v1.1.0)]</li>
+<li>[http://uda.googlecode.com/files/rules-v1.1.0.zip Reglas de aseguramiento de la calidad del código (v1.1.0)]</li>
+<li>[http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.1.0)]</li>
+</ul>
+<p>
+Mejoras implementadas:
+<ul>
+<li>Sistema de Logs. Se ha pasado a utilizar SLF4J y LOGBack en lugar de LOG4J. *IMPORTANTE !!!!* Esta actualización se deberá realizar *obligatoriamente* en todas las aplicaciones desarrolladas para el entorno de GV-EJIE, evitando de este modo que se "mezclen" las trazas de distintas aplicaciones.</li>
+<li>Estructura de proyectos. Modificación en la estructura para mejorar la gestión de la configuración</li>
+</ul> 
+
+En la sección UDA v1.1.0 (15-Septiembre-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+<p>
+
+
+
+<h3>1.0.1 (09-Julio-2011)</h3>
+<p>
+[http://code.google.com/p/uda/downloads/list Descargas actualizadas]:
+<ul>
+<li>Librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>: [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar  x38ShLibClasses-1.0.1.jar]</li>
+<li>[http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip Repositorio Maven (v1.0.1)]</li>
+<li>[http://uda.googlecode.com/files/rup-v1.0.1.zip Componentes RUP (v1.0.1)]</li>
+<li>[http://uda.googlecode.com/files/templates-v.1.0.1.zip Plantillas (v1.0.1)]</li>
+<li>[http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.0.1)]</li>
+</ul>
+
+En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com/files/changelog.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+<p>
+
+
+
+<h3>1.0.0 (06-Junio-2011)</h3>
+<p>
+Primera versión.
