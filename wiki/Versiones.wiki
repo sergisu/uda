@@ -1,4 +1,6 @@
-<h2>Versiones</h2>
+#labels Phase-Design,Featured
+En esta sección mantendremos el historial de versiones liberadas.
+
 <p> 
 <h3>1.1.1 (14-Octubre-2011)</h3>
 <p>
