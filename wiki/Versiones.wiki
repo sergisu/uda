@@ -1,4 +1,6 @@
+#summary Histórico de versiones
 #labels Phase-Design,Featured
+
 En esta sección mantendremos el historial de versiones liberadas.
 
 <p> 
