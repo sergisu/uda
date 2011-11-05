@@ -74,7 +74,7 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 ||Spring Security||3.0.5||Seguridad||Todas||
 ||Logback||0.9.29||Trazas||Todas||
 ||Slf4j||1.6.1||Trazas||Todas||
-||Hibernate Validator||4.1||Validación||Todas||
+||Hibernate Validator||4.2||Validación||Todas||
 ||Weblogic||10.3.1||Servidor de aplicaciones||Contenedor JEE||
 ||Java Development Kit||6||Maquina Virtual Java||JVM||
 
