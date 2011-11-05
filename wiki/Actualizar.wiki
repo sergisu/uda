@@ -158,23 +158,7 @@ Acuérdate de sustituir el valor de la etiqueta {{{value}}} de la línea {{{<pro
 </li>
 <li>No olvides actualizar también el [http://uda.googlecode.com/files/pluginUDAInstall-v1.1.1.zip Plugin UDA (v1.1.1)] y las [http://uda.googlecode.com/files/templates-v1.1.1.zip Plantillas (v1.1.1)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.1.1)] completo. Es más, si no lo haces, no te funcionará la utilidad de generación de estilos para integrar tu aplicación en la red de portales euskadi.net.
 </li>
-
-
-
 </ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <h3>15-Septiembre-2011</h3>
 
