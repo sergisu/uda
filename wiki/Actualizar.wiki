@@ -5,7 +5,7 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 <p> 
 Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
-<h3>14-Octubre-2011</h3>
+<h3>v1.1.1 (14-Octubre-2011)</h3>
 <ol>
 <li>Cambiar la carpeta {{{xxxStatics}}}\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.1.1.zip rup-v1.1.1.zip]</li>
 <li>Modificar la inclusión de los ficheros CSS y JS:
@@ -170,7 +170,7 @@ En la configuración del sistema de logging, en el fichero {{{xxxConfig\logback.
 </li>
 </ol>
 
-<h3>15-Septiembre-2011</h3>
+<h3>v1.1.0 (15-Septiembre-2011)</h3>
 
 <ol>
 <li>Actualizar la estructura de proyectos
@@ -701,7 +701,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 </li>
 </ol>
 
-<h3>09-Julio-2011</h3>
+<h3>v1.0.1 (09-Julio-2011)</h3>
 <ol>
 <li>Cambiar la carpeta {{{<APP>}}}Statics\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.0.1.zip rup-v1.0.1.zip]</li>
 <li>Modificar la inclusión de los ficheros CSS (template) y JS (base-includes):
