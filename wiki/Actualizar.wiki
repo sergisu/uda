@@ -7,7 +7,7 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 
 <h3>14-Octubre-2011</h3>
 <ol>
-<li>Cambiar la carpeta {{{<APP>}}}Statics\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.1.1.zip rup-v1.1.1.zip]</li>
+<li>Cambiar la carpeta {{{xxxStatics}}}\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.1.1.zip rup-v1.1.1.zip]</li>
 <li>Modificar la inclusión de los ficheros CSS y JS:
 
     {{{<xxxYYY>}}}War\WebContent\WEB-INF\layouts\includes\rup.styles.inc (líneas 9-24):
@@ -84,7 +84,7 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 	<property name="srcDir" value="../${codApp}Statics/WebContent"/>
 	<property name="destDir" value="../${codApp}Statics/${codApp}PortalStatics"/>
 
-	<target name="generatePortalStatics" description="Genera directorio aaaPortalStatics para despliegue de en portal">
+	<target name="generatePortalStatics" description="Genera directorio aaaPortalStatics para despliegue en portal">
 		<echo>Regenerando directorio (aaaPortalStatics)</echo>
 		<delete dir="${destDir}" />
 		<mkdir  dir="${destDir}" />
@@ -110,15 +110,15 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </project>
 }}} 
 
-Acuérdate de sustituir el valor de la etiqueta {{{value}}} de la línea {{{<property name="codApp" value="aaa"/>}}} por el código de tu aplicación, así como el nombre del proyecto {{{<project name="aaaEAR" }}}.
+Acuérdate de sustituir el valor de la etiqueta {{{value}}} de la línea {{{<property name="codApp" value="aaa"/>}}} por el código de tu aplicación, así como el nombre del proyecto {{{<project name="aaaEAR" }}} al principio del fichero.
 
     **NOTA: Las librerías que contienen esta utilidad se instalarán cuando actualices el [http://uda.googlecode.com/files/pluginUDAInstall-v1.1.1.zip Plugin UDA (v1.1.1)], por tanto, para poder utilizarla, debes realizar antes dicha [http://code.google.com/p/uda/wiki/Instalar instalación].  
 
 </li>
 
-<li>Actualizar el repositorio de dependencias Maven con la nueva [http://uda.googlecode.com/files/MavenRepository-v1.1.1.zip versión 1.1.1], el cual contiene  las nuevas versiones de las librerias actualizadas (x38ShLibClasses-1.1.1.jar e hibernate-validator-4.2.0.Final)</li>
+<li>Actualizar el repositorio de dependencias Maven con la nueva [http://uda.googlecode.com/files/MavenRepository-v1.1.1.zip versión 1.1.1], que contiene  las nuevas versiones de las librerias actualizadas (x38ShLibClasses-1.1.1.jar e hibernate-validator-4.2.0.Final)</li>
 
-<li>Actualizar el fichero "{{{pom.xml}}}" del proyecto EAR para dejar acorde las dependencias de las librerías:
+<li>Actualizar el fichero "{{{pom.xml}}}" del proyecto {{{xxxEAR}}} para dejar acorde las dependencias de las librerías:
 
 <ul>
 <li>Actualizar la versión de x38:
@@ -150,13 +150,23 @@ Acuérdate de sustituir el valor de la etiqueta {{{value}}} de la línea {{{<pro
 </dependency>
 }}}
 </li>
-
-<li>Abre el build.xml del proyecto EAR con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
+<li>Abre el "{{{build.xml}}}" del proyecto {{{xxxEAR}}} con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
 <li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build) actualizando las nuevas librerías {{{xxxEAR\APP_INF\lib}}}</li>
 <li>Sobre el proyecto {{{xxxEAR}}} pulsa F5 (Refresh)</li>
 </ul>
 </li>
-<li>No olvides actualizar también el [http://uda.googlecode.com/files/pluginUDAInstall-v1.1.1.zip Plugin UDA (v1.1.1)] y las [http://uda.googlecode.com/files/templates-v1.1.1.zip Plantillas (v1.1.1)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.1.1)] completo. Es más, si no lo haces, no te funcionará la utilidad de generación de estilos para integrar tu aplicación en la red de portales euskadi.net.
+<li>
+En la configuración del sistema de logging, en el fichero {{{xxxConfig\logback.xml}}}, corregir el appender de trazas de la aplicación.
+    Donde aparece 
+{{{
+	<logger name="com.ejie.${CONTEXT_NAME}" level="${log.level.aplicTrazas}">
+		<appender-ref ref="aplicTrazasAppender"/>
+	</logger>
+}}}
+
+    Sustituir {{{${CONTEXT_NAME}}}} por el código de tu aplicación para que en el fichero se escriban las trazas de la aplicación.
+</li>
+<li>No olvides actualizar también el [http://uda.googlecode.com/files/pluginUDAInstall-v1.1.1.zip Plugin UDA (v1.1.1)] y las [http://uda.googlecode.com/files/templates-v1.1.1.zip Plantillas (v1.1.1)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.1.1)] completo. Es más, si no lo haces, no funcionará la utilidad de generación de estilos para integrar tu aplicación en la red de portales euskadi.net.
 </li>
 </ol>
 
