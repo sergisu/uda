@@ -148,6 +148,7 @@ Este proceso debe repetirse para el proyecto {{{xxxEARClasses}}}.
 
 <li>Finalmente, no olvides actualizar el [http://uda.googlecode.com/files/pluginUDAInstall-v1.2.0.zip Plugin UDA (v1.2.0)] y las [http://uda.googlecode.com/files/templates-v1.2.0.zip Plantillas (v1.2.0)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.2.0)] completo.
 </li>
+</ol>
 
 <h3>v1.1.1 (14-Octubre-2011)</h3>
 <ol>
