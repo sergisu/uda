@@ -5,6 +5,150 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 <p> 
 Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
+<h3>v1.2.0 (15-Diciembre-2011)</h3>
+<ol>
+<li>Cambiar la carpeta {{{xxxStatics}}}\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.2.0.zip rup-v1.2.0.zip]</li>
+<li>Modificar la inclusión de los ficheros CSS y JS:
+
+    {{{<xxxYYY>}}}War\WebContent\WEB-INF\layouts\includes\rup.styles.inc
+        Incluir en la línea 5:
+{{{
+<link href="${staticsUrl}/rup/basic-theme/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
+}}}
+        Modificar las líneas 10-26:
+{{{
+<!-- Patrones (basic-theme) -->
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.base-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.autocomplete-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.breadCrumb-1.1.1.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.combo-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.date-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.feedback-1.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.grid-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.lang-1.1.1.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.maint-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.menu-1.1.1.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.messages-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.tabs-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.time-1.2.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.toolbar-1.1.1.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.tooltip-1.1.1.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.upload-1.0.0.css" rel="stylesheet" type="text/css" />
+}}}
+
+
+    {{{<xxxYYY>}}}\WebContent\WEB-INF\layouts\includes\rup.scripts.inc
+        Incluir en la línea 20:
+{{{
+<!-- FileUpload -->
+<script src="${staticsUrl}/rup/scripts/core/jquery.fileupload.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.fileupload-ui.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.xdr-transport.js" type="text/javascript"></script>
+}}}
+        Modificar las líneas 6-8 y 36-55:
+{{{
+<!-- RUP-CORE -->
+<script src="${staticsUrl}/rup/scripts/rup.utils-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.base-1.2.0.js" type="text/javascript"></script>
+
+...
+
+<!-- Patrones RUP -->
+<script src="${staticsUrl}/rup/scripts/rup.autocomplete-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.breadCrumb-1.1.1.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.combo-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.date-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.dialog-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.feedback-1.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.grid-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.lang-1.1.1.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.maint-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.menu-1.1.1.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.message-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.tabs-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.time-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.toolbar-1.1.1.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.tooltip-1.1.1.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.upload-1.0.0.js" type="text/javascript"></script>
+}}}
+</li>			
+
+    **NOTA 1: Los ficheros actualizados puedes obtenerlos desde [http://uda.googlecode.com/files/templates-v1.2.0.zip templates-v1.2.0.zip] 
+
+    **NOTA 2: En caso de querer añadir únicamente el patrón upload sería necesario añadir las líneas nuevas _pero no nos hacemos cargo de la interacción del patrón con versiones anteriores de RUP_.
+        En {{{<xxxYYY>}}}War\WebContent\WEB-INF\layouts\includes\rup.styles.inc
+{{{
+<link href="${staticsUrl}/rup/basic-theme/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
+
+
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.base-1.2.0.css" rel="stylesheet" type="text/css" />
+...
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.upload-1.0.0.css" rel="stylesheet" type="text/css" />
+}}}
+        En {{{<xxxYYY>}}}War\WebContent\WEB-INF\layouts\includes\rup.scripts.inc
+{{{
+<script src="${staticsUrl}/rup/scripts/rup.utils-1.2.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.base-1.2.0.js" type="text/javascript"></script>
+
+
+<!-- FileUpload -->
+<script src="${staticsUrl}/rup/scripts/core/jquery.fileupload.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.fileupload-ui.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/core/jquery.xdr-transport.js" type="text/javascript"></script>
+
+
+<script src="${staticsUrl}/rup/scripts/rup.upload-1.0.0.js" type="text/javascript"></script>
+}}}
+
+
+<li>Actualizar el repositorio de dependencias Maven con la nueva [http://uda.googlecode.com/files/MavenRepository-v1.2.0.zip versión 1.2.0], que contiene  las nuevas versión de la librería x38ShLibClasses (x38ShLibClasses-1.2.0.jar)</li>
+
+<li>Actualizar el fichero "{{{pom.xml}}}" del proyecto {{{xxxEAR}}} para dejar acorde las dependencias de las librerías:
+
+<ul>
+<li>Actualizar la versión de x38:
+{{{
+<dependency>
+    ...
+    ...
+    <com.ejie.x38.version>1.2.0</com.ejie.x38.version>
+</dependency>
+
+}}}
+</li>
+
+<li>Abre el "{{{build.xml}}}" del proyecto {{{xxxEAR}}} con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
+<li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build) actualizando las nuevas librerías {{{xxxEAR\APP_INF\lib}}}</li>
+<li>Sobre el proyecto {{{xxxEAR}}} pulsa F5 (Refresh)</li>
+</ul>
+</li>
+
+<li>Para migrar los proyectos existentes a la nueva versión del servidor Weblogic 10.3.5:
+
+<ul>
+<li>En primer lugar debe instalarse el servidor de aplicaciones WebLogic Server 11g (10.3.5.0) y configurarse para su trabajo en Eclipse como se indica en el [http://uda.googlecode.com/files/Documentacion-v1.2.0.zip documento de instalación en PC local]</li>
+<li>Configurada la nueva versión del servidor se debe ir a las propiedades de cada uno de los proyectos que componen la aplicación (botón derecho sobre proyecto > Properties) y seleccionar el apartado "Project Facets". En la pestaña "Runtimes" debe marcarse la opción correspondiente a la nueva versión de WebLogic Server como aparece en la siguiente imagen.</li>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/img11.JPG"/>
+
+<li>Si en "Window>Preferences>UDA" está seleccionado el check "Desarrollo para EJIE" se deben actualizar además las librerías presentes en el CLASSPATH relacionadas con la versión anterior del servidor de aplicaciones. Para ello debe accederse a las propiedades de los proyectos {{{xxxEARClasses}}} y {{{xxxNombreWar}}} que componen nuestra aplicación ("botón derecho sobre proyecto > Properties") y seleccionar el apartado "Java Build Path". En la pestaña "Libraries" seleccionar "WebLogic System Libraries" y pulsar "Edit".</li>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/img12.JPG"/>
+
+<li>Aparecen las librerías que se han incluido en el CLASSPATH para el trabajo con la versión 10.3.1 de WebLogic Server 11g. Las librerías que no se encuentran aparecen con una "X" (weblogic.client.modules_10.3.1.0.jar y weblogic.server.modules.extra_10.3.1.0.jar) debiéndose sustituir por sus equivalentes de la versión 10.3.5 de WebLogic Sever 11g. Para ello se selecciona cada una de ellas y se edita el campo "Relative path" buscando la librería equivalente de la versión 10.3.5 (se encuentran en la carpeta "features" de la instalación del servidor).</li>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/img13.JPG"/>
+
+Este proceso debe repetirse para el proyecto {{{xxxEARClasses}}}.
+<li>Actualizadas las librerías se añade la aplicación al nuevo servidor configurado en Eclipse quedando configurada para su despliegue en Weblogic Server 11g versión 10.3.5.</li>
+</ul>
+</li>
+
+<li>Finalmente, no olvides actualizar el [http://uda.googlecode.com/files/pluginUDAInstall-v1.2.0.zip Plugin UDA (v1.2.0)] y las [http://uda.googlecode.com/files/templates-v1.2.0.zip Plantillas (v1.2.0)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v1.2.0)] completo.
+</li>
+
 <h3>v1.1.1 (14-Octubre-2011)</h3>
 <ol>
 <li>Cambiar la carpeta {{{xxxStatics}}}\WebContent\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v1.1.1.zip rup-v1.1.1.zip]</li>
