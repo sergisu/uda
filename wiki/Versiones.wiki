@@ -4,6 +4,26 @@
 En esta sección mantendremos el historial de versiones liberadas.
 
 <p> 
+<h3>1.2.0 (15-Diciembre-2011)</h3>
+<ul>
+<li>Adaptación de la generación de código a la versión 10.3.5 de Oracle Weblogic Server. El código generado en versiones anteriores del plugin UDA se podía desplegar en la versión 10.3.5 del servidor modificando los descriptores de despliegue. Con este cambio el entorno de desarrollo en PC local evoluciona para ser análogo al entorno de desarrollo en EJIE. Tanto en el documento de instalación como en la [http://code.google.com/p/uda/wiki/Actualizar página de actualización] se describen los pasos para la migración de los proyectos desarrollados en PC local en la versión 10.3.1 del servidor.</li>
+<li>Nuevo plugin añadido al Eclipse IDE para facilitar la consulta de los logs de las aplicaciones [http://code.google.com/a/eclipselabs.org/p/logviewer/ Eclipse Log Viewer].</li>
+<li>Nuevos serializadores para el tratamiento de fechas y horas en los patrones date y time.</li>
+<li>Nuevo patrón upload para el tratamiento de la subida de ficheros en las aplicaciones.</li>
+<li>Correcciones sobre los patrones combo, autocomplete, fecha y hora para mejorar su integración en el mantenimiento.</li>
+</ul>
+
+En la sección UDA v1.2.0 (15-12-2011) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
+<ul>
+<li>descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
+</ul>
+
+Para migrar el despliegue de los proyectos Eclipse existentes en la nueva versión del servidor Weblogic Server 11g 10.3.5 se recomienda leer la guía de "Instalación en PC Local" incluida en la [http://uda.googlecode.com/files/Documentacion-v1.2.0.zip documentación] o los pasos incluidos en la sección [http://code.google.com/p/uda/wiki/Actualizar Actualizar].
+
+
 <h3>1.1.1 (14-Octubre-2011)</h3>
 <ul>
 <li>Se ha actualizado la librería de utilidades <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.1.1.jar versión 1.1.1] corrigiendo un [http://code.google.com/p/uda/issues/detail?id=8&can=1 error] detectado en la composición de la url de XlNets.</li>
