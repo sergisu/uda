@@ -4,6 +4,27 @@
 En esta sección mantendremos el historial de versiones liberadas.
 
 <p> 
+<h3>2.0.0 (22-Junio-2012)</h3>
+<ul>
+<li>Configuración y propiedades de idioma: la configuración de estas propiedades forma parte de la aplicación en lugar de cargarse desde la configuración de entorno.</li>
+<li>Gestión de validaciones y excepciones: validaciones en servidor y cliente, facilidades para añadir gestión propia de excepciones, mejora de la página de error.</li>
+<li>Sistema de seguridad: soporte multiusuario en el mock para las pruebas sin Xlnets, soporte a la autenticación con certificado, securización de menús en base al rol del usuario.</li>
+<li>Revisión de la base tecnológica sobre la que se desarrollan las aplicaciones: springframework, spring-security, logback, jackson, jquery, jquery-ui, jqgrid.</li>
+<li>Patrones de interacción RUP: Correcciones en los componentes existentes, integración de la gestión de validaciones y excepciones, cambio del plugin subyacente en el tooltip y el menú, nuevos patrones (wizard, form, validation).</li>
+<li>Reglas de calidad de código estático: Bajo acuerdo con la Oficina de Calidad se han revisado los niveles y la necesidad de algunas reglas</li>
+</ul>
+
+En la sección UDA v2.0.0 (22-02-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
+<ul>
+<li>descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
+</ul>
+
+
+
+
 <h3>1.2.1 (22-Febrero-2012)</h3>
 <ul>
 <li>Nueva documentación sobre recomendaciones y buenas prácticas en la programación de la interfaz web.</li>
