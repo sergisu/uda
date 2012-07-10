@@ -107,6 +107,7 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 <script src="${staticsUrl}/rup/scripts/rup.date-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.dialog-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.feedback-2.0.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.form-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.grid-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.lang-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.maint-2.0.0.js" type="text/javascript"></script>
@@ -120,7 +121,6 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 }}}
         Añadir a continuación las entradas de los nuevos patrones:
 {{{
-<script src="${staticsUrl}/rup/scripts/rup.upload-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.validate-2.0.0.js" type="text/javascript"></script>
 <script src="${staticsUrl}/rup/scripts/rup.wizard-2.0.0.js" type="text/javascript"></script>
 }}}
