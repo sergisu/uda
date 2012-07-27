@@ -82,7 +82,7 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/menús.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/menus2.0.PNG"/>
 
 <h3>3. Pestañas de navegación</h3>
 
