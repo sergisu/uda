@@ -80,9 +80,19 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 <li>Apoyados de migas de pan y buenos títulos y subtítulos dan buen contexto al usuario.</li>
 </ul>
 
-<h4>Ejemplo</h4>
+<h4>Ejemplos</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/menus2.0.PNG"/>
+Menú horizontal:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menus-h2.0.png"/>
+
+Menú vertical:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menus-v2.0.png"/>
+
+Menú mixto:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menus-m2.0.png"/>
 
 <h3>3. Pestañas de navegación</h3>
 
@@ -119,7 +129,9 @@ Se recomienda usarlas en aplicaciones web con tres o más niveles de jerarquía 
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/migas.png"/>
+Migas de pan, con menú de acceso rápido habilitado 
+
+<img src="http://uda.googlecode.com/svn/wiki/images/migas2.0.png"/>
 
 <h3>5. Selección de idioma</h3>
 
@@ -136,7 +148,7 @@ El usuario puede elegir de forma sencilla el idioma en el que se le presenta la 
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/idioma.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/idioma2.0.png"/>
 
 <h3>6. Fechas</h3>
 
@@ -241,9 +253,16 @@ Este tipo de ayuda es muy útil para todos los usuarios pero especialmente para 
 <li>La sección de ayuda ofrece una solución potente para resolver dudas enfocada a los usuarios más expertos o interesados en la aplicación.</li>
 </ul>
 
-<h4>Ejemplo</h4>
+<h4>Ejemplos</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/tooltip.png"/>
+Ayuda contextual sobre un campo:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tooltip1-2.0.png"/>
+
+
+Ayuda contextual sobre un campo con estilo diálogo (modal):
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tooltip2-2.0.png"/>
 
 <h3>12. Botonera de opciones</h3>
 
@@ -260,7 +279,7 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/botonera.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/botonera2.0.png"/>
 
 <h3>13. Presentación de datos en tabla (Grid)</h3>
 
@@ -277,7 +296,7 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/tabla.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/grid2.0.png"/>
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
@@ -295,7 +314,7 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/paginación.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/paginacion2.0.png"/>
 
 <h3>13.2. Ordenación de filas</h3>
 
@@ -348,7 +367,7 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/tabla-multiselección.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/seleccion2.0.png"/>
 
 <h3>13.5. Filtrado/Búsqueda</h3>
 
@@ -396,7 +415,7 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-formulario.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/mtoformulario2.0.png"/>
 
 <h3>15. Mantenimiento con creación y edición en celda</h3>
 
@@ -417,7 +436,7 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-editable.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/mtoedicionlinea2.0.png"/>
 
 <h3>16. Mantenimiento maestro-detalle</h3>
 
@@ -440,7 +459,7 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-maestro-detalle.png"/>
 
-<h3>17. Diálogos</h3>
+<h3>17. Diálogos y mensajes</h3>
 
 Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
@@ -469,11 +488,11 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 <li>Cuando se utiliza para lanzar subprocesos funciona enfocando al usuario a lo importante: se le ofrecen unas opciones iniciales en el proceso principal y según pide nuevos contenidos se le lanzan en ventanas modales permitiéndole que se centre en ellos pudiendo realizar así la tarea de forma más progresiva.</li>
 </ul>
 
-<h4>Ejemplo</h4>
+<h4>Ejemplos</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-diálogo.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/msjedialogo2.0.png"/>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/mensaje-error.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/msjeerror2.0.png"/>
 
 <h3>18. Feedback</h3>
 
@@ -518,8 +537,13 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 <li>Mejora la experiencia de uso y reduce al mínimo la frustración al usar la aplicación ya que los mensajes se ofrecen en un lenguaje inteligible para los usuarios y les proporcionan posibles vías de solución a los problemas. Además, se trata de evitar la aparición de problemas antes de que estos se produzcan.</li>
 </ul>
 
-<h4>Ejemplo</h4>
+<h4>Ejemplos</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/feedback.png"/>
+Feedback informativo:
+<img src="http://uda.googlecode.com/svn/wiki/images/feedbackok2.0.png"/>
+
+Feedback de error:
+<img src="http://uda.googlecode.com/svn/wiki/images/feedbackerror2.0.png"/>
+
 
 Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
