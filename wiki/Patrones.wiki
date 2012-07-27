@@ -42,13 +42,15 @@ Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy nu
 Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
 
-<h2>RUP</h2>
+==RUP==
 
 Los componentes (plugins jQuery) que implementan los patrones de interacción identificados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
 
 Estos componentes RUP son totalmente configurables, es decir, que es posible modificar su comportamiento según interese en cada caso. Por ejemplo, el mismo componente de mantenimiento cubre los patrones de "mantenimiento con formulario" y el de "mantenimiento con creación y edición en celda", de modo que a través de variables de configuración el mismo componente se podrá comportar de la manera deseada.  
 
-<h3>1. Pestañas de contenido</h3>
+<wiki:toc max_depth="4"/>
+
+===1. Pestañas de contenido===
 
 Permiten dar acceso de forma compacta a grupos de contenidos mutuamente excluyentes pudiendo ser integradas en zonas muy reducidas de la interfaz.
 
@@ -67,7 +69,9 @@ También es útil cuando tenemos que mostrar mucha información dividida en grup
 
 <img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
 
-<h3>2. Menús de navegación</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===2. Menús de navegación===
 
 Menú de la aplicación mantenido a lo largo de todas las páginas de forma consistente, que muestra entradas directas a secciones clave de la aplicación.
 
@@ -94,7 +98,9 @@ Menú mixto:
 
 <img src="http://uda.googlecode.com/svn/wiki/images/menus-m2.0.png"/>
 
-<h3>3. Pestañas de navegación</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===3. Pestañas de navegación===
 
 Menú de navegación de la aplicación que divide ésta en secciones claramente excluyentes entre sí y da acceso a ellas.
 
@@ -110,7 +116,9 @@ Menú de navegación de la aplicación que divide ésta en secciones claramente 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/pestañas.png"/>
 
-<h3>4. Migas de pan</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===4. Migas de pan===
 
 Se muestra a los usuarios la ruta de navegación que ha seguido por la aplicación permitiéndoles volver hacia niveles superiores hasta la página de inicio.
 
@@ -133,7 +141,9 @@ Migas de pan, con menú de acceso rápido habilitado
 
 <img src="http://uda.googlecode.com/svn/wiki/images/migas2.0.png"/>
 
-<h3>5. Selección de idioma</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===5. Selección de idioma===
 
 El usuario puede elegir de forma sencilla el idioma en el que se le presenta la aplicación.
 
@@ -150,7 +160,9 @@ El usuario puede elegir de forma sencilla el idioma en el que se le presenta la 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/idioma2.0.png"/>
 
-<h3>6. Fechas</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===6. Fechas===
 
 El usuario puede introducir manualmente una fecha o seleccionarla de un calendario moviéndose por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
 
@@ -170,7 +182,9 @@ Este patrón también contempla la posibilidad de poder seleccionar más de una 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/fechas-multiples.png"/>
 
-<h3>7. Intervalos de fechas</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===7. Intervalos de fechas===
 
 El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo de un calendario por días, meses y años y recibiendo ayudas y sugerencias para minimizar las posibilidades de que introduzca una fecha incorrecta.
 
@@ -187,7 +201,9 @@ El usuario puede introducir manualmente un intervalo de fechas o seleccionarlo d
 
 <img src="http://uda.googlecode.com/svn/wiki/images/intervalos-fechas.png"/>
 
-<h3>8. Horas</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===8. Horas===
 
 El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas para minimizar las posibilidades de que introduzca una hora incorrecta.
 
@@ -203,7 +219,9 @@ El usuario puede introducir manualmente una hora o recibiendo ayudas gráficas p
 
 <img src="http://uda.googlecode.com/svn/wiki/images/horas.png"/>
 
-<h3>9. Controles dependientes (Combos)</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===9. Controles dependientes (Combos)===
 
 Permite al usuario seleccionar un elemento de una gran lista o de varias listas relacionadas que ocupan poco espacio en la interfaz.
 
@@ -221,7 +239,9 @@ También puede ser útil como componente para crear accesos rápidos a partes de
 
 <img src="http://uda.googlecode.com/svn/wiki/images/combos.png"/>
 
-<h3>10. Autocompletar (Suggest)</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===10. Autocompletar (Suggest)===
 
 Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que está realizando el usuario.
 
@@ -238,7 +258,9 @@ Ofrece sugerencias de búsqueda en tiempo real coincidentes con la búsqueda que
 
 <img src="http://uda.googlecode.com/svn/wiki/images/autocompletar.png"/>
 
-<h3>11. Ayuda (Tooltip)</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===11. Ayuda (Tooltip)===
 
 Proporciona distintos tipos y niveles de ayuda adaptados a las distintas necesidades de los usuarios y que facilitan el aprendizaje progresivo de la aplicación.
 
@@ -264,7 +286,9 @@ Ayuda contextual sobre un campo con estilo diálogo (modal):
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tooltip2-2.0.png"/>
 
-<h3>12. Botonera de opciones</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===12. Botonera de opciones===
 
 Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o varios elementos de la interfaz.
 
@@ -281,7 +305,9 @@ Grupo de botones icónicos que ejecutan acciones generales o referidas a uno o v
 
 <img src="http://uda.googlecode.com/svn/wiki/images/botonera2.0.png"/>
 
-<h3>13. Presentación de datos en tabla (Grid)</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===13. Presentación de datos en tabla (Grid)===
 
 Se presentan los datos de forma que sean fácilmente escaneables visualmente y que faciliten encontrar la información que se busca.
 
@@ -300,7 +326,7 @@ Se presentan los datos de forma que sean fácilmente escaneables visualmente y q
 
 Este patrón complementa su funcionalidad con otros patrones definidos a continuación. 
 
-<h3>13.1. Paginación</h3>
+====13.1. Paginación====
 
 Permite moverse por una lista larga de elementos presentados en forma de lista o de tabla.
 
@@ -316,7 +342,9 @@ Permite moverse por una lista larga de elementos presentados en forma de lista o
 
 <img src="http://uda.googlecode.com/svn/wiki/images/paginacion2.0.png"/>
 
-<h3>13.2. Ordenación de filas</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.2. Ordenación de filas====
 
 Los usuarios pueden ordenar las filas de datos de la forma que les resulte más conveniente.
 
@@ -333,7 +361,9 @@ Los usuarios pueden ordenar las filas de datos de la forma que les resulte más 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación.png"/>
 
-<h3>13.3. Ordenación de columnas</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.3. Ordenación de columnas====
 
 Los usuarios pueden ordenar las columnas de datos de la forma que les resulte más conveniente.
 
@@ -351,7 +381,9 @@ Los usuarios pueden ordenar las columnas de datos de la forma que les resulte m�
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-ordenación-columnas.png"/>
 
-<h3>13.4. Selección e interacción con elementos</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.4. Selección e interacción con elementos====
 
 Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre ellas.
 
@@ -369,7 +401,9 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 
 <img src="http://uda.googlecode.com/svn/wiki/images/seleccion2.0.png"/>
 
-<h3>13.5. Filtrado/Búsqueda</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.5. Filtrado/Búsqueda====
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -388,6 +422,8 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
 ===14. Mantenimiento con formulario===
 
@@ -417,7 +453,9 @@ En caso de que se muestren todos los campos de los registros se recomienda utili
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mtoformulario2.0.png"/>
 
-<h3>15. Mantenimiento con creación y edición en celda</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===15. Mantenimiento con creación y edición en celda===
 
 Como en el patrón anterior, éste patrón permite añadir, visualizar, editar o eliminar registros de una entidad de datos presentada en formato de tabla. Sin embargo, en este caso, las acciones de añadir y editar registros se realiza sobre las propias filas de la tabla sin necesidad de navegar a una nueva página.
 
@@ -438,7 +476,9 @@ Si la tabla contiene más filas de las que se visualizan se recomienda utilizar 
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mtoedicionlinea2.0.png"/>
 
-<h3>16. Mantenimiento maestro-detalle</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===16. Mantenimiento maestro-detalle===
 
 Permite al usuario realizar el mantenimiento de dos entidades de datos relacionadas en una sola ventana. Al seleccionar una fila de la tabla maestra se recargan las filas de la tabla detalle dependientes de la primera. 
 
@@ -459,7 +499,9 @@ Por ejemplo, la entidad pedido, que consta de los datos identificativos del pedi
 
 <img src="http://uda.googlecode.com/svn/wiki/images/mantenimiento-maestro-detalle.png"/>
 
-<h3>17. Diálogos y mensajes</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===17. Diálogos y mensajes===
 
 Permite lanzar subprocesos o mensajes importantes dentro de un proceso principal sin salirse de él evitando así la pérdida de contexto en la interacción con la aplicación.
 
@@ -494,7 +536,9 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 
 <img src="http://uda.googlecode.com/svn/wiki/images/msjeerror2.0.png"/>
 
-<h3>18. Feedback</h3>
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===18. Feedback===
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
@@ -544,6 +588,7 @@ Feedback informativo:
 
 Feedback de error:
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackerror2.0.png"/>
+
 
 
 Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
