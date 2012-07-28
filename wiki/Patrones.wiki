@@ -610,5 +610,6 @@ Cuando tengamos espacio suficiente será mejor utilizar controles inactivos, pon
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
+<h2>Más información</h2>
 
-Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
+Para aprender cómo configurar y utilizar los patrones de interacción definidos, consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
