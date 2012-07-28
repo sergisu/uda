@@ -580,9 +580,11 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 <h4>Ejemplos</h4>
 
 Feedback informativo:
+
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackok2.0.png"/>
 
 Feedback de error:
+
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackerror2.0.png"/>
 
 
