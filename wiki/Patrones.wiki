@@ -42,7 +42,7 @@ Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy nu
 Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
 
-==RUP==
+<h2>RUP</h2>
 
 Los componentes (plugins jQuery) que implementan los patrones de interacción identificados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
 
@@ -89,10 +89,6 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 Menú horizontal:
 
 <img src="http://uda.googlecode.com/svn/wiki/images/menus-h2.0.png"/>
-
-Menú vertical:
-
-<img src="http://uda.googlecode.com/svn/wiki/images/menus-v2.0.png"/>
 
 Menú mixto:
 
