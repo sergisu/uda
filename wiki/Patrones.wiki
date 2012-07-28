@@ -534,15 +534,15 @@ Por ejemplo, en Wordpress la creación de un nuevo post se realiza en una pantal
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
-===18. Feedback===
+===18. Retroalimentación (Feedback) y validación===
 
 Mantiene informado al usuario en todo momento del estado del sistema y del resultado de sus acciones, y le proporciona ayudas para realizar las tareas y soluciones a los posibles problemas que pueda encontrar.
 
-Algunas funcionalidades definidas en este patrón se implementan con el mismo componente que se ha creado para el patrón de "diálogos".
+Algunas funcionalidades definidas en este patrón se implementan con el mismo componente que se ha creado para el patrón de "diálogos". Y otras hacen uso del componente de validación. 
 
 <h4>Usar cuando</h4>Cuando el usuario tenga una necesidad de información ya sea por cambios en el sistema, ejecución de procesos, realización de tareas o confirmación de acciones.
 
-En concreto, los principales tipos de feedback que tenemos que considerar son los siguientes:
+En concreto, los principales tipos de retroalimentación (feedback) que tenemos que considerar son los siguientes:
 
 <ul>
 <li>Mensajes de sistema o informativos: Se debe mostrar un mensaje en una zona visible cuando se produzca un cambio, noticia o actualización en el sistema que sea suficientemente interesante para los usuarios. No se debe mostrar mensajes para cada cambio en el sistema, sólo para los cambios que tengan importancia.</li>
@@ -553,13 +553,13 @@ Si es crítico que los usuarios vean el mensaje es mejor lanzarlo en un diálogo
 
 Si la confirmación es sobre una acción importante que está realizando un usuario y lo que queremos es informarle de sus consecuencias antes de que la realice debemos lanzarle una ventana modal para asegurarnos de que ve el aviso. Por ejemplo, en una aplicación que envía un newsletter a toda la base de datos de clientes cuando el usuario pulse en "Enviar Newsletter" deberemos lanzarle una ventana modal para que confirme la acción ya que es una acción que no se puede deshacer.
 
-Tras realizar la acción en la ventana modal se deberá mostrar un mensaje de feedback de confirmación o error en la parte superior del área de contenido de la pantalla principal.</li>
+Tras realizar la acción en la ventana modal se deberá mostrar un mensaje de confirmación o error en la parte superior del área de contenido de la pantalla principal.</li>
 
 <li>Mensajes de error y aviso: También tenemos que informarle cuando realice acciones de forma incorrecta o se produzca algún error en la aplicación.
 
 Hay que distinguir los errores graves de las acciones o situaciones que requieren avisar al usuario. En general, los errores estarán mas relacionados con errores del sistema como fallos del servidor al enviar un formulario, y los avisos con acciones incorrectas del usuario como al rellenar un formulario.</li>
 
-<li>Feedback de formularios y edición: Cuando el usuario rellene un formulario se le debe ofrecer un feedback continuo para agilizar la interacción y reducir las posibilidades de que cometa errores. Además, se le debe ofrecer feedback de estado cuando lo envíe y de confirmación o error cuando le sea devuelto.</li>
+<li>Retroalimentación de formularios y edición (validaciones): Cuando el usuario rellene un formulario se le debe ofrecer una retroalomentación  continua para agilizar la interacción y reducir las posibilidades de que cometa errores. Además, se le debe ofrecer retroalomentación de estado cuando lo envíe y de confirmación o error cuando le sea devuelto.</li>
 
 <li>Estado de un proceso: Cuando se está procesando una acción (subiéndose un archivo, cargándose una página, etc.) debemos informar al usuario de su estado.</li>
 
@@ -579,13 +579,21 @@ También puede ser útil mostrar previsualizaciones antes de realizar ciertas ac
 
 <h4>Ejemplos</h4>
 
-Feedback informativo:
+Mensaje de confirmación:
 
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackok2.0.png"/>
 
-Feedback de error:
+Mensaje de error:
 
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackerror2.0.png"/>
+
+Retroalimentación de formularios y edición (validaciones):
+
+<img src="http://uda.googlecode.com/svn/wiki/images/validacion2.0.png"/>
+
+Estado de un proceso:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/feedbackprocesando2.0.png"/>
 
 ===19. Contenidos relacionados===
 
@@ -610,6 +618,72 @@ Cuando tengamos espacio suficiente será mejor utilizar controles inactivos, pon
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
+===20. Adjuntar archivos externos===
+
+El usuario puede seleccionar uno o varios archivos de su equipo y subirlos a la aplicación.
+
+<h4>Usar cuando</h4>Cuando necesitemos implementar un sistema sencillo para adjuntar uno o varios archivos.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es escalable: permite adjuntar desde uno hasta un número indeterminado de archivos.</li>
+<li>Es sencillo de utilizar y hace uso del estándar para adjuntar archivos en Internet.</li>
+<li>Es flexible: permite adjuntar y borrar fácilmente.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/upload2.0.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===21. Guías paso a paso (Wizard)===
+
+Permiten guiar al usuario paso a paso a través de un proceso, realizando las tareas dentro de un orden señalado.
+
+<h4>Usar cuando</h4>Cuando la tarea sea larga o complicada.
+
+Cuando la tarea sea nueva para el usuario o no la realice a menudo.
+
+Cuando la tarea sea delicada y requiera un control alto.
+
+En general, las tareas adecuadas para ser enfocadas en guías paso a paso tienden a ser largas, tediosas y, a veces, ramificadas. Suelen usarse en procesos de compra, en procesos de configuración, instalación de programas, etc.
+
+Las guías paso a paso suelen ser especialmente importantes para satisfacer las necesidades de los usuarios poco expertos o que quieren realizar un proceso concreto. Estos usuarios suelen estar dispuestos a ceder el control (“No me hagas pensar, dime sólo qué tengo que hacer”).Sin embargo, ésta guía puede resultar frustrante para los usuarios expertos o que quieren aprender sobre la aplicación ya que no les da libertad de uso del programa. Además, si son demasiado largos o pesados pueden llegar a ser irritantes.
+
+<h4>Por qué</h4>
+<ul>
+<li>Dividiendo la secuencia en pasos, donde el usuario puede tratar cada paso como un espacio mental discreto, se simplifica la tarea de forma eficaz.</li>
+<li>Al añadir los nombres de los pasos durante todo el proceso el usuario puede conocer el camino completo que sigue el proceso y dónde acaba, por lo que en todo momento sabrá que el resultado será bueno si sigue las instrucciones.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/wizard2.0.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+===22. Formularios===
+
+Permite al usuario, introducir datos que serán enviados a un servidor para ser procesados. O bien presentar información de manera estructurada y ordenada, facilitando así su comprensión.
+
+Un patrón formulario debería implementar las guías de buenas prácticas de diseño de formularios web. En <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, y por ende en RUP, estas recomendaciones de diseño ya están aplicadas en cada uno de los componentes que lo conforman. Por tanto, el componente formulario suministrado por RUP se centra en facilitar sus gestiones básicas indispensables: inicialización de campos, serialización de datos, envío y recepción de una o varias entidades de datos, etc.    
+
+<h4>Usar cuando</h4>Cuando el usuario desea almacenar información estructurada en un servidor y necesita que el sistema le asista y oriente en dicha tarea.
+
+Cuando el usuario desea consultar de manera estructurada y ordenada la información que ha almacenado previamente.
+
+<h4>Por qué</h4>
+<ul>
+<li>La información se recoge o se presenta de manera estructurada y ordenada siguiendo los esquemas mentales aplicados por el usuario.</li>
+<li>Ayuda a estructurar y organizar la información gestionada por el sistema.</li>
+</ul>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+
 <h2>Más información</h2>
 
 Para aprender cómo configurar y utilizar los patrones de interacción definidos, consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
+
+Además, se recomienda la lectura detallada del documento "Desarrollo RUP - Consejos y buenas prácticas", guía indispensable para los desarolladores que integren o utilicen los patrones RUP en  sus aplicaciones, incluida también en la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
