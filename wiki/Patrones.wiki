@@ -42,7 +42,7 @@ Los recursos disponibles para conocer y trabjar con jQuery y jQueryUI son muy nu
 Otro aspecto a su favor es que jQueryUI está trabajando activamente en temas de accesibilidad. Cierto soporte WAI-ARIA fue ya introducido en la versión 1.7 y es posible que la versión 2.0 cumpla totalmente con las guías de accesibilidad WAI-ARIA.
 
 
-<h2>RUP</h2>
+==RUP==
 
 Los componentes (plugins jQuery) que implementan los patrones de interacción identificados han sido agrupados bajo un nombre propio, RUP (Rich Uda Patterns). 
 
