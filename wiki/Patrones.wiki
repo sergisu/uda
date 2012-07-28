@@ -587,6 +587,28 @@ Feedback de error:
 
 <img src="http://uda.googlecode.com/svn/wiki/images/feedbackerror2.0.png"/>
 
+===19. Contenidos relacionados===
+
+Bloques de contenido u opciones de la interfaz que se muestran u ocultan en función de las necesidades de los usuarios.
+
+<h4>Usar cuando</h4>Cuando tengamos muchas opciones para ofrecer a los usuarios y no queramos saturarles sino guiarles suavemente por un proceso de rellenado que vaya adaptándose a lo que van pidiendo.
+
+Cuando no tengamos espacio suficiente en la interfaz para mostrarles a los usuarios todas las opciones disponibles.
+
+Cuando tengamos espacio suficiente será mejor utilizar controles inactivos, poniendo los campos inactivos en semitransparente y activándolos según el usuario selecciona opciones.
+
+<h4>Por qué</h4>
+<ul>
+<li>Nos permite ofrecer una interfaz inicial limpia que incite al usuario a rellenarla.</li>
+<li>Ofrecemos opciones y contenidos a los usuarios según los necesita, no de golpe.</li>
+<li>Reducimos el ruido visual y optimizamos el espacio en la interfaz.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/accordion2.0.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
 
 Para aprender cómo configurar y utilizar los patrones de interacción definidos consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
