@@ -12,6 +12,192 @@ Para el proceso de actualización dan por sentados los siguientes supuestos:
 <p> 
 Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
+
+<h3>v2.1.0 (20-Septiembre-2012)</h3>
+
+*Para modificar la versión de los componentes RUP*
+<ol>
+<li>Cambiar la carpeta {{{xxxStatics\WebContent}}}\rup por la carpeta incluida en el fichero [http://uda.googlecode.com/files/rup-v2.1.0.zip rup-v2.1.0.zip]</li>
+<li>Modificar la inclusión de los ficheros CSS y JS:
+
+    {{{<xxxYYY>War\WebContent}}}\WEB-INF\layouts\includes\rup.styles.inc
+        Modificar las líneas 7-8 y 10-29 y añadir:
+{{{
+<!-- jQuery UI (custom-theme) -->
+<link href="${staticsUrl}/rup/custom-theme/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Patrones (basic-theme) -->
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.base-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.accordion-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.autocomplete-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.breadCrumb-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.combo-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.date-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.feedback-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.grid-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.lang-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.maint-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.menu-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.messages-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.tabs-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.time-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.toolbar-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.tooltip-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.upload-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.validate-2.1.0.css" rel="stylesheet" type="text/css" />
+<link href="${staticsUrl}/rup/basic-theme/theme.rup.wizard-2.1.0.css" rel="stylesheet" type="text/css" />
+
+}}}
+
+
+    {{{<xxxYYY>War\WebContent}}}\WEB-INF\layouts\includes\rup.scripts.inc
+        Modificar las líneas 3-12, 18-19 y 37-57:
+{{{
+
+<!-- jQuery 1.8.0-->
+<script src="${staticsUrl}/rup/scripts/core/jquery-1.8.0.js" type="text/javascript"></script>
+
+<!-- RUP-CORE -->
+<script src="${staticsUrl}/rup/scripts/rup.utils-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.base-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.compatibility-2.1.0.js" type="text/javascript"></script>
+
+<!-- jQuery UI 1.8.23-->
+<script src="${staticsUrl}/rup/scripts/core/ui/jquery-ui-1.8.23.custom.js" type="text/javascript"></script>
+
+...
+
+<!-- jqGrid 4.4.1 -->
+<script src="${staticsUrl}/rup/scripts/core/jqGrid/jqGrid-4.4.1.js" type="text/javascript"></script>
+
+...
+
+<!-- Patrones RUP -->
+<script src="${staticsUrl}/rup/scripts/rup.accordion-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.autocomplete-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.breadCrumb-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.combo-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.date-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.dialog-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.feedback-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.form-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.grid-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.lang-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.maint-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.menu-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.message-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.tabs-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.time-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.toolbar-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.tooltip-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.upload-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.validate-2.1.0.js" type="text/javascript"></script>
+<script src="${staticsUrl}/rup/scripts/rup.wizard-2.1.0.js" type="text/javascript"></script>
+}}}
+</li>			
+
+    **NOTA: Los ficheros actualizados puedes obtenerlos desde [http://uda.googlecode.com/files/templates-v2.1.0.zip templates-v2.1.0.zip] 
+
+<li>*Actualización de la configuración de seguridad*
+        Añadir al fichero {{{<xxxYYY>War\WebContent}}}\WEB-INF\spring\security-core-config.xml, el bean _stockUdaSecurityPadlocks_ (líneas 47-51):
+{{{
+	<!-- Se define que con cambios de usurio se recargen los datos de seguridad y se mate la session, cual es el "perimetralSecurityWrapper" y el "authenticationManager" -->
+	<bean id="stockUdaSecurityPadlocks" class="com.ejie.x38.security.StockUdaSecurityPadlocksImpl"/>
+	
+	<bean id="preAuthenticateProcessingFilter" class="com.ejie.x38.security.PreAuthenticateProcessingFilter">
+		<property name="stockUdaSecurityPadlocks" ref="stockUdaSecurityPadlocks" />
+	...
+}}}
+
+		Cambiar la clase asociada al _myAccessDeniedHandler_ por _com.ejie.x38.security.MyAccessDeniedHandler_ (líneas 89-90):
+{{{
+	<!-- Por defecto, se configura para que se redireccione a una pagina de error (/accessDenied) -->
+	<bean id="myAccessDeniedHandler" class="com.ejie.x38.security.MyAccessDeniedHandler">
+	...
+}}}
+
+		En caso de utilizar el _wrapperMock_, en el fichero {{{<xxxYYY>War\WebContent}}}\WEB-INF\spring\security-config.xml se deben añadir las propiedades _name_,_surname_ y _fullname_ a las especificaciones de los usuarios:
+{{{
+	<bean id="perimetralSecurityWrapper" class="com.ejie.x38.security.PerimetralSecurityWrapperMockImpl">
+		<property name="principal">
+			<list>
+				<map>
+					...
+					<entry key="name" value="Uda"/>
+					<entry key="surname" value="User"/>
+					<entry key="fullName" value="Uda User"/>
+					...
+				</map>
+			</list>
+		</property>
+	...	
+}}}
+</li>
+
+<li>Opcionalmente se puede configurar el botón de desconexión de usuario, para lo que será necesario realizar los siguientes pasos:
+		En el fichero {{{<xxxStatics>\WebContent\<xxx>}}}\scripts\{{{<xxxYYY>}}}\{{{_}}}layoutLoader.js, añadir como parámetro la url de la pagina de logOut en la definición del componente _breadCrumb_ 
+{{{
+	logOutUrl: "/XXXWar/logout"
+}}}
+		En el fichero {{{<xxxYYY>War\WebContent}}}\WEB-INF\layouts\base-includes.jsp, añadir la definición de las nuevas variables 
+{{{
+
+	LOGGED_USER = "${!empty sessionScope.SPRING_SECURITY_CONTEXT.authentication.principal ? sessionScope.SPRING_SECURITY_CONTEXT.authentication.credentials.fullName : sessionScope.fullName}",
+
+	DESTROY_XLNETS_SESSION = "${!empty sessionScope.SPRING_SECURITY_CONTEXT.authentication.principal ? sessionScope.SPRING_SECURITY_CONTEXT.authentication.credentials.destroyXLNetsSession : sessionScope.destroyXLNetsSession}";
+
+}}}
+</li>
+
+<li>_En caso de no realizar la actualización de los componentes RUP a su versión 2.1.0_, *será necesario realizar las siguientes actualizaciones de forma obligatoria*
+<ul>
+<li>En {{{<xxxStatics>\WebContent}}}\rup\basic-theme\images incluir los ficheros: _rup.padlock.gif_, _rup.unlock.png_, _rup.doorOut.png_</li>
+<li>Sustituir los ficheros:
+{{{
+<xxxStatics>\WebContent\rup\basic-theme\theme.rup.breadCrumb-x.x.x.css
+<xxxStatics>\WebContent\rup\scripts\rup.breadCrumb-x.x.x.js
+<xxxStatics>\WebContent\rup\resources\rup.i18n_xx.json
+}}}
+con sus correspondientes de la versión 2.1.0.
+Todos estos ficheros se pueden obtener en [http://uda.googlecode.com/files/rup-v2.1.0.zip rup-v2.1.0.zip]</li>
+</ul>
+</li>
+	
+<li>Actualizar el repositorio de dependencias Maven con la nueva [http://uda.googlecode.com/files/MavenRepository-v2.1.0.zip versión 2.1.0], que contiene la nueva versión de la librería x38ShLibClasses (x38ShLibClasses-2.1.0.jar) y el resto de dependencias actualizadas (Spring, jslf4, logback)</li>
+
+<li>Actualizar el fichero "{{{pom.xml}}}" del proyecto {{{xxxEAR}}} para dejar acorde las dependencias de las librerías:
+
+<ul>
+<li>Actualizar la versión de x38:
+{{{
+<dependency>
+    ...
+	<org.springframework.version>3.1.2.RELEASE</org.springframework.version>
+	<org.springframework.security.version>3.1.2.RELEASE</org.springframework.security.version>
+	<org.logback.version>1.0.6</org.logback.version>
+	<org.slf4j.version>1.6.6</org.slf4j.version>
+    <com.ejie.x38.version>2.1.0</com.ejie.x38.version>
+</dependency>
+
+}}}
+</li>
+
+<li>Abre el "{{{build.xml}}}" del proyecto {{{xxxEAR}}} con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
+<li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build) actualizando las nuevas librerías {{{xxxEAR\APP_INF\lib}}}</li>
+<li>Sobre el proyecto {{{xxxEAR}}} pulsa F5 (Refresh)</li>
+<li>Borra versión o versiones anteriores, en caso de que permanezca alguna</li>
+</ul>
+</li>
+
+<li>Finalmente, no olvides actualizar el [http://uda.googlecode.com/files/pluginUDAInstall-v2.1.0.zip Plugin UDA (v2.1.0)] y las [http://uda.googlecode.com/files/templates-v2.1.0.zip Plantillas (v2.1.0)], o si lo prefieres el [http://code.google.com/p/uda/downloads/list Eclipse Helios UDA (v2.1.0)] completo.
+</li>
+</ol>
+<p>
+
+
+
+
 <h3>v2.0.0 (22-Junio-2012)</h3>
 
 *Para modificar la versión de los componentes RUP*
