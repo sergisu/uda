@@ -58,22 +58,22 @@ Con el objeto de dividir la complejidad de la arquitectura en módulos más mane
 <h1>Tecnologías asociadas</h1>
 
 || *Tecnología* || *Versión* || *Función* || *Capa* ||
-||jQuery||1.7.2||Vista y Ajax||Presentación||
-||jQueryUI||1.8.20||Vista y Ajax||Presentación||
+||jQuery||1.8.0||Vista y Ajax||Presentación||
+||jQueryUI||1.8.23||Vista y Ajax||Presentación||
 ||Tiles||2.2.2||Plantillado||Presentación||
 ||JSTL||1.2||Vista||Presentación||
-||Spring MVC||3.1.1||Control||Presentación||
+||Spring MVC||3.1.2||Control||Presentación||
 ||Enterprise Java Beans||3.0||Remoting||Remoting||
-||Spring Framework||3.1.1||Servicio||Servicio||
+||Spring Framework||3.1.2||Servicio||Servicio||
 ||JTA||1.1||Transaccionalidad||Acceso a datos||
-||Spring JDBC||3.1.1||Persistencia JDBC||Acceso a datos||
+||Spring JDBC||3.1.2||Persistencia JDBC||Acceso a datos||
 ||EclipseLink ||2.3.0||Persistencia JPA2.0||Acceso a datos||
-||Spring Framework||3.1.1||Modelo de datos||Modelo||
-||Spring Framework||3.1.1||Contenedor IoC||Todas||
-||Spring AOP||3.1.1||Aspectos||Todas||
-||Spring Security||3.1.0||Seguridad||Todas||
+||Spring Framework||3.1.2||Modelo de datos||Modelo||
+||Spring Framework||3.1.2||Contenedor IoC||Todas||
+||Spring AOP||3.1.2||Aspectos||Todas||
+||Spring Security||3.1.2||Seguridad||Todas||
 ||Logback||1.0.6||Trazas||Todas||
-||Slf4j||1.6.5||Trazas||Todas||
+||Slf4j||1.6.6||Trazas||Todas||
 ||Hibernate Validator||4.2||Validación||Todas||
 ||Weblogic||10.3.5||Servidor de aplicaciones||Contenedor JEE||
 ||Java Development Kit||6||Maquina Virtual Java||JVM||
