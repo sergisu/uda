@@ -3,6 +3,24 @@
 
 En esta sección mantendremos el historial de versiones liberadas.
 
+<p>
+<h3>2.1.0 (20-Septiembre-2012)</h3>
+<ul>
+<li>Sistema de seguridad: corrección de problema con refresco de credenciales, nuevas propiedades de usuario en el mock de pruebas sin Xlnets, soporte a la securización de breadcrumbs en base al rol del usuario.</li>
+<li>Revisión de la base tecnológica sobre la que se desarrollan las aplicaciones: springframework, spring-security, logback, jackson, jquery, jquery-ui, jqgrid.</li>
+<li>Patrones de interacción RUP: Correcciones en los componentes existentes para solucionar problemas detectados en la interacción entre sí y en la integración en la infraestructura de portal.</li>
+<li>Reglas de calidad de código estático: Bajo acuerdo con la Oficina de Calidad se han revisado los niveles y la necesidad de algunas reglas</li>
+</ul>
+
+En la sección UDA v2.1.0 (22-02-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
+<ul>
+<li>descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
+</ul>
+
+
 <p> 
 <h3>2.0.0 (22-Junio-2012)</h3>
 <ul>
