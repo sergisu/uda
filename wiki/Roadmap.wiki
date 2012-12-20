@@ -1,0 +1,144 @@
+#summary Wiki para mantener el roadmap de versiones UDA.
+#labels Featured,Phase-Support,Phase-Design
+
+= Roadmap UDA =
+
+A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> con las actividades que se pretenden abordar y una previsión del momento de liberación de cada una ellas.
+
+== Versión 2.1.1 (enero) ==
+----
+==== Librería de utilidades x38 ====
+<ul>
+<li>logging: rotación y escritura de ficheros en el inicio de aplicaciones</li>
+<li>concurrencia de peticiones http y ajax</li>
+<li>seguridad: reutilización de instancias entre aplicaciones</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>componente rup.multicombo</li>
+<li>componente rup.jerarquía</li>
+<li>layout de las aplicaciones</li>
+<ul>
+<li>rup.language: presentación diálogo, presentación inline (es|eu)</li>
+<li>header: actualizar estilos de la cabecera de las aplicaciones generadas</li>
+</ul>
+</ul>
+<p>
+
+
+== Versión 2.2.0 (abril) ==
+----
+==== Librería de utilidades x38 ====
+<ul>
+<li>Interacción con Webdav</li>
+<li>Integración de aplicaciones
+<ul>
+<li>reutilización de componentes de negocio entre aplicaciones</li>
+</ul>
+</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>componente rup.table:
+<ul>
+<li>reingeniería de componentes tabla y mantenimiento en un único componente:
+<ul>
+<li>edición en línea, edición en diálogo</li>
+<li>selección simple, multiselección</li>
+<li>agrupación de elementos</li>
+<li>jerarquía de elementos</li>
+<li>exportación de datos (csv, xml, pdf)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>componente rup.autocomplete
+<ul><li>añadir modo de fucionamiento suggest</li>
+<li>eliminar implementación externa jQuery</li>
+</ul>
+</li>
+<li>componente rup.tree</li>
+<li>pruebas qUnit sobre los componentes rup</li>
+<li>css
+<ul><li>uso del framework jQuery UI en la gestión de estilos</li></ul>
+</li>
+</ul>
+<p>
+
+
+== Versión 2.3.0 ==
+----
+==== Librería de utilidades x38 ====
+<ul>
+<li>jUnit de las utilidades</li>
+</ul>
+=== Componentes RUP ===
+<ul>
+<li>componente rup.menu
+<ul>
+<li>eliminar implementación externa jQuery</li>
+</ul>
+</li>
+<li>nuevo componente: listas de selección (http://www.senamion.com/blog/jmultiselect2side.html)</li>
+</ul>
+==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
+<ul>
+<li>General
+<ul>
+<li>Limpiar plantillas</li>
+<li>Modularizar los diferentes plugins</li>
+<li>Regeneración parcial de código en las clases vs regenerar de fichero completo</li>
+<li>Almacenar datos de conexión a diferentes DataSources (actualmente solo 1)</li>
+</ul>
+</li>
+<li>Generación de código
+<ul>
+<li>Eliminar la selección de generación de código con anotación o xml (solo anotaciones)</li>
+<li>Eliminar la pantalla para introducir los datos de seguridad</li>
+<li>Permitir el uso de varios DataSources en una aplicación (actualmente solo 1)</li>
+<li>Mejoras en el DAO (NamedParameter, evitar RowMapper)</li>
+<li>Optimizar relaciones EAGER-LAZY y sus queries</li>
+<li>Generar clases JUnit del código generado</li>
+</ul>
+</li>
+<li>Generación de mantenimiento
+<ul>
+<li>Generar el componente rup.table en lugar del rup.maint</li>
+<li>Eliminar la pantalla para introducir opciones de configuración del mantenimiento</li>
+</ul>
+</li>
+</ul>
+<p>
+
+
+== Versión 2.4.0 ==
+----
+==== Librería de utilidades x38 ====
+<ul>
+<li>Gestión de datos en cache (spring-cache)</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>revisión de versiones de jQuery, jQueryUI, jqGrid</li>
+<li>componentes gráficos (ej. JFreeChart)</li>
+<li>nuevo componente: listas de selección (http://www.senamion.com/blog/jmultiselect2side.html)</li>
+</ul>
+==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
+<ul>
+<li>Nuevos asistentes
+<ul>
+<li>Seguridad</li>
+<li>WebService</li>
+<li>JSP/formulario</li>
+<li>Batch para procesos java</li>
+</ul>
+</li>
+<li>Recursos estáticos
+<ul>
+<li>Compresión y minimización</li>
+<li>Compresión de peticiones</li>
+<li>Uso de sprites para la descarga de imágenes</li>
+</ul>
+</li>
+</ul>
+<p>
