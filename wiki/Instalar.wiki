@@ -28,10 +28,10 @@ Una vez instalados todos estos elementos se deberá descomprimir el fichero que 
 <ul>
 <li>Acceder a "General>Workspace", y establecer el "Text file encoding" a "UTF-8"</li>
 <li>Acceder a "General>Content Types". Para los de tipo "Text" y pulsando "Update", establecer como "Default enconding" el "UTF-8". Repetir este paso para los subtipos "Java Properties Files" y "JSP"</li>
-<li>Acceder a "General>Web>CSS Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
-<li>Acceder a "General>Web>HTML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
-<li>Acceder a "General>Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
-<li>Acceder a "General>XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "Web>CSS Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "Web>HTML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
+<li>Acceder a "XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros ".jsp > JSP Editor"</li>
 <li>Acceder a "Java>Build path>User Libraries" e importar el fichero [http://uda.googlecode.com/files/UDAWLS11Classpath.userlibraries "UDAWLS11Classpath.userlibraries"] suministrado</li>
 <li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
