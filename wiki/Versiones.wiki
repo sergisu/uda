@@ -3,8 +3,39 @@
 
 En esta sección mantendremos el historial de versiones liberadas.
 
+== 2.1.1 (18 - enero - 2013) ==
+----
+==== Librería de utilidades x38 ====
+<ul>
+<li>logging: rotación y escritura de ficheros en el inicio de aplicaciones</li>
+<li>concurrencia de peticiones http y ajax</li>
+<li>seguridad: reutilización de instancias entre aplicaciones</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>componente rup.multicombo</li>
+<li>componente rup.jerarquía</li>
+<li>layout de las aplicaciones</li>
+<ul>
+<li>rup.language: presentación diálogo, presentación inline (es|eu)</li>
+<li>header: actualizar estilos de la cabecera de las aplicaciones generadas</li>
+</ul>
+</ul>
+
+En la sección UDA v2.1.1 (18-01-2013) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
+<ul>
+<li>descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
+</ul>
 <p>
-<h3>2.1.0 (20-Septiembre-2012)</h3>
+
+
+
+<p>
+== 2.1.0 (20-Septiembre-2012)==
+----
 <ul>
 <li>Sistema de seguridad: corrección de problema con refresco de credenciales, nuevas propiedades de usuario en el mock de pruebas sin Xlnets, soporte a la securización de breadcrumbs en base al rol del usuario.</li>
 <li>Revisión de la base tecnológica sobre la que se desarrollan las aplicaciones: springframework, spring-security, logback, jackson, jquery, jquery-ui, jqgrid.</li>
@@ -12,7 +43,7 @@ En esta sección mantendremos el historial de versiones liberadas.
 <li>Reglas de calidad de código estático: Bajo acuerdo con la Oficina de Calidad se han revisado los niveles y la necesidad de algunas reglas</li>
 </ul>
 
-En la sección UDA v2.1.0 (22-02-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+En la sección UDA v2.1.0 (20-09-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
 
 Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
 <ul>
@@ -22,7 +53,8 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 
 
 <p> 
-<h3>2.0.0 (22-Junio-2012)</h3>
+== 2.0.0 (22-Junio-2012) ==
+----
 <ul>
 <li>Configuración y propiedades de idioma: la configuración de estas propiedades forma parte de la aplicación en lugar de cargarse desde la configuración de entorno.</li>
 <li>Gestión de validaciones y excepciones: validaciones en servidor y cliente, facilidades para añadir gestión propia de excepciones, mejora de la página de error.</li>
@@ -32,7 +64,7 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 <li>Reglas de calidad de código estático: Bajo acuerdo con la Oficina de Calidad se han revisado los niveles y la necesidad de algunas reglas</li>
 </ul>
 
-En la sección UDA v2.0.0 (22-02-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+En la sección UDA v2.0.0 (22-06-2012) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
 
 Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
 <ul>
@@ -43,7 +75,8 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 
 
 
-<h3>1.2.1 (22-Febrero-2012)</h3>
+== 1.2.1 (22-Febrero-2012) ==
+----
 <ul>
 <li>Nueva documentación sobre recomendaciones y buenas prácticas en la programación de la interfaz web.</li>
 <li>Nueva documentación de ayuda para el desarrollo de webservices siguiendo las recomendaciones de ERPI.</li>
@@ -61,7 +94,8 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 </ul>
 
 
-<h3>1.2.0 (15-Diciembre-2011)</h3>
+== 1.2.0 (15-Diciembre-2011) ==
+----
 <ul>
 <li>Adaptación de la generación de código a la versión 10.3.5 de Oracle Weblogic Server. El código generado en versiones anteriores del plugin UDA se podía desplegar en la versión 10.3.5 del servidor modificando los descriptores de despliegue. Con este cambio el entorno de desarrollo en PC local evoluciona para ser análogo al entorno de desarrollo en EJIE. Tanto en el documento de instalación como en la [http://code.google.com/p/uda/wiki/Actualizar página de actualización] se describen los pasos para la migración de los proyectos desarrollados en PC local en la versión 10.3.1 del servidor.</li>
 <li>Nuevo plugin añadido al Eclipse IDE para facilitar la consulta de los logs de las aplicaciones [http://code.google.com/a/eclipselabs.org/p/logviewer/ Eclipse Log Viewer].</li>
@@ -81,7 +115,8 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 Para migrar el despliegue de los proyectos Eclipse existentes en la nueva versión del servidor Weblogic Server 11g 10.3.5 se recomienda leer la guía de "Instalación en PC Local" incluida en la [http://uda.googlecode.com/files/Documentacion-v1.2.0.zip documentación] o los pasos incluidos en la sección [http://code.google.com/p/uda/wiki/Actualizar Actualizar].
 
 
-<h3>1.1.1 (14-Octubre-2011)</h3>
+== 1.1.1 (14-Octubre-2011) ==
+----
 <ul>
 <li>Se ha actualizado la librería de utilidades <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.1.1.jar versión 1.1.1] corrigiendo un [http://code.google.com/p/uda/issues/detail?id=8&can=1 error] detectado en la composición de la url de XlNets.</li>
 <li>Se ha actualizado el [http://uda.googlecode.com/files/MavenRepository-v1.1.1.zip repositorio Maven (v1.1.1)] para incluir la nueva versión de la librería de utilidades.</li>
@@ -98,7 +133,8 @@ Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrol
 <li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
 </ul>
 
-<h3>1.1.0 (15-Septiembre-2011)</h3>
+== 1.1.0 (15-Septiembre-2011) ==
+----
 <ul>
 <li>Actualizada la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.1.0.jar versión 1.1.0]. Se ha modificado el sistema de logs para mejorar las trazas de las aplicaciones desarrolladas cambiando la implementación de log4j por [http://www.slf4j.org slf4j] y [http://logback.qos.ch logback].</li>
 <li>Se ha actualizado el [http://uda.googlecode.com/files/MavenRepository-v1.1.0.zip repositorio Maven (v1.1.0)] para incluir la nueva versión de la librería de utilidades.</li>
@@ -117,7 +153,8 @@ En la sección UDA v1.1.0 (15-09-2011) del archivo [http://uda.googlecode.com/fi
 También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizar una aplicación que ya hayas generado con UDA previamente.
 
 
-<h3>1.0.1 (09-Julio-2011)</h3>
+== 1.0.1 (09-Julio-2011) ==
+----
 <ul>
 <li>Actualizada la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> a la [http://uda.googlecode.com/files/x38ShLibClasses-1.0.1.jar versión x38ShLibClasses-1.0.1.jar]. Se han completado y mejorado ciertos aspectos sobre la gestión de la seguridad de las aplicaciones.</li>
 <li>Se ha actualizado también el [http://uda.googlecode.com/files/MavenRepository-v1.0.1.zip repositorio Maven (v1.0.1)] para incluir la nueva versión de la librería de utilidades.</li>
@@ -134,7 +171,8 @@ En la sección UDA v1.0.1 (09-Julio-2011) del archivo [http://uda.googlecode.com
 También hemos incluido una nueva sección [http://code.google.com/p/uda/wiki/Actualizar "Actualizar"], en el que podrás encontrar las instrucciones para actualizar una aplicación que ya hayas generado con UDA previamente.
 
 
-<h3>1.0.0 (30-Mayo-2011)</h3>
+== 1.0.0 (30-Mayo-2011) ==
+----
 <ul>
 <li>*Helios UDA.1.0.0.part_n* : Contiene el Eclipse Helios totalmente configurado, incluyendo las plantillas (templates.v1.0.0) y las reglas de aseguramiento de la calidad del código (análisis estático) establecidas en el entorno de EJIE-GV (rules.v1.0.0).</li>
 <li>*templates.v1.0.0* : Plantillas de generación de código</li>
