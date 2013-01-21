@@ -5,27 +5,6 @@
 
 A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> con las actividades que se pretenden abordar y una previsión del momento de liberación de cada una ellas.
 
-== Versión 2.1.1 (enero) ==
-----
-==== Librería de utilidades x38 ====
-<ul>
-<li>logging: rotación y escritura de ficheros en el inicio de aplicaciones</li>
-<li>concurrencia de peticiones http y ajax</li>
-<li>seguridad: reutilización de instancias entre aplicaciones</li>
-</ul>
-==== Componentes RUP ====
-<ul>
-<li>componente rup.multicombo</li>
-<li>componente rup.jerarquía</li>
-<li>layout de las aplicaciones</li>
-<ul>
-<li>rup.language: presentación diálogo, presentación inline (es|eu)</li>
-<li>header: actualizar estilos de la cabecera de las aplicaciones generadas</li>
-</ul>
-</ul>
-<p>
-
-
 == Versión 2.2.0 (abril) ==
 ----
 ==== Librería de utilidades x38 ====
