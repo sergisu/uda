@@ -393,9 +393,13 @@ Los usuarios pueden seleccionar filas de las tablas y realizar acciones sobre el
 <li>Ofrece feedback en todo momento.</li>
 </ul>
 
-<h4>Ejemplo</h4>
+<h4>Ejemplos</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/seleccion2.0.png"/>
+
+Con opción de multiselección en un solo paso:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/multiseleccion.png"/>
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
@@ -418,6 +422,59 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <h4>Ejemplo</h4>
 
 <img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.6. Menú contextual====
+
+Menú auxiliar de opciones inicialmente no visible referido a un elemento que se muestra junto a éste para agilizar la interacción y la realización de las tareas.
+
+<h4>Usar cuando</h4>Cuando tengamos una aplicación con un sistema de interacción establecido y queramos implementar un sistema alternativo que mejore la experiencia de uso agilizando la interacción y haciendo más rápida la realización de ciertas tareas.
+
+Los menús contextuales no se deben usar como único sistema de interacción con la aplicación sino como añadido y mejora del sistema de interacción base. Tampoco se debe añadir en un menú contextual una opción que no aparezca en otro sitio visible y accesible de la aplicación. Esto es debido a que estos menús son más difíciles de descubrir al tener que hacer los usuarios una acción extra para mostrarlos.
+
+Para implementar el menú contextual se deben seguir las siguientes recomendaciones:
+
+<ul>
+<li>Usar una invitación para que el usuario active el menú. Puede ser mediante un "tooltip" que aparezca sobre el elemento cuando dejemos el ratón sobre él durante 1-2 segundos con el mensaje "Pulse el botón derecho para ver más opciones." Este tooltip podría ir acompañado de un cambio en el cursor del ratón (<img src="http://uda.googlecode.com/svn/wiki/images/context-menu2.png"/> ) cuando el usuario haga rollover sobre el elemento.</li>
+<li>La forma más común de desplegar los menús contextuales es haciendo click con el botón derecho del ratón.</li>
+<li>Se debe desplegar sobre el elemento seleccionado, lo más cerca posible de él, aunque no debe ocultarlo.</li>
+</ul>
+
+<h4>Por qué</h4>
+<ul>
+<li>Una vez aprendido agiliza la interacción y proporciona un acceso rápido y sencillo a las opciones que se pueden realizar sobre los elementos ya que reduce la distancia que hay que mover el ratón y el número de pasos que hay que realizar para ejecutar una acción.</li>
+<li>Añade una mejora a la aplicación sin perjudicar su sistema de interacción base.</li>
+<li>Funciona bajo demanda, según lo necesita el usuario, por lo que éste obtiene mayor sensación de control sobre la aplicación.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+Invita a pulsar el botón derecho para desplegar más acciones:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menu-contextual-antes2.png"/>
+
+Presenta las acciones disponibles sobre el item seleccionado:
+
+<img src="http://uda.googlecode.com/svn/wiki/images/menu-contextual2.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.7. Jerarquía====
+
+Permite presentar los datos de manera jerárquica, estableciendo así relaciones de dependencia entre los ítems de la tabla.
+
+<h4>Usar cuando</h4>Cuando el usuario concibe la información agrupada y ordenada por una relación de dependencia jerárquica, como por ejemplo una relación de jefe-subordinado.
+
+<h4>Por qué</h4>
+<ul>
+<li>Este patrón permite a los usuarios visualizar la información según una relación de dependencia.</li>
+<li>Se podrán colapsar o expandir los elementos dependientes, facilitando así visiones más amplias y agrupaciones por niveles.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/jerarquia2.png"/>
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
@@ -681,6 +738,27 @@ Cuando el usuario desea consultar de manera estructurada y ordenada la informaci
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
+===23. Grupos de elementos===
+
+Permite al usuario elegir de forma sencilla varios elementos entre un grupo pudiendo ver claramente todos los elementos disponibles y crear el grupo de forma ágil.
+
+<h4>Usar cuando</h4>Cuando el usuario tenga que crear una lista o grupo de elementos eligiendo estos de una lista más grande de elementos disponibles.
+
+<h4>Por qué</h4>
+<ul>
+<li>Este patrón permite a los usuarios ver de un vistazo los elementos disponibles y comprender fácilmente cómo elegir los que les interesan.</li>
+<li>Optimiza el espacio en la interfaz.</li>
+</ul>
+
+El usuario tiene todo lo necesario en el mismo sitio sin tener que navegar a otras páginas, abrir ventanas modales, etc.
+
+<h4>Ejemplo</h4>
+
+En formato "combo":
+
+<img src="http://uda.googlecode.com/svn/wiki/images/multi-combo.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
 <h2>Más información</h2>
 
