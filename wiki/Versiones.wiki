@@ -2,8 +2,24 @@
 #labels Phase-Design,Featured
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.1.2 (19-Marzo-2013) ==
+----
+==== Componentes RUP ====
+<ul>
+<li>Corrección de bugs</li>
+</ul>
 
-== 2.1.1 (18 - enero - 2013) ==
+En la sección UDA v2.1.2 (19-03-2013) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+Para adecuar los patrones RUP en una aplicación que ya se encuentre en desarrollo, se recomienda guardar los cambios convenientemente en Subversion y
+<ul>
+<li>descomprimir y sustituir la carpeta rup en el proyecto de estáticos (codappStatics).</li>
+<li>modificar los ficheros ".inc" con la versión correspondiente de los patrones.</li>
+</ul>
+<p>
+
+
+== 2.1.1 (18-Enero-2013) ==
 ----
 ==== Librería de utilidades x38 ====
 <ul>
