@@ -1,5 +1,5 @@
 #labels Featured,Phase-Implementation
-Puedes descargarte la [http://uda.googlecode.com/files/Documentacion-v2.1.1.zip última versión de la documentación] en un archivo comprimido, o si lo prefieres, desde aquí, puedes acceder directamente a ella:
+Puedes descargarte la [http://uda.googlecode.com/files/Documentacion-v2.1.1.zip última versión de la documentación en un archivo comprimido], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
 
 <ul>
 <li>*Arquitectura*</li>
