@@ -15,7 +15,7 @@ Serán 3 mantenimientos totalmente operativos y usables, puesto que se beneficia
 
 =Mejoras en la aplicación, en sólo 5 minutos más=
 
-Con la aplación base ya construida, vamos a aplicar, también en menos de 5 minutos, ciertas mejoras que aumenten aún más si cabe, la usabilidad del sistema:
+Con la aplicación base ya construida, vamos a aplicar, también en menos de 5 minutos, ciertas mejoras que aumenten aún más si cabe, la usabilidad del sistema:
 
 <ul>
 <li>Le pondremos un título a la aplicación</li>
