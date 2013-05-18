@@ -28,3 +28,10 @@ Con la aplicación base ya construida, vamos a aplicar, también en menos de 5 m
 </ul>  
  
 <wiki:video url="http://www.youtube.com/watch?v=hTDMv3H9yE8" width="640" height="360"/>
+
+
+=¿Se puede ser más productivo?=
+
+Y este es el resultado de sólo *10 minutos de trabajo.*
+
+<wiki:video url="http://www.youtube.com/watch?v=S3X9rdmvmqw" width="640" height="360"/>
