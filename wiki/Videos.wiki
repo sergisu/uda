@@ -5,7 +5,7 @@
 
 Desde este modelo de datos de ejemplo:
 
-<img src="http://uda.googlecode.com/svn/wiki/images/EJIE.jpg"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/hr.png"/>
 
 Y sin teclear ni una sola línea de código, vamos a construir, en menos de 5 minutos, los mantenimientos de 3 tablas maestras: {{{"Regions", "Countries"}}} y {{{"Locations"}}}, desplegándolos en el servidor de aplicaciones. En este caso, haremos que nuestro sistema soporte 2 idiomas.
 
