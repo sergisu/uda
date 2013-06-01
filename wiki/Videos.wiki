@@ -1,7 +1,7 @@
 #summary Videos
 #labels Featured,Phase-Implementation
 
-=Una aplicación operativa y usable, en solo 5 minutos=
+=Una aplicación operativa y usable, en sólo 5 minutos=
 
 Desde este modelo de datos de ejemplo:
 
