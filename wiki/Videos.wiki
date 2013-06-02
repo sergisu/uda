@@ -1,5 +1,6 @@
 #summary Videos
 #labels Featured,Phase-Implementation
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/w/edit/Videos&direction=spa-eng&showalternates=True English version]_
 
 =Una aplicación operativa y usable, en sólo 5 minutos=
 
