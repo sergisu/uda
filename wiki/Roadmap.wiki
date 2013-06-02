@@ -1,6 +1,8 @@
 #summary Wiki para mantener el roadmap de versiones UDA.
 #labels Featured,Phase-Support,Phase-Design
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Roadmap&direction=spa-eng&showalternates=True English version]_
+
 = Roadmap UDA =
 
 A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> con las actividades que se pretenden abordar y una previsión del momento de liberación de cada una ellas.
