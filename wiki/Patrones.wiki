@@ -1,6 +1,8 @@
 #summary Patrones de interacción.
 #labels Featured,Phase-Design
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Patrones&direction=spa-eng&showalternates=True English version]_
+
 <h1>Patrones de interacción</h1>
 
 En el planteamiento y desarrollo de los patrones de interacción analizados se ha tenido en cuenta las guías de accesibilidad [http://www.w3.org/TR/WCAG20/ WCAG 2.0] (Content Accessibility Guidelines) y [http://www.w3.org/WAI/intro/aria.php WAI-ARIA] (Accessible Rich Internet Applications), estándares de desarrollo web accesible que serán ampliamente utilizados en los próximos años.
