@@ -1,6 +1,8 @@
 #summary Actualizar a la última versión disponible
 #labels Phase-Deploy,Featured
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Actualizar&direction=spa-eng&showalternates=True English version]_
+
 En esta sección iremos indicando como mantenerse actualizado con las últimas versiones disponibles de los componentes de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, es decir, cuando ya se dispone de una aplicación generada, y se desea incorporar las últimas actualizaciones.
 
 *Para el proceso de actualización dan por sentados los siguientes supuestos*:
