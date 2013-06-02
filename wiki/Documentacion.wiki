@@ -6,7 +6,7 @@ Puedes descargarte la [http://uda.googlecode.com/files/Documentacion-v2.1.1.zip 
 <ul>
 <li>*Arquitectura*</li>
 <ul>
-<li>[http://www.slideshare.net/andermartinez/arquitectura-conceptualv110 Arquitectura Conceptual]</li>
+<li>[http://www.slideshare.net/andermartinez/arquitectura-conceptualv110 ArquitecturaConceptual]</li>
 <li>[http://www.slideshare.net/andermartinez/seleccion-tecnologiasv200-20940899 Seleccion de Tecnologias]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-configuracion-yusodejackson Anexo-Configuracion y uso de Jackson]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-deexcepciones Anexo-Gestión de excepciones]</li>
