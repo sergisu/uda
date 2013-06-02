@@ -1,6 +1,8 @@
 #summary Histórico de versiones
 #labels Phase-Design,Featured
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Versiones&direction=spa-eng&showalternates=True English version]_
+
 En esta sección mantendremos el historial de versiones liberadas.
 == 2.1.2 (19-Marzo-2013) ==
 ----
