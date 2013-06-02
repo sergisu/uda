@@ -1,6 +1,8 @@
 #summary Arquitectura conceptual y tecnologías asociadas
 #labels Phase-Design,Featured
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Arquitectura&direction=spa-eng&showalternates=True English version]_
+
 Para poder decidir que deben generar los asistentes de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/>, previamente se han identificado y definido los componentes software básicos que compondrán el sistema final así como sus responsabilidades y modelos de interacción, es decir, primero se ha establecido su arquitectura y después cómo se automatiza su generación. Es evidente por lo tanto que los sistemas desarrollados a partir de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> siguen siempre una arquitectura predefinida.
 
 <h1>Arquitectura conceptual</h1> 
