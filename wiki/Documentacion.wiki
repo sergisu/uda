@@ -1,6 +1,8 @@
 #summary Documentación del proyecto UDA y de sus componentes RUP
 #labels Featured,Phase-Implementation
 
+_[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Documentacion&direction=spa-eng&showalternates=True English version]_
+
 Puedes descargarte la [http://uda.googlecode.com/files/Documentacion-v2.1.1.zip última versión de la documentación en un archivo comprimido], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
 
 <ul>
