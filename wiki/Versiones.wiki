@@ -4,6 +4,20 @@
 _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Versiones&direction=spa-eng&showalternates=True English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.1.3 (5-Junio-2013) ==
+----
+==== Librería de utilidades X38 ====
+<ul>
+<li>Soporte a implementación de nuevas funcionalidades comunes</li>
+<li>Corrección de bugs</li>
+</ul>
+
+En la sección UDA v2.1.3 (05-06-2013) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+El cambio de la librería manteniene la compatibilidad con versiones anteriores pero es necesario modificar la configuración de seguridad (consultar los cambios a realizar en la sección de la wiki [https://code.google.com/p/uda/wiki/Actualizar Actualizar])
+<p>
+
+
 == 2.1.2 (19-Marzo-2013) ==
 ----
 ==== Componentes RUP ====
