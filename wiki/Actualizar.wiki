@@ -18,7 +18,7 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 *Actualización de la versión de la librería de utilidades*
 <ol>
 <li>*Actualizar la configuración de seguridad*
-        Eliminar en el fichero {{{<xxxYYY>War\WebContent}}}\WEB-INF\spring\security-core-config.xml, el bean _stockUdaSecurityPadlocks_ (líneas 47-51):
+        Eliminar en el fichero {{{<xxxYYY>War\WebContent}}}\WEB-INF\spring\security-core-config.xml, el bean _stockUdaSecurityPadlocks_ y su uso como propiedad en _preAuthenticateProcessingFilter_ (líneas 47-51):
 {{{
 	<!-- Se define que con cambios de usurio se recargen los datos de seguridad y se mate la session, cual es el "perimetralSecurityWrapper" y el "authenticationManager" -->
 	<bean id="stockUdaSecurityPadlocks" class="com.ejie.x38.security.StockUdaSecurityPadlocksImpl"/>
