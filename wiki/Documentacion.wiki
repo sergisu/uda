@@ -17,6 +17,7 @@ Puedes descargarte la [http://uda.googlecode.com/files/Documentacion-v2.1.1.zip 
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-devalidaciones Anexo-Gestión de validaciones]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-idiomatica Anexo-Gestión idiomática]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-emulacion-xhriframes Anexo-Emulación xhr iframes]</li>
+<li>[https://www.slideshare.net/andermartinez/uda-anexo-generacion-deinformes]</li>
 </ul>
           
 <li>*Guias de uso*</li>
