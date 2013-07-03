@@ -7,17 +7,8 @@ _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.
 
 A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> con las actividades que se pretenden abordar y una previsión del momento de liberación de cada una ellas.
 
-== Versión 2.2.0 (abril) ==
+== Versión 2.4.0 ==
 ----
-==== Librería de utilidades x38 ====
-<ul>
-<li>Interacción con Webdav</li>
-<li>Integración de aplicaciones
-<ul>
-<li>reutilización de componentes de negocio entre aplicaciones</li>
-</ul>
-</li>
-</ul>
 ==== Componentes RUP ====
 <ul>
 <li>componente rup.table:
@@ -29,38 +20,71 @@ A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wik
 <li>agrupación de elementos</li>
 <li>jerarquía de elementos</li>
 <li>exportación de datos (csv, xml, pdf)</li>
+<li>integración con el resto de componentes RUP</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>componente rup.autocomplete
-<ul><li>añadir modo de fucionamiento suggest</li>
-<li>eliminar implementación externa jQuery</li>
-</ul>
-</li>
+<li>componente rup.contextMenu</li>
 <li>componente rup.tree</li>
-<li>pruebas qUnit sobre los componentes rup</li>
+<li>compresión y minimización 
+<ul><li>de recursos RUP</li>
+<li>de recursos de aplicación</li>
+</ul>
+</li>
 <li>css
 <ul><li>uso del framework jQuery UI en la gestión de estilos</li></ul>
+</li>
+</ul>
+
+==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
+
+<ul>
+<li>Generación de mantenimiento
+<ul>
+<li>Generar el componente rup.table en lugar del rup.maint</li>
+<li>Eliminar la pantalla para introducir opciones de configuración del mantenimiento</li>
+</ul>
+</li>
+<li>Recursos estáticos
+<ul>
+<li>Compresión y minimización</li>
+<li>Uso de sprites para la descarga de imágenes</li>
+</ul>
 </li>
 </ul>
 <p>
 
 
-== Versión 2.3.0 ==
+== Futuras mejoras ==
 ----
 ==== Librería de utilidades x38 ====
 <ul>
+<li>Interacción con Webdav</li>
 <li>jUnit de las utilidades</li>
-</ul>
-=== Componentes RUP ===
+<li>Gestión de datos en cache (spring-cache)</li>
+<li>Integración de aplicaciones
 <ul>
+<li>reutilización de componentes de negocio entre aplicaciones</li>
+</ul>
+</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>componente rup.autocomplete
+<ul><li>añadir modo de fucionamiento suggest</li>
+<li>eliminar implementación externa jQuery</li>
+</ul>
+</li>
 <li>componente rup.menu
 <ul>
 <li>eliminar implementación externa jQuery</li>
 </ul>
 </li>
-<li>nuevo componente: listas de selección (http://www.senamion.com/blog/jmultiselect2side.html)</li>
+<li>componente: listas de selección (http://www.senamion.com/blog/jmultiselect2side.html)</li>
+<li>revisión de versiones de jQuery, jQueryUI, jqGrid</li>
+<li>componentes gráficos (ej. JFreeChart)</li>
+<li>pruebas qUnit sobre los componentes RUP</li>
 </ul>
 ==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
 <ul>
@@ -82,43 +106,12 @@ A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wik
 <li>Generar clases JUnit del código generado</li>
 </ul>
 </li>
-<li>Generación de mantenimiento
-<ul>
-<li>Generar el componente rup.table en lugar del rup.maint</li>
-<li>Eliminar la pantalla para introducir opciones de configuración del mantenimiento</li>
-</ul>
-</li>
-</ul>
-<p>
-
-
-== Versión 2.4.0 ==
-----
-==== Librería de utilidades x38 ====
-<ul>
-<li>Gestión de datos en cache (spring-cache)</li>
-</ul>
-==== Componentes RUP ====
-<ul>
-<li>revisión de versiones de jQuery, jQueryUI, jqGrid</li>
-<li>componentes gráficos (ej. JFreeChart)</li>
-<li>nuevo componente: listas de selección (http://www.senamion.com/blog/jmultiselect2side.html)</li>
-</ul>
-==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
-<ul>
 <li>Nuevos asistentes
 <ul>
 <li>Seguridad</li>
 <li>WebService</li>
 <li>JSP/formulario</li>
 <li>Batch para procesos java</li>
-</ul>
-</li>
-<li>Recursos estáticos
-<ul>
-<li>Compresión y minimización</li>
-<li>Compresión de peticiones</li>
-<li>Uso de sprites para la descarga de imágenes</li>
 </ul>
 </li>
 </ul>
