@@ -17,7 +17,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v2.1.3.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-2.1.3.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v2.4.0.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-2.4.0-RELEASE.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
 <li>[http://uda.googlecode.com/files/usr.v1.0.0.rar Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [http://uda.googlecode.com/files/usr.v1.0.0.rar "usr.rar"] en la unidad de disco seleccionada</li>
@@ -93,7 +93,7 @@ NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar 
 Además recuerde que deberá instalar también:
 <ul>
 <li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.1.0.zip extensiones de Hibernate Tools]</li>
-<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-2.1.3.jar "x38ShLibClasses-x.x.x.jar"]</li>
+<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-2.4.0-RELEASE.jar "x38ShLibClasses-x.x.x.jar"]</li>
 </ul>
 
 <br>
