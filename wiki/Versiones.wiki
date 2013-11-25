@@ -4,6 +4,31 @@
 _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Versiones&direction=spa-eng&showalternates=True English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.4.0 (22-Noviembre-2013) ==
+----
+==== Plugin UDA ====
+<ul>
+<li>Asistente de mantenimiento: Generación en base al componente rup.table</li>
+<li>Asistente de generación de aplicación: Generación de recursos RUP comprimidos y minimizados</li>
+</ul>
+==== Librería de utilidades X38 ====
+<ul>
+<li>Soporte para el nuevo componente rup.table</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>Nuevo componente rup.table</li>
+<li>Nuevo componente rup.tree</li>
+<li>Nuevo componente rup.contextMenu</li>
+<li>Compresión y minimización de recursos de componentes RUP</li>
+<li>Uso de sprites en los componentes RUP</li>
+</ul>
+_NOTA: Esta versión manteniene el componente rup.maint por compatibilidad con versiones anteriores_
+
+En la sección UDA v2.4.0 (22-11-2013) del archivo [http://uda.googlecode.com/files/CHANGELOG.txt ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+<p>
+
+
 == 2.1.3 (5-Junio-2013) ==
 ----
 ==== Librería de utilidades X38 ====
