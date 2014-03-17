@@ -17,10 +17,10 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [http://uda.googlecode.com/files/MavenRepository-v2.4.0.zip repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [http://uda.googlecode.com/files/x38ShLibClasses-2.4.0-RELEASE.jar x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_eW9sMVZ5M3FEZ0U&export=download repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_VXRVaHBQSlg0NVE&export=download x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
-<li>[http://uda.googlecode.com/files/usr.v1.0.0.rar Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [http://uda.googlecode.com/files/usr.v1.0.0.rar "usr.rar"] en la unidad de disco seleccionada</li>
+<li>[https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFVqMXg2ZW02T2M&export=download Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFVqMXg2ZW02T2M&export=download "usr.rar"] en la unidad de disco seleccionada</li>
 </ul>
 
 Una vez instalados todos estos elementos se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
@@ -35,7 +35,7 @@ Una vez instalados todos estos elementos se deberá descomprimir el fichero que 
 <li>Acceder a "Web>JSP Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "XML>XML Files" y seleccionar el encoding "ISO 10646/Unicode(UTF-8)"</li>
 <li>Acceder a "General>Editors>File Associations" y activar como editores por defecto (pulsando botón "Default") para los ficheros ".jsp > JSP Editor"</li>
-<li>Acceder a "Java>Build path>User Libraries" e importar el fichero [http://uda.googlecode.com/files/UDAWLS11Classpath.userlibraries "UDAWLS11Classpath.userlibraries"] suministrado</li>
+<li>Acceder a "Java>Build path>User Libraries" e importar el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_aXVOT0xuUFBBV1E&export=download "UDAWLS11Classpath.userlibraries"] suministrado</li>
 <li>Acceder a "UDA" para configurar el path que contiene las plantillas, "ECLIPSE_HOME\templates", y marcar la casilla "Desarrollo para EJIE"</li>
 </ul>
 </ul>
@@ -56,10 +56,10 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 
 El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://uda.googlecode.com/files/Documentacion-v2.1.3.zip "Instalacion_PC_local_WLS11_proveedores.pdf"].
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVdpU2J3WkdUYzQ&export=download "Instalacion_PC_local_WLS11_proveedores.pdf"].
 
 <br>
-En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/pluginUDAInstall-v2.4.0.zip "plugin UDA"] en Eclipse, deberá realizar los siguientes pasos:
+En el caso de que solo quiera instalar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_a1BTRWdvcVQ3QlE&export=download "plugin UDA"] en Eclipse, deberá realizar los siguientes pasos:
 <ol>
 <li>*Desinstalar la versión previa del plugin* realizando las siguientes acciones:</li>
 <ul>
@@ -74,7 +74,7 @@ En el caso de que solo quiera instalar el [http://uda.googlecode.com/files/plugi
 
 </li>
 </ul>
-<li>*Instalar la nueva versión del [http://uda.googlecode.com/files/pluginUDAInstall-v2.4.0.zip "plugin UDA"]* para lo que se debe descargar y descomprimir en una ubicación temporal para proceder a su instalación.
+<li>*Instalar la nueva versión del [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_a1BTRWdvcVQ3QlE&export=download "plugin UDA"]* para lo que se debe descargar y descomprimir en una ubicación temporal para proceder a su instalación.
 
 En "Eclipse>Window>Preferences>Available Software Site", crear un site que referencie la ubicación temporal e instalarlo desde "Eclipse>Help>Install New Software", seleccionándolo.
 
@@ -82,7 +82,7 @@ Eclipse solicitará reiniciarse para crear correctamente todos los ficheros.
 
 </li>
 
-<li>*Actualizar las [http://uda.googlecode.com/files/templates-v2.4.0.zip plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
+<li>*Actualizar las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_cXV6Rkc4VDFMRlU&export=download plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
 
 NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar la  correcta eliminación de las plantillas anteriores.
 
@@ -92,8 +92,8 @@ NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar 
 
 Además recuerde que deberá instalar también:
 <ul>
-<li>Las [http://uda.googlecode.com/files/addonsPluginUDA.v1.1.0.zip extensiones de Hibernate Tools]</li>
-<li>La librería [http://uda.googlecode.com/files/x38ShLibClasses-2.4.0-RELEASE.jar "x38ShLibClasses-x.x.x.jar"]</li>
+<li>Las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_amloVEpLX0RKTlU&export=download extensiones de Hibernate Tools]</li>
+<li>La librería [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_VXRVaHBQSlg0NVE&export=download "x38ShLibClasses-x.x.x.jar"]</li>
 </ul>
 
 <br>
