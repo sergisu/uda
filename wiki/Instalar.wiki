@@ -56,7 +56,7 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 
 El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVdpU2J3WkdUYzQ&export=download "Instalacion_PC_local_WLS11_proveedores.pdf"].
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://www.slideshare.net/andermartinez/instalacion-pc-localwls11proveedoresv143 "Instalacion_PC_local_WLS11_proveedores.pdf"].
 
 <br>
 En el caso de que solo quiera instalar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_a1BTRWdvcVQ3QlE&export=download "plugin UDA"] en Eclipse, deberá realizar los siguientes pasos:
