@@ -7,67 +7,13 @@ _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.
 
 A continuación se recoge el roadmap <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> con las actividades que se pretenden abordar y una previsión del momento de liberación de cada una ellas.
 
-== Versión 2.4.0 ==
-----
-==== Componentes RUP ====
-<ul>
-<li>componente rup.table:
-<ul>
-<li>reingeniería de componentes tabla y mantenimiento en un único componente:
-<ul>
-<li>edición en línea, edición en diálogo</li>
-<li>selección simple, multiselección</li>
-<li>agrupación de elementos</li>
-<li>jerarquía de elementos</li>
-<li>exportación de datos (csv, xml, pdf)</li>
-<li>integración con el resto de componentes RUP</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>componente rup.contextMenu</li>
-<li>componente rup.tree</li>
-<li>compresión y minimización 
-<ul><li>de recursos RUP</li>
-<li>de recursos de aplicación</li>
-</ul>
-</li>
-<li>css
-<ul><li>uso del framework jQuery UI en la gestión de estilos</li></ul>
-</li>
-</ul>
-
-==== Plugin <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> ====
-
-<ul>
-<li>Generación de mantenimiento
-<ul>
-<li>Generar el componente rup.table en lugar del rup.maint</li>
-<li>Eliminar la pantalla para introducir opciones de configuración del mantenimiento</li>
-</ul>
-</li>
-<li>Recursos estáticos
-<ul>
-<li>Compresión y minimización</li>
-<li>Uso de sprites para la descarga de imágenes</li>
-</ul>
-</li>
-</ul>
-<p>
-
 
 == Futuras mejoras ==
 ----
 ==== Librería de utilidades x38 ====
 <ul>
-<li>Interacción con Webdav</li>
 <li>jUnit de las utilidades</li>
 <li>Gestión de datos en cache (spring-cache)</li>
-<li>Integración de aplicaciones
-<ul>
-<li>reutilización de componentes de negocio entre aplicaciones</li>
-</ul>
-</li>
 </ul>
 ==== Componentes RUP ====
 <ul>
