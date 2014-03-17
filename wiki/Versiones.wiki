@@ -4,6 +4,21 @@
 _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Versiones&direction=spa-eng&showalternates=True English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.4.1 (13-Marzo-2014) ==
+----
+==== Librería de utilidades X38 ====
+<ul>
+<li>Soporte para la edición online de documentos mediante WebDAV</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>Plugin rup.table.report para el componente rup.table</li>
+</ul>
+_NOTA: Esta versión manteniene el componente rup.maint por compatibilidad con versiones anteriores_
+
+En la sección UDA v2.4.1 (13-Marzo-2014) del archivo [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_U0p3OFloTERDLVU&export=download ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+
 == 2.4.0 (22-Noviembre-2013) ==
 ----
 ==== Plugin UDA ====
