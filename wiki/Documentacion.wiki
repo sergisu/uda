@@ -3,13 +3,13 @@
 
 _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Documentacion&direction=spa-eng&showalternates=True English version]_
 
-Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVdpU2J3WkdUYzQ&export=download última versión de la documentación en un archivo comprimido], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
+Puedes descargarte la [https://drive.google.com/folderview?id=0B2jWuJHnBpz_VFVLU2ZoREQ2Q1E&usp=sharing última versión de la documentación en un archivo comprimido (documentacion-v2.4.1.zip], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
 
 <ul>
 <li>*Arquitectura*</li>
 <ul>
 <li>[http://www.slideshare.net/andermartinez/arquitectura-conceptualv110 Arquitectura Conceptual]</li>
-<li>[http://www.slideshare.net/andermartinez/seleccion-tecnologiasv200-20940899 Seleccion de Tecnologias]</li>
+<li>[http://www.slideshare.net/andermartinez/seleccion-tecnologiasv200-20940899 Selección de Tecnologias]</li>
 </ul>
           
 <li>*Guias de uso*</li>
@@ -44,9 +44,9 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev241 Componentes RUP - Autocomplete]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav240 Componentes RUP - Botonera]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-combov240 Componentes RUP - Combo]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-dialogov240 Componentes RUP - Diálogo]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-dilogo Componentes RUP - Diálogo]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-fechav240 Componentes RUP - Fecha]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv240 Componentes RUP - Feedback]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv240-32853446 Componentes RUP - Feedback]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-formulariov240 Componentes_RUP - Formulario]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-horav240 Componentes RUP - Hora]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-idiomav240 Componentes RUP - Idioma]</li>
@@ -57,10 +57,10 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-menucontextualv241 Componentes RUP - Menú contextual]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-migasv240 Componentes RUP - Migas]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-pestanasv240 Componentes RUP - Pestañas]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-tablav211 Componentes RUP - Tabla (deprecado)]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-tablav211-32854482 Componentes RUP - Tabla (deprecado)]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-tooltipv240 Componentes RUP - Tooltip]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-uploadv240 Componentes RUP - Upload]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-validatev241 Componentes_RUP - Validate]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-validatev241 Componentes_RUP - Validación]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-wizardv240 Componentes_RUP - Wizard]</li>
 <li>[http://www.slideshare.net/andermartinez/desarrollo-rup-consejos-y-buenas-practicas Desarrollo RUP - Consejos y Buenas Prácticas]</li>
 </ul>
