@@ -3,7 +3,7 @@
 
 _[http://traductor.elmundo.es/Pages/UrlTranslation/Result.aspx?url=https://code.google.com/p/uda/wiki/Documentacion&direction=spa-eng&showalternates=True English version]_
 
-Puedes descargarte la [https://drive.google.com/folderview?id=0B2jWuJHnBpz_VFVLU2ZoREQ2Q1E&usp=sharing última versión de la documentación en un archivo comprimido (documentacion-v2.4.1.zip], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
+Puedes descargarte la última versión completa de la documentación en un [https://drive.google.com/folderview?id=0B2jWuJHnBpz_VFVLU2ZoREQ2Q1E&usp=sharing archivo comprimido (documentacion-v2.4.1.zip)], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
 
 <ul>
 <li>*Arquitectura*</li>
