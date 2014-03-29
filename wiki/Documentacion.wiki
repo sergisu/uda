@@ -39,7 +39,7 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <ul>
 <li>*Patrones*</li>
 <ul>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv241 Componentes RUP - Accordion]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv240 Componentes RUP - Accordion]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-arbolv241 Componentes RUP - Árbol]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev241 Componentes RUP - Autocomplete]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav240 Componentes RUP - Botonera]</li>
