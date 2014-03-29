@@ -10,6 +10,12 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <ul>
 <li>[http://www.slideshare.net/andermartinez/arquitectura-conceptualv110 Arquitectura Conceptual]</li>
 <li>[http://www.slideshare.net/andermartinez/seleccion-tecnologiasv200-20940899 Seleccion de Tecnologias]</li>
+</ul>
+          
+<li>*Guias de uso*</li>
+<ul>
+<li>[http://www.slideshare.net/andermartinez/guia-desarrollov110 Guia de Desarrollo]</li>
+<li>[http://www.slideshare.net/andermartinez/guia-desarrollo-webservicesv101 Guia de Desarrollo de Web Services]<li>[http://www.slideshare.net/andermartinez/anexo-uso-webdavv100 Anexo-Uso de webDAV en UDA]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-configuracion-yusodejackson Anexo-Configuracion y uso de Jackson]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-deexcepciones Anexo-Gestión de excepciones]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-deproperties Anexo-Gestión de properties]</li>
@@ -18,13 +24,8 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <li>[http://www.slideshare.net/andermartinez/anexo-gestion-idiomatica Anexo-Gestión idiomática]</li>
 <li>[http://www.slideshare.net/andermartinez/anexo-emulacion-xhriframes Anexo-Emulación xhr iframes]</li>
 <li>[https://www.slideshare.net/andermartinez/uda-anexo-generacion-deinformes Anexo-Generación de informes]</li>
-</ul>
-          
-<li>*Guias de uso*</li>
-<ul>
-<li>[http://www.slideshare.net/andermartinez/guia-desarrollov110 Guia_Desarrollo]</li>
 <li>[http://www.slideshare.net/andermartinez/herramientas-para-contenidoestaticov200 Herramientas para contenido estático]</li>
-<li>[http://www.slideshare.net/andermartinez/guia-desarrollo-webservicesv101 Guia de Desarrollo de Web Services]</li>
+</li>
 </ul>
 
 <ul>
@@ -38,27 +39,29 @@ Puedes descargarte la [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UVd
 <ul>
 <li>*Patrones*</li>
 <ul>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv210 Componentes RUP - Accordion]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev210 Componentes RUP - Autocomplete]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav210 Componentes RUP - Botonera]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-combov211 Componentes RUP - Combo]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-dialogov210 Componentes RUP - Diálogo]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-fechav210 Componentes RUP - Fecha]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv210 Componentes RUP - Feedback]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-formulariov211 Componentes_RUP - Formulario]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-horav210 Componentes RUP - Hora]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-idiomav211 Componentes RUP - Idioma]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-mantenimientov211 Componentes RUP - Mantenimiento]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-mensajev211 Componentes RUP - Mensaje]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-menuv211 Componentes RUP - Menu]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-migasv211 Componentes RUP - Migas]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-pestanasv210 Componentes RUP - Pestañas]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-tablav211 Componentes RUP - Tabla]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-tooltipv210 Componentes RUP - Tooltip]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-uploadv210 Componentes RUP - Upload]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-validatev211 Componentes_RUP - Validate]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-wizardv210 Componentes_RUP - Wizard]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-jerarquiav211 Componentes_RUP - Jeraquía]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv241 Componentes RUP - Accordion]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-arbolv241 Componentes RUP - Árbol]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev241 Componentes RUP - Autocomplete]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav240 Componentes RUP - Botonera]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-combov240 Componentes RUP - Combo]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-dialogov240 Componentes RUP - Diálogo]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-fechav240 Componentes RUP - Fecha]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv240 Componentes RUP - Feedback]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-formulariov240 Componentes_RUP - Formulario]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-horav240 Componentes RUP - Hora]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-idiomav240 Componentes RUP - Idioma]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-jerarquiav211 Componentes_RUP - Jeraquía (deprecado)]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-mantenimientov211 Componentes RUP - Mantenimiento (deprecado)]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-mensajev240 Componentes RUP - Mensaje]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-menuv240 Componentes RUP - Menú]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-menucontextualv241 Componentes RUP - Menú contextual]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-migasv240 Componentes RUP - Migas]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-pestanasv240 Componentes RUP - Pestañas]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-tablav211 Componentes RUP - Tabla (deprecado)]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-tooltipv240 Componentes RUP - Tooltip]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-uploadv240 Componentes RUP - Upload]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-validatev241 Componentes_RUP - Validate]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-wizardv240 Componentes_RUP - Wizard]</li>
 <li>[http://www.slideshare.net/andermartinez/desarrollo-rup-consejos-y-buenas-practicas Desarrollo RUP - Consejos y Buenas Prácticas]</li>
 </ul>
 </ul>
