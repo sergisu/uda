@@ -3,7 +3,7 @@
 
 _[http://translate.google.es/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&u=http%3A%2F%2Fcode.google.com%2Fp%2Fuda%2Fwiki%2FDocumentacion English version]_
 
-Puedes descargarte la última versión completa de la documentación en un [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_RGJlZlVQcjRfeFE&export=download archivo comprimido (documentacion-v2.4.1.zip)], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
+Puedes descargarte la última versión completa de la documentación en un [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MlNoTDRSNDBFb0k&export=download archivo comprimido (documentacion-v2.4.1.zip)], o si lo prefieres, desde aquí, puedes acceder directamente a ella:
 
 <ul>
 <li>*Arquitectura*</li>
