@@ -4,6 +4,21 @@
 _[http://translate.google.es/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&u=http%3A%2F%2Fcode.google.com%2Fp%2Fuda%2Fwiki%2FVersiones English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.4.2 (27-Junio-2014) ==
+----
+==== Librería de utilidades X38 ====
+<ul>
+<li>Soporte para la generación de feeds RSS a partir de los items de la tabla</li>
+<li>Soporte para facilitar la subida de ficheros mediante streaming a la infraestructura PIF (Ejie)</li>
+</ul>
+==== Componentes RUP ====
+<ul>
+<li>Modificación del componente rup.table para la generación de feeds RSS a partir de los items de la tabla</li>
+<li>Modificación del componente rup.tabs (pestañas) para permitir configurar la posición de las pestañas por encima o por debajo del contenido</li>
+</ul>
+_NOTA: Esta versión manteniene el componente rup.maint por compatibilidad con versiones anteriores_
+En la sección UDA v2.4.2 (27-Junio-2014) del archivo [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UDdLRlFpZmxkQms&export=download ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
 == 2.4.1 (13-Marzo-2014) ==
 ----
 ==== Librería de utilidades X38 ====
