@@ -15,6 +15,7 @@ En esta sección mantendremos el historial de versiones liberadas.
 <ul>
 <li>Modificación del componente rup.table para la generación de feeds RSS a partir de los items de la tabla</li>
 <li>Modificación del componente rup.tabs (pestañas) para permitir configurar la posición de las pestañas por encima o por debajo del contenido</li>
+<li>Correcciones en los componentes rup.table, rup.wizard, rup.combo, rup.upload, rup.tooltip, rup.contextMenu</li>
 </ul>
 _NOTA: Esta versión manteniene el componente rup.maint por compatibilidad con versiones anteriores_
 En la sección UDA v2.4.2 (27-Junio-2014) del archivo [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_UDdLRlFpZmxkQms&export=download ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
