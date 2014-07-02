@@ -146,7 +146,7 @@ Si lo que buscas es información sobre como mantener tu entorno de desarrollo ac
 </ul>
 </li>
 
-<li>Finalmente, no olvides actualizar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_U0p3OFloTERDLVU&export=download Plugin UDA (v2.4.0)] y las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_cXV6Rkc4VDFMRlU&export=download Plantillas (v2.4.0)], o si lo prefieres el [https://drive.google.com/folderview?id=0B2jWuJHnBpz_VFVLU2ZoREQ2Q1E&usp=sharing Eclipse Helios UDA (v2.4.0)] completo.
+<li>Finalmente, no olvides actualizar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_U0p3OFloTERDLVU&export=download Plugin UDA (v2.4.0)] y las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFh2YUFJRURwVXc&export=download Plantillas (v2.4.2)], o si lo prefieres el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_cW9CM1pFcmZLLTA&export=download Eclipse Helios UDA (v2.4.2)] completo.
 </li>
 </ol>
 <p>
