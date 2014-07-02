@@ -17,10 +17,10 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_eW9sMVZ5M3FEZ0U&export=download repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_VXRVaHBQSlg0NVE&export=download x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_ZHg2OFFKb3ZySUk&export=download repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_S05mNUFRbVNqX2s&export=download x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
-<li>[https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFVqMXg2ZW02T2M&export=download Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFVqMXg2ZW02T2M&export=download "usr.rar"] en la unidad de disco seleccionada</li>
+<li>[https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_V2NuX0FtY3ItRUk&export=download Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFVqMXg2ZW02T2M&export=download "usr.rar"] en la unidad de disco seleccionada</li>
 </ul>
 
 Una vez instalados todos estos elementos se deberá descomprimir el fichero que contiene el Eclipse, "Helios UDA.rar", ejecutar Eclipse, y seguir los siguientes pasos:
@@ -56,7 +56,7 @@ Seleccionar la nueva configuración y pulsar "Set as Default"
 
 El asistente de generación de proyectos de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> configura automáticamente el uso de las reglas estándar de calidad de EJIE-GV para el análisis estático del código, por tanto, si no se tienen instalados Chekstyle y PMD, Eclipse dará errores de configuración. Esto se puede evitar, evidentemente, instalando dichos plugins, o bien eliminando los ficheros ".checkstyle" y ".pmd" de la raiz de los proyectos generados.
 
-También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [http://www.slideshare.net/andermartinez/instalacion-pc-localwls11proveedoresv143 "Instalacion_PC_local_WLS11_proveedores.pdf"].
+También es posible que ya se tengan instalados previamente todos o parte de los componentes necesarios aquí indicados, pero en cualquier caso, se recomienda encarecidamente consultar como guía de instalación, el documento [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MlBZRFZscG5iY0k&export=download "Instalacion_PC_local_WLS11_proveedores.pdf"].
 
 <br>
 En el caso de que solo quiera instalar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_a1BTRWdvcVQ3QlE&export=download "plugin UDA"] en Eclipse, deberá realizar los siguientes pasos:
@@ -82,7 +82,7 @@ Eclipse solicitará reiniciarse para crear correctamente todos los ficheros.
 
 </li>
 
-<li>*Actualizar las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_cXV6Rkc4VDFMRlU&export=download plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
+<li>*Actualizar las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_MFh2YUFJRURwVXc&export=download plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
 
 NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar la  correcta eliminación de las plantillas anteriores.
 
@@ -93,7 +93,7 @@ NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar 
 Además recuerde que deberá instalar también:
 <ul>
 <li>Las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_amloVEpLX0RKTlU&export=download extensiones de Hibernate Tools]</li>
-<li>La librería [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_VXRVaHBQSlg0NVE&export=download "x38ShLibClasses-x.x.x.jar"]</li>
+<li>La librería [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_S05mNUFRbVNqX2s&export=download "x38ShLibClasses-x.x.x.jar"]</li>
 </ul>
 
 <br>
