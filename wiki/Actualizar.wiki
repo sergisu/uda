@@ -16,6 +16,43 @@ En esta sección iremos indicando como mantenerse actualizado con las últimas v
 Si lo que buscas es información sobre como mantener tu entorno de desarrollo actualizado, debes consultar la sección [http://code.google.com/p/uda/wiki/Instalar "Instalar"]. 
 
 
+<h3>v2.4.3 (04-Agosto-2014)</h3>
+
+*Actualizar la librería de utilidades*
+<ol>
+	
+<li>Actualizar el repositorio de dependencias Maven con la nueva [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_YUJRcUMxN01mX28&export=download versión 2.4.3], que contiene la nueva versión de la librería x38ShLibClasses ([https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_Mk1INnpBLWR5Z0k&export=download x38ShLibClasses-2.4.3-RELEASE.jar])</li>
+
+<li>Actualizar el fichero "{{{pom.xml}}}" del proyecto {{{xxxEAR}}} para dejar acorde las dependencias de las librerías:
+
+<ul>
+<li>Actualizar la versión de x38:
+{{{
+<dependency>
+    ...
+	<org.springframework.version>3.1.2.RELEASE</org.springframework.version>
+	<org.springframework.security.version>3.1.2.RELEASE</org.springframework.security.version>
+	<org.logback.version>1.0.6</org.logback.version>
+	<org.slf4j.version>1.6.6</org.slf4j.version>
+    <com.ejie.x38.version>2.4.3-RELEASE</com.ejie.x38.version>
+</dependency>
+
+}}}
+</li>
+
+<li>Abre el "{{{build.xml}}}" del proyecto {{{xxxEAR}}} con el editor ant (botón derecho sobre el fichero, Open With>Ant Editor)</li>
+<li>Ejecuta la tarea "mavenRunDependencies" (botón derecho sobre la tarea, Run As>Ant Build) actualizando las nuevas librerías {{{xxxEAR\APP_INF\lib}}}</li>
+<li>Sobre el proyecto {{{xxxEAR}}} pulsa F5 (Refresh)</li>
+<li>Borra versión o versiones anteriores, en caso de que permanezca alguna</li>
+</ul>
+</li>
+
+<li>Finalmente, no olvides actualizar el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_U0p3OFloTERDLVU&export=download Plugin UDA (v2.4.0)] y las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_QUpwV3V4VEc1alU&export=download Plantillas (v2.4.3)], o si lo prefieres el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_cW9CM1pFcmZLLTA&export=download Eclipse Helios UDA (v2.4.2)] completo.
+</li>
+</ol>
+<p>
+
+
 
 <h3>v2.4.2 (27-Junio-2014)</h3>
 
