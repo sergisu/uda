@@ -4,6 +4,12 @@
 _[http://translate.google.es/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&u=http%3A%2F%2Fcode.google.com%2Fp%2Fuda%2Fwiki%2FVersiones English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.4.3 (04-Agosto-2014) ==
+----
+==== Librería de utilidades X38 ====
+<ul>
+<li>Bug al mostrar el usuario conectado cuando la autenticación se realizad con juego de barcos</li>
+</ul>
 == 2.4.2 (27-Junio-2014) ==
 ----
 ==== Librería de utilidades X38 ====
