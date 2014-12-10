@@ -4,6 +4,24 @@
 _[http://translate.google.es/translate?sl=es&tl=en&js=n&prev=_t&hl=es&ie=UTF-8&u=http%3A%2F%2Fcode.google.com%2Fp%2Fuda%2Fwiki%2FVersiones English version]_
 
 En esta sección mantendremos el historial de versiones liberadas.
+== 2.4.4 (1-Diciembre-2014) ==
+----
+==== Componentes RUP ====
+<ul>
+<li>Correcciones y nuevos eventos en el componente rup.table</li>
+<li>Nuevas propiedades en el componente rup.tabs</li>
+<li>Nuevos eventos y propiedades en el componente rup.autocomplete</li>
+<li>Adaptación del componente rup.autocomplete para permitir autocompletado en un combo</li>
+<li>Adaptación del componente rup.tabs para disponer de un carrusel de pestañas</li>
+</ul>
+==== Utilidades ====
+<ul>
+<li>Máquina virtual configurada preparada para arrancar y desarrollar</li>
+</ul>
+_NOTA: Esta versión manteniene el componente rup.maint por compatibilidad con versiones anteriores_
+En la sección UDA v2.4.4 (1-Diciembre-2014) del archivo [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_WnRnZWhyUC1TQ3M&export=download ChangeLog.txt] podrás encontrar la lista de cambios realizados en esta versión.
+
+
 == 2.4.3 (04-Agosto-2014) ==
 ----
 ==== Librería de utilidades X38 ====
