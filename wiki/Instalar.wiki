@@ -17,7 +17,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[http://maven.apache.org/ Apache Maven] versión 2.0.9 o superior (se ha validado también con la versión 3.0)</li>
 <ul>
 <li>Configurar las variables de entorno M2_HOME, M2_REPO y el fichero settings.xml</li>
-<li>Descomprimir el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_YUJRcUMxN01mX28&export=download repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_Mk1INnpBLWR5Z0k&export=download x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
+<li>Descomprimir el [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_S2g4UWZwbXh2aHM&export=download repositorio suministrado], el cual además de contener la librería de utilidades de <img src="http://uda.googlecode.com/svn/wiki/images/uda-mini-micro2.png"/> [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_Y3dkd19vcWVGb0E&export=download x38ShLibClasses] y de XLNetS, evitará la descarga de todas las librerías necesarias desde Internet</li>
 </ul>
 
 <li>[https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_V2NuX0FtY3ItRUk&export=download Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_V2NuX0FtY3ItRUk&export=download "usr.rar"] en la unidad de disco seleccionada</li>
@@ -69,8 +69,7 @@ En el caso de que solo quiera instalar el [https://docs.google.com/uc?authuser=0
 <li>ECLIPSE_HOME\features\com.ejie.uda.feature_XXX</li>
 <li>ECLIPSE_HOME\plugins\com.ejie.uda_XXX.jar</li>
 </ul>
-<li>A partir de la versión 1.1.0, no es necesario el fichero "htejie.jar", por lo que habrá que eliminarlo manualmente de la ruta ECLIPSE_HOME\plugins\org.hibernate.eclipse_3.4.0.v20110215-
-1252-H31-GA\lib\tools
+<li>A partir de la versión 1.1.0, no es necesario el fichero "htejie.jar", por lo que habrá que eliminarlo manualmente de la ruta ECLIPSE_HOME\plugins\org.hibernate.eclipse_3.4.0.v20110215-1252-H31-GA\lib\tools
 
 </li>
 </ul>
@@ -82,7 +81,7 @@ Eclipse solicitará reiniciarse para crear correctamente todos los ficheros.
 
 </li>
 
-<li>*Actualizar las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_QUpwV3V4VEc1alU&export=download plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
+<li>*Actualizar las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_OXdMME1NM3M3TEk&export=download plantillas de generación de código]* descargándolas y almacenándolas en el directorio templates bajo "ECLIPSE_HOME".
 
 NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar la  correcta eliminación de las plantillas anteriores.
 
@@ -93,7 +92,7 @@ NOTA: Se recomienda borrar la carpeta "ECLIPSE_HOME\templates\" para garantizar 
 Además recuerde que deberá instalar también:
 <ul>
 <li>Las [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_amloVEpLX0RKTlU&export=download extensiones de Hibernate Tools]</li>
-<li>La librería [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_Mk1INnpBLWR5Z0k&export=download "x38ShLibClasses-x.x.x.jar"]</li>
+<li>La librería [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_Y3dkd19vcWVGb0E&export=download "x38ShLibClasses-x.x.x.jar"]</li>
 </ul>
 
 <br>
