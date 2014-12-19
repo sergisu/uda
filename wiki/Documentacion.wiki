@@ -39,14 +39,14 @@ Puedes descargarte la última versión completa de la documentación en un [http
 <ul>
 <li>*Patrones*</li>
 <ul>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv240udacomponentes-rup-accordion Componentes RUP - Accordion]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-accordionv240 Componentes RUP - Accordion]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-arbolv241 Componentes RUP - Árbol]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev241 Componentes RUP - Autocomplete]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav240 Componentes RUP - Botonera]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-autocompletev244 Componentes RUP - Autocomplete]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-botonerav242 Componentes RUP - Botonera]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-combov240 Componentes RUP - Combo]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-dilogo Componentes RUP - Diálogo]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-dialogov240 Componentes RUP - Diálogo]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-fechav240 Componentes RUP - Fecha]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv240-32853446 Componentes RUP - Feedback]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-feedbackv244 Componentes RUP - Feedback]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-formulariov240 Componentes_RUP - Formulario]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-horav240 Componentes RUP - Hora]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-idiomav240 Componentes RUP - Idioma]</li>
@@ -54,12 +54,14 @@ Puedes descargarte la última versión completa de la documentación en un [http
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-mantenimientov211 Componentes RUP - Mantenimiento (deprecado)]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-mensajev240 Componentes RUP - Mensaje]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-menuv240 Componentes RUP - Menú]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-menucontextualv241 Componentes RUP - Menú contextual]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-menucontextualv242 Componentes RUP - Menú contextual]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-migasv240 Componentes RUP - Migas]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-pestanasv240 Componentes RUP - Pestañas]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-pestanasv244 Componentes RUP - Pestañas]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-reportv240 Componentes RUP - Reporting]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-tablav211-32854482 Componentes RUP - Tabla (deprecado)]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-tabla-avanzadav244 Componentes RUP - Tabla Avanzada]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-tooltipv240 Componentes RUP - Tooltip]</li>
-<li>[http://www.slideshare.net/andermartinez/componentes-rup-uploadv240 Componentes RUP - Upload]</li>
+<li>[http://www.slideshare.net/andermartinez/componentes-rup-uploadv242 Componentes RUP - Upload]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-validatev241 Componentes_RUP - Validación]</li>
 <li>[http://www.slideshare.net/andermartinez/componentes-rup-wizardv240 Componentes_RUP - Wizard]</li>
 <li>[http://www.slideshare.net/andermartinez/desarrollo-rup-consejos-y-buenas-practicas Desarrollo RUP - Consejos y Buenas Prácticas]</li>
