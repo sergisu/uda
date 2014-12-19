@@ -90,11 +90,11 @@ Menú de la aplicación mantenido a lo largo de todas las páginas de forma cons
 
 Menú horizontal:
 
-<img src="http://uda.googlecode.com/svn/wiki/images/menus-h2.0.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/menuh.png"/>
 
 Menú mixto:
 
-<img src="http://uda.googlecode.com/svn/wiki/images/menus-m2.0.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/menum.png"/>
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
@@ -405,7 +405,7 @@ Con opción de multiselección en un solo paso:
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
-====13.5. Filtrado/Búsqueda====
+====13.5. Filtrado====
 
 Los usuarios pueden filtrar los datos de las filas en función de diferentes criterios para obtener la información que buscan.
 
@@ -418,16 +418,38 @@ Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de dato
 <li>Es un sistema intuitivo y fácil de usar tanto para usuarios novatos como avanzados.</li>
 <li>Es una de las formas más estándares y conocidas de implementar el filtrado en tablas de datos.</li>
 <li>Es ágil y rápido, lo que beneficia a los usuarios que tienen que trabajar continuamente con gran cantidad de filas de datos.</li>
-<li>Proporciona una gran flexibilidad y potencia ya que permite combinar los filtros o filtrar por un sólo criterio. Por ejemplo, se puede filtrar sólo por fecha o por fecha y título a la vez.</li>
+<li>Proporciona una gran flexibilidad y potencia ya que permite combinar los filtros o filtrar por un sólo criterio o por varios. Por ejemplo, se puede filtrar sólo por fecha o por fecha y título a la vez.</li>
 </ul>
 
 <h4>Ejemplo</h4>
 
-<img src="http://uda.googlecode.com/svn/wiki/images/tabla-búsqueda.png"/>
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-filtrar.png"/>
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
-====13.6. Menú contextual====
+====13.6. Búsqueda====
+
+Los usuarios pueden buscar datos concretos en las filas presentadas.
+
+<h4>Usar cuando</h4>Cuando tengamos un gran número de filas de datos y queramos dar a los usuarios la posibilidad de buscar la información que buscan con mayor facilidad.
+
+Es un sistema idóneo para usuarios avanzados y tablas con gran cantidad de datos.
+
+<h4>Por qué</h4>
+<ul>
+<li>Es un sistema intuitivo y fácil de usar tanto para usuarios novatos como avanzados.</li>
+<li>Es una de las formas más estándares y conocidas de implementar la búsqueda en tablas de datos.</li>
+<li>Es ágil y rápido, lo que beneficia a los usuarios que tienen que trabajar continuamente con gran cantidad de filas de datos.</li>
+<li>Proporciona una gran flexibilidad y potencia ya que permite combinar los filtros y las búsquedas. Después de aplicar un  filtro, el numero de filas se reduce, y sobre éstas, se aplica una busqueda sobre cierto dato concreto.</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/tabla-buscar.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
+====13.7. Menú contextual====
 
 Menú auxiliar de opciones inicialmente no visible referido a un elemento que se muestra junto a éste para agilizar la interacción y la realización de las tareas.
 
@@ -462,7 +484,7 @@ Presenta las acciones disponibles sobre el item seleccionado:
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
-====13.7. Jerarquía====
+====13.8. Jerarquía====
 
 Permite presentar los datos de manera jerárquica, estableciendo así relaciones de dependencia entre los ítems de la tabla.
 
@@ -762,8 +784,26 @@ En formato "combo":
 
 _[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
 
+===24. Árbol===
+
+Se presenta al usuario información jerarquizada, pudiendo identificar claramente el nivel de profundidad en que se situa cada dato.
+
+<h4>Usar cuando</h4>Cuando la información está jerarquizada y el usuario está familiarizado con dicha organización.
+
+<h4>Por qué</h4>
+<ul>
+<li>Se permite a los usuarios ver de un vistazo y localizar rápidamente, un elemento dentro de un organización jerárquica, pudiendo seleccionar rápidamenteue lo que le interesa.</li>
+<li>La información, de manera natural, está organizada jerárquicamente (por ejemplo, la estructura organizativa de una empresa en su relación jefe-subordinado)</li>
+</ul>
+
+<h4>Ejemplo</h4>
+
+<img src="http://uda.googlecode.com/svn/wiki/images/arbol.png"/>
+
+_[http://code.google.com/p/uda/wiki/Patrones#RUP Volver al indice]_
+
 <h2>Más información</h2>
 
-Para aprender cómo configurar y utilizar los patrones de interacción definidos, consulte la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
+Para aprender cómo configurar y utilizar los patrones de interacción definidos, consulte la sección "patrones" de la [https://code.google.com/p/uda/wiki/Documentacion documentación sumnistrada].
 
-Además, se recomienda la lectura detallada del documento "Desarrollo RUP - Consejos y buenas prácticas", guía indispensable para los desarolladores que integren o utilicen los patrones RUP en  sus aplicaciones, incluida también en la sección "patrones" de la [http://code.google.com/p/uda/downloads/list documentación sumnistrada].
+Además, se recomienda la lectura detallada del documento "Desarrollo RUP - Consejos y buenas prácticas", guía indispensable para los desarolladores que integren o utilicen los patrones RUP en  sus aplicaciones, incluida también en la sección "patrones" de la [https://code.google.com/p/uda/wiki/Documentacion documentación sumnistrada].
