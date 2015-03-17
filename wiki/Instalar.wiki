@@ -23,7 +23,7 @@ Si se van a realizar desarrollos para el entorno de EJIE-GV se deberá instalar 
 <li>[https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_V2NuX0FtY3ItRUk&export=download Librerías de infraestructura], necesarias para el correcto funcionamiento de Eclipse. Es suficiente con descomprimir el fichero [https://docs.google.com/uc?authuser=0&id=0B2jWuJHnBpz_V2NuX0FtY3ItRUk&export=download "usr.rar"] en la unidad de disco seleccionada</li>
 </ul>
 
-Una vez instalados todos estos elementos se deberá descomprimir el fichero que contiene el Eclipse, [https://drive.google.com/folderview?id=0B2jWuJHnBpz_VFVLU2ZoREQ2Q1E&usp=sharing#list "Helios UDA-vX.X.X.zip"], ejecutar Eclipse, y seguir los siguientes pasos:
+Una vez instalados todos estos elementos se deberá descomprimir el fichero que contiene el Eclipse, [https://drive.google.com/uc?id=0B2jWuJHnBpz_aXJtdHUycXZVajg&export=download "Helios UDA-v2.4.4.zip"], ejecutar Eclipse, y seguir los siguientes pasos:
 <ul>
 <li>Activando la perspectiva "JavaEE", dar de alta un nuevo servidor de aplicaciones. En la pestaña "Servers", con botón derecho, activar "New>Server", configurando el "Oracle Weblogic Server 11g" instalado previamente</li>
 <li>En la ventana "Window>Preferences":</li>
