@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<project name="staticsTools" default="Portalizar x21aPortalStatics" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+	
+	<!-- Portalizar estilos -->
+	<property name="codApp" value="x21a"/>
+	<property name="srcDir" value="x21aStatics"/>
+	<property name="destDir" value="x21aPortalStatics"/>
+	
+	<target name="Obtener x21aStatics (Java Launch)" >
+		<echo>Regenerando directorio (${srcDir})</echo>
+			<delete dir="${srcDir}" />
+			<mkdir  dir="${srcDir}" />
+		
+		<echo>Obtener estáticos del proyecto ${srcDir}</echo>
+			<copy todir="${srcDir}/rup" >
+		 		<fileset dir="../${srcDir}/WebContent/rup" />
+			</copy>
+			<copy todir="${srcDir}/${codApp}" >
+				<fileset dir="../${srcDir}/WebContent/${codApp}" />
+			</copy>
+	</target>
+	
+	<target name="Portalizar x21aPortalStatics" description="Genera directorio xxxPortalStatics para despliegue de en portal">
+		
+		<echo>Regenerando directorio (${codApp}PortalStatics)</echo>
+			<delete dir="${destDir}" />
+			<mkdir  dir="${destDir}" />
+		
+		<echo>Obtener estáticos del proyecto ${srcDir}</echo>
+			<copy todir="${destDir}/rup" >
+		 		<fileset dir="../${srcDir}/WebContent/rup" />
+			</copy>
+			<copy todir="${destDir}/${codApp}" >
+				<fileset dir="../${srcDir}/WebContent/${codApp}" />
+			</copy>
+		
+		<echo>Parseando ficheros de estilos (.css)</echo>
+			<taskdef name="portalizeCss" classname="com.ejie.uda.UDAPortalizeCss" classpath="${ant.home}/lib/com.ejie.uda.statics.tools.jar" />
+			<portalizeCss codApp="${codApp}" destDir="${destDir}" parserHacks="${ant.home}/lib/com.ejie.uda.statics.tools.style_hacks"/>
+	
+	</target>
+	
+	
+	<!-- Generar JAR portalizador -->
+	<target name="generateJAR" description="Genera el JAR y lo copia en Templates y Eclipse" >
+		
+		<echo>Generar nuevo 'com.ejie.uda.statics.tools.jar'</echo>
+			<unzip src="lib/cssparser-0.9.7.jar" dest="bin"/>
+		   	<unzip src="lib/sac-1.3.jar" dest="bin"/>
+		   	<delete dir="bin/META-INF" />
+		   	<delete file="com.ejie.uda.statics.tools.jar" />
+		   	<jar jarfile="com.ejie.uda.statics.tools.jar" 
+		   		basedir="./bin" 
+		   		excludes="**/Main.class"
+		   		manifest="MANIFEST.MF"
+		   		filesetmanifest="skip"
+		   />
+		
+		<echo>Copiar JAR en Templates</echo>
+		   	<delete file="../templates/staticsTools/com.ejie.uda.statics.tools.jar" />
+			<delete file="../templates/staticsTools/com.ejie.uda.statics.tools.style_hacks" />
+			<copy todir="../templates/staticsTools/" file="com.ejie.uda.statics.tools.jar" />
+			<copy todir="../templates/staticsTools/" file="com.ejie.uda.statics.tools.style_hacks" />
+	
+		<echo>Copiar JAR en Eclipse</echo>
+			<delete file="${ant.home}/lib/com.ejie.uda.statics.tools.jar" />
+			<delete file="${ant.home}/lib/com.ejie.uda.statics.tools.style_hacks" />
+			<copy todir="${ant.home}/lib/" file="com.ejie.uda.statics.tools.jar" />
+			<copy todir="${ant.home}/lib/" file="com.ejie.uda.statics.tools.style_hacks" />
+	
+	</target>
+	
+</project>
