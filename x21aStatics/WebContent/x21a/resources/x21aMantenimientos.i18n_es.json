@@ -1,0 +1,39 @@
+{
+	"x21aMantenimientosWar_menu" : {
+		"inicio"	: "Inicio",
+		"patrones" 	: "x21aPilotoPatronesWar", 
+		"simple"	: "Selección simple",
+		"multi"		: "Multiselección",
+		"edlinea"	: "Edición en línea",
+		"simpleFluido"	: "Selección simple fluído",
+		"formPropio" : "Form Propio", 
+		"uda":"UDA"
+	},
+	"x21aMantenimientosWar_migas" :{
+		"simple"	: "Selección simple",
+		"multi"		: "Multiselección",
+		"edlinea"	: "Edición en línea",
+		"simpleFluido"	: "Selección simple fluído",
+		"formPropio" : "Form Propio", 
+		"uda":"UDA"
+	},
+	"GRID_simple##ejie" : {
+		"0" : "No",
+		"1" : "Sí"
+	},
+	"GRID_multi##ejie" : {
+		"0" : "No",
+		"1" : "Sí"
+	},
+	"GRID_edlinea##ejie" : {
+		"0" : "No",
+		"1" : "Sí"
+	},
+	"GRID_simpleFluido##ejie" : {
+		"0" : "No",
+		"1" : "Sí"
+	},
+	"simpelMaint" : {
+		"actualizar":"Boton Usuario Actualizar"
+	}
+}
